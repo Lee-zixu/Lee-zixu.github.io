@@ -70,7 +70,7 @@ Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 
 Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
 </div>
-
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -80,6 +80,7 @@ Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, 
 Kun Wang, Hao Liu, Lirong Jie, **Zixu Li**, Yupeng Hu,  Liqiang Nie
 </div>
 </div>
+
 
 # 🔖 Patent 
 - (已授权)一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 公开号: *CN116522120B* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202211425243.0/sqdetail/abst)
