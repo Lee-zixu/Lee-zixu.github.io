@@ -76,6 +76,7 @@ Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu, 
 <div class='paper-box-text' markdown="1">
 
 **Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization** [[PDF]](https://dl.acm.org/doi/10.1145/3664647.3680774)
+
 Kun Wang, Hao Liu, Lirong Jie, **Zixu Li**, Yupeng Hu,  Liqiang Nie
 </div>
 </div>
