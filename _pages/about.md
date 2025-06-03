@@ -35,7 +35,7 @@ My research interests include *multimedia computing, information retrieval, and 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/) 
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
 **Zixu Li**,  Zhiheng Fu,  Yupeng Hu,  Zhiwei Chen,  Haokun Wen,  Liqiang Nie,
 </div>
@@ -46,7 +46,7 @@ My research interests include *multimedia computing, information retrieval, and 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) 
+**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
 **Zixu Li**, Zhiwei Chen, Haokun Wen, Zhiheng Fu, Yupeng Hu, Weili Guan
 </div>
@@ -56,7 +56,7 @@ My research interests include *multimedia computing, information retrieval, and 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) 
+**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
 
 Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Liqiang Nie
 </div>
@@ -66,7 +66,7 @@ Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/MEDIAN-ICASSP25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) 
+**MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
 
 Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
 </div>
