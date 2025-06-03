@@ -97,9 +97,9 @@ Kun Wang, Hao Liu, Lirong Jie, **Zixu Li**, Yupeng Hu,  Liqiang Nie
 
 
 # 🎖🎖 Honors and Awards
-- *2024.09* Huawei Outstanding Technical Collaboration Award *(Top 10 globally per year)*.
-- *2024.09* Huawei Outstanding Student Award *(Top 30 globally per year)*.
-- *2023.06* Outstanding Undergraduate Thesis *(Ranked 1st out of 409 candidates)*.
+- *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
+- *2024.09* Huawei Outstanding Student Award **(Top 30 globally per year)**.
+- *2023.06* Outstanding Undergraduate Thesis **(Ranked 1st out of 409 candidates)**.
 - *2023.06* Outstanding Graduates of Shandong Province.
 - *2023.06* Outstanding Graduates of Shandong University.
 
