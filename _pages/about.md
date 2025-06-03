@@ -26,7 +26,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 # 🔥 News
 - *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
-- *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, was accepted by **ICASSP 2025**! Congratulations to all co-authors!
+- *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper was accepted by **AAAI 2025**! Thanks to all our co-authors!
 - *2024.07.16*: &nbsp;🎉🎉 One paper was accepted by **ACM MM 2024**! Congratulations to all our co-authors!
 
@@ -96,7 +96,7 @@ Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yup
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 
 
-# 🎖🎖 Honors and Awards
+# 🎖 Honors and Awards
 - *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
 - *2024.09* Huawei Outstanding Student Award **(Top 30 globally per year)**.
 - *2023.06* Outstanding Undergraduate Thesis **(Ranked 1st out of 409 candidates)**.
