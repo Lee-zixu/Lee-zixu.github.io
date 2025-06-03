@@ -37,7 +37,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
-**Zixu Li**,  Zhiheng Fu,  Yupeng Hu,  Zhiwei Chen,  Haokun Wen,  Liqiang Nie,
+**Zixu Li**,  Zhiheng Fu,  Yupeng Hu,  Zhiwei Chen,  Haokun Wen,  Liqiang Nie
 </div>
 </div>
 
@@ -68,7 +68,7 @@ Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 
 **MEDIAN: Adaptive Intermediate-grained Aggregation Network for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10890642) [[Website]](https://windlikeo.github.io/MEDIAN.github.io/) [[Code]](https://drive.google.com/drive/u/3/folders/1ixh_JHkyPGzCM5ntApkA7xoQhgq1j-n_)  
 
-Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie,
+Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie
 </div>
 </div>
 
@@ -90,6 +90,11 @@ Kun Wang, Hao Liu, Lirong Jie, **Zixu Li**, Yupeng Hu,  Liqiang Nie
 - 基于特征相似性和属性一致性协同约束的近似近邻混合检索的用户推荐方法及系统 - 公开号: *CN117453991A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202311201790.5/detail/abst)
 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202411903224.3/detail/abst)
+
+
+<!-- # 🎖 Honors and Awards
+- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 
 # 📖 Educations
