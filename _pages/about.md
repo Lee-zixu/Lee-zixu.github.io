@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am Zixu Li (李子旭).
 =====
-I'm currently a Master student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/en/index.htm). 
+I'm currently a second-year Master student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/en/index.htm). Beginning this year, I will continue my Ph.D. studies under their supervision. In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
