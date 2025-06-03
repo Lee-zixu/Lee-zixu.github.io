@@ -24,14 +24,14 @@ I'm currently a second-year Master student in the [School of Software](https://w
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🔥 News
+- *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309)
+- *2024.12.21*: &nbsp;🎉🎉 Two paper was accepted by ICASSP 2025! The first authors are all undergraduate interns under my supervision. Congratulations to all co-authors!
+- *2024.12.10*: &nbsp;🎉🎉 One paper was accepted by AAAI 2025! Thanks to all our co-authors!
+- *2024.07.16*: &nbsp;🎉🎉 One paper was accepted by ACM MM 2024! Congratulations to all our co-authors!
+
 
 # 📝 Publications 
-
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -53,6 +53,7 @@ My research interests include *multimedia computing, information retrieval, and 
 </div>
 
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -63,6 +64,7 @@ Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 </div>
 
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/MEDIAN-ICASSP25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -71,6 +73,8 @@ Zhiheng Fu, **Zixu Li**, Zhiwei Chen, Chunxiao Wang, Xuemeng Song, Yupeng Hu, Li
 Qinlei Huang, Zhiwei Chen, **Zixu Li**, Chunxiao Wang, Xuemeng Song, Yupeng Hu,  Liqiang Nie
 </div>
 </div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -92,9 +96,12 @@ Kun Wang, Hao Liu, Lirong Jie, **Zixu Li**, Yupeng Hu,  Liqiang Nie
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🎖 Honors and Awards
+- *2024.09* Huawei Outstanding Technical Collaboration Award *(Top 10 globally per year)*.
+- *2024.09* Huawei Outstanding Student Award *(Top 30 globally per year)*.
+- *2023.06* Outstanding Undergraduate Thesis *(Ranked 1st out of 409 candidates)*.
+- *2023.06* Outstanding Graduates of Shandong Province.
+- *2023.06* Outstanding Graduates of Shandong University.
 
 
 # 📖 Educations
