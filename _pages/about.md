@@ -42,7 +42,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** *[Coming Soon]*
 
-<font color=maroon>***First-authored by Master's degree student I supervised***</font>
+<b><font color=maroon>First-authored by Master's degree student I supervised</font></b>
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
