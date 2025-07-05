@@ -103,7 +103,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization** [[PDF]](https://dl.acm.org/doi/10.1145/3664647.3680774)
