@@ -25,6 +25,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
+- *2025.07.05*: &nbsp;🎉🎉 Two papers, both **first-authored by Master's degree student I supervised**, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
 - *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
 - *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper was accepted by **AAAI 2025**! Thanks to all our co-authors!
