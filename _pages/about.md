@@ -25,7 +25,7 @@ My research interests include *multimedia computing, information retrieval, and 
 
 
 # 🔥 News
-- *2025.07.05*: &nbsp;🎉🎉 Two papers, both **first-authored by Master student I supervised**, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
+- *2025.07.05*: &nbsp;🎉🎉 Two papers, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
 - *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
 - *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper was accepted by **AAAI 2025**! Thanks to all our co-authors!
@@ -42,8 +42,6 @@ My research interests include *multimedia computing, information retrieval, and 
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** *[Coming Soon]*
 
-<b><font color=maroon>First-authored by Master student I supervised</font></b>
-
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
@@ -54,8 +52,6 @@ My research interests include *multimedia computing, information retrieval, and 
 <div class='paper-box-text' markdown="1">
 
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** *[Coming Soon]*
-
-<b><font color=maroon>First-authored by Master student I supervised</font></b>
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
