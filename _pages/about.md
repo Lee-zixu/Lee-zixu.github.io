@@ -40,7 +40,7 @@ My research interests include *multimedia computing, information retrieval, and 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** *[Coming Soon]*
+**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2507.05631) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
