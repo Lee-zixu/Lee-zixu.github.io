@@ -19,13 +19,13 @@ redirect_from:
 
 Hi, I am Zixu Li (李子旭).
 =====
-I'm currently a second-year Master student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). Beginning this year, I will continue my Ph.D. studies under their supervision. In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
+I am a third-year Ph.D. student in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), admitted directly after my bachelor’s degree through an integrated Master-Ph.D. program, under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
-I welcome academic discussions and collaborations related to my research. Please feel free to contact me if you are interested in potential cooperation.
+I warmly welcome academic discussions and potential collaborations. Please feel free to contact me if you are interested in my research or possible cooperation.
 
-欢迎就我的研究方向展开学术交流与合作，如果您有相关的研究兴趣或合作意向，欢迎随时联系我。
+我诚挚欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。
 
 
 # 🔥 News
@@ -147,6 +147,6 @@ Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yup
 
 
 # 📖 Educations
-- *2023.09 - now*, Master in the School of Software, Shandong University. 
+- *2023.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University. 
 - *2019.09 - 2023.06*, Bachelor in the School of Software, Shandong University. 
 
