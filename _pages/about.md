@@ -19,7 +19,8 @@ redirect_from:
 
 Hi, I am Zixu Li (李子旭).
 =====
-I am a third-year Ph.D. student in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), admitted directly after my bachelor’s degree through an integrated Master-Ph.D. program, under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
+
+I am a first-year Ph.D. student in the doctoral phase of an integrated Master–Ph.D. program in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
