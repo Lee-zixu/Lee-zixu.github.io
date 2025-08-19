@@ -23,6 +23,10 @@ I'm currently a second-year Master student in the [School of Software](https://w
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
+I welcome academic discussions and collaborations related to my research. Please feel free to contact me if you are interested in potential cooperation.
+
+欢迎就我的研究方向展开学术交流与合作，如果您有相关的研究兴趣或合作意向，欢迎随时联系我。
+
 
 # 🔥 News
 - *2025.07.05*: &nbsp;🎉🎉 Two papers, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
