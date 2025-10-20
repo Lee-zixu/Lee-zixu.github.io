@@ -30,6 +30,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 
 # 🔥 News
+- *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led the team to win the **Grand Prize** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
 - *2025.07.05*: &nbsp;🎉🎉 Two papers, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
 - *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
 - *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
@@ -138,6 +139,7 @@ Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yup
 - 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202510142418.4/detail/abst)
 
 # 🎖 Honors and Awards
+- *2025.10* **Grand Prize** in the CICAS Smart Power Scenario Competition.
 - *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
 - *2024.09* Huawei Outstanding Student Award **(Top 30 globally per year)**.
 - *2023.06* Outstanding Undergraduate Thesis **(Ranked 1st out of 409 candidates)**.
