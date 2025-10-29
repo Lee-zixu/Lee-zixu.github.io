@@ -46,7 +46,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2507.05631) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
+**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -57,7 +57,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** *[Coming Soon]*
+**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
