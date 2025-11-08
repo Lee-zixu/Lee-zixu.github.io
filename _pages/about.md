@@ -30,14 +30,14 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 
 # 🔥 News
-- *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, and HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
-- *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led the team to win the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
-- *2025.07.05*: &nbsp;🎉🎉 Two papers (OFFSET and HUD), were accepted by **ACM MM 2025**! Congratulations to all co-authors!
+- *2025.11.08*: &nbsp;🎉🎉 Three papers, were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
+- *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led our team won the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
+- *2025.07.05*: &nbsp;🎉🎉 Two papers, were accepted by **ACM MM 2025**! Congratulations to all co-authors!
 - *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
-- *2024.12.21*: &nbsp;🎉🎉 Two papers (PAIR and MEDIAN), both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
-- *2024.12.10*: &nbsp;🎉🎉 One paper (ENCODER) was accepted by **AAAI 2025**! Thanks to all our co-authors!
+- *2024.12.21*: &nbsp;🎉🎉 Two papers, both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
+- *2024.12.10*: &nbsp;🎉🎉 One paper was accepted by **AAAI 2025**! Thanks to all our co-authors!
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Student Award (Top 30 globally per year)**, as well as the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
-- *2024.07.16*: &nbsp;🎉🎉 One paper (SG-SCI) was accepted by **ACM MM 2024**! Congratulations to all our co-authors!
+- *2024.07.16*: &nbsp;🎉🎉 One paper was accepted by **ACM MM 2024**! Congratulations to all our co-authors!
 
 
 # 📝 Publications 
