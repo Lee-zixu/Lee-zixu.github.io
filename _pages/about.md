@@ -185,3 +185,6 @@ Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yup
 - *2023.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University. 
 - *2019.09 - 2023.06*, Bachelor in the School of Software, Shandong University. 
 
+# 📃 Services
+- Conference PC Member: CVPR, AAAI, ACM MM
+- Journal Reviewer: ToMM
