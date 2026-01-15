@@ -30,7 +30,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 
 # 🔥 News
-- *2026.01.05*: &nbsp;🎉🎉 One paper (REFINE) was accepted by **ACM ToMM 2026**! Congratulations to all co-authors!
+- *2026.01.05*: &nbsp;🎉🎉 One paper (REFINE) was accepted by **ACM ToMM**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led our team won the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
 - *2025.07.05*: &nbsp;🎉🎉 Two papers (OFFSET, HUD), were accepted by **ACM MM 2025**! Congratulations to all co-authors!
