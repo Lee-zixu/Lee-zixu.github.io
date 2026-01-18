@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: per
 title: "Full Publications"
 permalink: /full_pubs/
 author_profile: true
