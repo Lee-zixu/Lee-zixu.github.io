@@ -35,7 +35,7 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 <li>
   <div class='paper-box'>
     <div class='paper-box-image'>
-      <div>
+      <div style="position: relative;">
         <div class="badge">AAAI 2026</div>
         <img src='images/ReTrack-AAAI26.png' alt="sym" width="100%">
       </div>
