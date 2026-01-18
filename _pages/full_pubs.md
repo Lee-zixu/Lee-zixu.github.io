@@ -5,12 +5,19 @@ permalink: /full_pubs/
 author_profile: true
 ---
 
-## Full Publications
+Full Publications
+===
+
 <ol>
-<h2>Composed Image Retrieval</h2>
 
-<li><p><i><b style="color: #C89933">[AAAI]</b> ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval. </i><br>
-Zixu Li. <br>
-(AAAI 2025). </p>
+<h2>2026</h2>
 
+<li><p><i><b style="color: #C89933">[ACM ToMM]</b> REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement. </i><br>
+[Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), Qinlei Huang, [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/), [Liqiang Nie](https://liqiangnie.github.io/index.html) <br>
+ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026). </p>
+
+
+<h2>2025</h2>
+
+<h2>2024</h2>
 
