@@ -45,7 +45,9 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 <div class='paper-box-text' markdown="1">
 
 **HINT: Composed Image Retrieval with Dual-Path Compositional Contextualized Network** [*Coming Soon*]
+
 <b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
+
 Mingyu Zhang, [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Xiaowei Zhu, Jiajia Nie, [Yinwei Wei](https://weiyinwei.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
@@ -55,7 +57,9 @@ Mingyu Zhang, [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https:/
 <div class='paper-box-text' markdown="1">
 
 **RELATE: Enhance Composed Video Retrieval via Minimal-Redundancy Hierarchical Collaboration** [*Coming Soon*]
+
 <b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
+
 Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Jiajia Nie, [Yinwei Wei](https://weiyinwei.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
@@ -65,7 +69,9 @@ Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https
 <div class='paper-box-text' markdown="1">
 
 **MELT: Improve Composed Image Retrieval via the Modification Frequentation-Rarity Balance Network** [*Coming Soon*]
+
 <b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
+
 Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
