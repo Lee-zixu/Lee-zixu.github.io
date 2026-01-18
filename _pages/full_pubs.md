@@ -70,8 +70,6 @@ Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https
 
 **MELT: Improve Composed Image Retrieval via the Modification Frequentation-Rarity Balance Network** [*Coming Soon*]
 
-<b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
-
 Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
