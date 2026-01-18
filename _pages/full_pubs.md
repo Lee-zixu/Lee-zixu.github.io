@@ -28,10 +28,11 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://faculty.sdu.edu.cn/xumingzhu/zh_CN/">Mingzhu Xu</a>, <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> <br>
 ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026). </p>
 
-<li><p><i><b style="color: #C89933">[AAAI]</b> ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval. </i><br>
+<!-- <li><p><i><b style="color: #C89933">[AAAI]</b> ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval. </i><br>
 <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, Guozhi Qiu, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://mengliu1991.github.io">Meng Liu</a> <br>
-Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
-<!-- <li>
+Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
+  
+<li>
   <div class='paper-box'>
     <div class='paper-box-image'>
       <div>
@@ -39,16 +40,23 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
         <img src='images/ReTrack-AAAI26.png' alt="sym" width="100%">
       </div>
     </div>
-    <div class='paper-box-text' markdown="1">
-
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval**
-
-<a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, Guozhi Qiu, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://mengliu1991.github.io">Meng Liu</a>
-
-Annual AAAI Conference on Artificial Intelligence (AAAI 2026).
+    <div class='paper-box-text'>
+      <p>
+        <strong>ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval</strong>
+        <br>
+        <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, 
+        <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, 
+        <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, 
+        <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, 
+        Guozhi Qiu, 
+        <a href="https://zhihfu.github.io">Zhiheng Fu</a>, 
+        <a href="https://mengliu1991.github.io">Meng Liu</a>
+        <br>
+        Annual AAAI Conference on Artificial Intelligence (AAAI 2026).
+      </p>
     </div>
   </div>
-</li> -->
+</li>
 
 <li><p><i><b style="color: #C89933">[AAAI]</b> HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval. </i><br>
 <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, Shiqi Zhang, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://weiyinwei.github.io">Yinwei Wei</a> <br>
