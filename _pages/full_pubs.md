@@ -12,6 +12,18 @@ Full Publications
 
 <h2>2026</h2>
 
+<li><p><i><b style="color: #C89933">[ICASSP]</b> HINT: Composed Image Retrieval with Dual-Path Compositional Contextualized Network.  </i><br>
+Mingyu Zhang, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, Xiaowei Zhu, Jiajia Nie, <a href="https://weiyinwei.github.io">Yinwei Wei</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a> <br>
+IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026). </p>
+
+<li><p><i><b style="color: #C89933">[ICASSP]</b> RELATE: Enhance Composed Video Retrieval via Minimal-Redundancy Hierarchical Collaboration.  </i><br>
+Shiqi Zhang, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, Wenbo Wang, Jiajia Nie, <a href="https://weiyinwei.github.io">Yinwei Wei</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a> <br>
+IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026). </p>
+
+<li><p><i><b style="color: #C89933">[ICASSP]</b> MELT: Improve Composed Image Retrieval via the Modification Frequentation-Rarity Balance Network.  </i><br>
+Guozhi Qiu, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://xuemengsong.github.io/">Xuemeng Song</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a> <br>
+IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026). </p>
+
 <li><p><i><b style="color: #C89933">[ACM ToMM]</b> REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement. </i><br>
 <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://faculty.sdu.edu.cn/xumingzhu/zh_CN/">Mingzhu Xu</a>, <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> <br>
 ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026). </p>
