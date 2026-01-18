@@ -5,7 +5,8 @@ main:
 
   # - title: "News"
   #   url: "/#-news"
-
+  - title: "Homepage"
+    url: /
   - title: "Publications"
     url: "/full_pubs.html"
 
