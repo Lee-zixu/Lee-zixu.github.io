@@ -28,8 +28,10 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。
 
+ had undergraduate students under my supervision as the first author.
 
 # 🔥 News
+- *2026.01.18*: &nbsp;🎉🎉 Three papers (HINT, RELATE, MELT), two of them **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2026**! Congratulations to all co-authors!
 - *2026.01.05*: &nbsp;🎉🎉 One paper (REFINE) was accepted by **ACM ToMM**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led our team won the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
