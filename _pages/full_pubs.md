@@ -94,6 +94,15 @@ IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASS
 
 <h2>2024</h2>
 
-<li><p><i><b style="color: #C89933">[ACM MM]</b> Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization. <a href="https://dl.acm.org/doi/10.1145/3664647.3680774">[PDF]</a> </i><br>
+<!-- <li><p><i><b style="color: #C89933">[ACM MM]</b> Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization. <a href="https://dl.acm.org/doi/10.1145/3664647.3680774">[PDF]</a> </i><br>
 Kun Wang, Hao Liu, Lirong Jie, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> <br>
-ACM International Conference on Multimedia Retrieval (ACM MM 2024). </p>
+ACM International Conference on Multimedia Retrieval (ACM MM 2024). </p> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization** [[PDF]](https://dl.acm.org/doi/10.1145/3664647.3680774)
+
+Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+</div>
+</div>
