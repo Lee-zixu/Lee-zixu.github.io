@@ -43,7 +43,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 - *2024.07.16*: &nbsp;🎉🎉 One paper (SG-SCI) was accepted by **ACM MM 2024**! Congratulations to all our co-authors!
 
 
-# 📝 Selected Publications [*[Full Publications]*](/full_pubs.html)
+# 📝 Selected Publications <span style="float:right; font-size: 0.6em;">[[Full Publications]](/full_pubs.html)</span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
