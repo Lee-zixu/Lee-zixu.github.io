@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zixu Li"
-  avatar           : "images/pic.jpg"
+  avatar           : "/images/pic.jpg"
   bio              : 
   location         : "Jinan, Shandong, China"
   employer         :
