@@ -38,7 +38,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Student Award (Top 30 globally per year)**, as well as the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
 
 
-# 📝 Selected Publications <span style="font-size: 0.8 em;">[[Full Publications Here]](/full_pubs.html)</span>
+# 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
