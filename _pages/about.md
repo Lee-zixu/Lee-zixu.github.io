@@ -28,8 +28,6 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。
 
-I had undergraduate students under my supervision as the first author.
-
 
 # 🔥 News
 - *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
