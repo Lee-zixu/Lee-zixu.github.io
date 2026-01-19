@@ -5,8 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-Full Publications
-===
 
 <ol>
 
@@ -41,7 +39,7 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
 <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Jialei Huang, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://weiyinwei.github.io">Yinwei Wei</a> <br>
 Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/HINT-ICASSP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='/images/HINT-ICASSP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **HINT: Composed Image Retrieval with Dual-Path Compositional Contextualized Network** [*Coming Soon*]
