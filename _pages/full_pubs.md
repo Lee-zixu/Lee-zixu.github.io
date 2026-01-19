@@ -1,7 +1,7 @@
 ---
-layout: default
-title: "Full Publications"
-permalink: /full_pubs.html
+layout: archive
+title: "Publications"
+permalink: /publications/
 author_profile: true
 ---
 
