@@ -31,16 +31,11 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
  had undergraduate students under my supervision as the first author.
 
 # 🔥 News
-- *2026.01.18*: &nbsp;🎉🎉 Three papers (HINT, RELATE, MELT), two of them **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2026**! Congratulations to all co-authors!
-- *2026.01.05*: &nbsp;🎉🎉 One paper (REFINE) was accepted by **ACM ToMM**! Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
 - *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led our team won the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
 - *2025.07.05*: &nbsp;🎉🎉 Two papers (OFFSET, HUD), were accepted by **ACM MM 2025**! Congratulations to all co-authors!
-- *2025.03.27*: &nbsp;📍📍 [**FineCIR**](https://arxiv.org/abs/2503.21309) is avaliable on Arxiv! Check our latest fantastic work on the **Fine-grained CIR**.
-- *2024.12.21*: &nbsp;🎉🎉 Two papers (PAIR, MEDIAN), both **first-authored by undergraduate students I supervised**, were accepted by **ICASSP 2025**! Congratulations to all co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper (ENCODER) was accepted by **AAAI 2025**! Thanks to all our co-authors!
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Student Award (Top 30 globally per year)**, as well as the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
-- *2024.07.16*: &nbsp;🎉🎉 One paper (SG-SCI) was accepted by **ACM MM 2024**! Congratulations to all our co-authors!
 
 
 # 📝 Selected Publications <span style="font-size: 0.8 em;">[[Full Publications Here]](/full_pubs.html)</span>
@@ -156,17 +151,6 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
 </div> -->
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/SGSCI-MM24.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Explicit Granularity and Implicit Scale Correspondence Learning for Point-Supervised Video Moment Localization** [[PDF]](https://dl.acm.org/doi/10.1145/3664647.3680774)
-
-Kun Wang, Hao Liu, Lirong Jie, [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
-</div>
-</div>
 
 
 # 🔖 Patent 
