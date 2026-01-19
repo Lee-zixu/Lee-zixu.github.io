@@ -28,7 +28,10 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。
 
- had undergraduate students under my supervision as the first author.
+I had undergraduate students under my supervision as the first author.
+
+<hr />
+
 
 # 🔥 News
 - *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
@@ -36,6 +39,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 - *2025.07.05*: &nbsp;🎉🎉 Two papers (OFFSET, HUD), were accepted by **ACM MM 2025**! Congratulations to all co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper (ENCODER) was accepted by **AAAI 2025**! Thanks to all our co-authors!
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Student Award (Top 30 globally per year)**, as well as the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
+
+<hr />
 
 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
@@ -152,6 +157,8 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 </div>
 </div> -->
 
+<hr />
+
 
 # 🔖 Patent 
 - (已授权)一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 公开号: *CN116522120B* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202211425243.0/sqdetail/abst)
@@ -168,6 +175,9 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 - 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202510142418.4/detail/abst)
 
+<hr />
+
+
 # 🎖 Honors and Awards
 - *2025.10* **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition.
 - *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
@@ -178,11 +188,37 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 <!--# 💻 Project QSGNGT-->
 
+<hr />
+
 
 # 📖 Educations
 - *2023.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University. 
 - *2019.09 - 2023.06*, Bachelor in the School of Software, Shandong University. 
 
+<hr />
+
+
 # 📃 Services
 - Conference PC Member: CVPR, AAAI, ACM MM
 - Journal Reviewer: ToMM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
