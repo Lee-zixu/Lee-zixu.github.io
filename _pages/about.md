@@ -185,7 +185,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 
 # 📃 Services
-- Conference PC Member: CVPR, AAAI, ACM MM
+- Conference PC Member: CVPR, ECCV, AAAI, ACM MM
 - Journal Reviewer: ToMM
 
 
