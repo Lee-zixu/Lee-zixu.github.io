@@ -49,7 +49,7 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [*Coming Soon*]
