@@ -54,6 +54,8 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [*Coming Soon*]
 
+<b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
+
 [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)
 
 </div>
