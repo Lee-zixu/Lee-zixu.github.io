@@ -96,7 +96,7 @@ Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https:
 
 </div>
 </div>
-
+-->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -105,7 +105,7 @@ Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https:
 [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
-</div> -->
+</div> 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
