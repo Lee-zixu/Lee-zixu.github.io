@@ -185,7 +185,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
 
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io), Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
+[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, Jiale Huang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
 </div>
 </div>
@@ -194,7 +194,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 <div class='paper-box-text' markdown="1">
 
 **REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[PDF]](https://dl.acm.org/doi/10.1145/3796712) [[Website]](https://sdu-l.github.io/REFINE.github.io/)
-[Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/)✉, [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div> 
@@ -204,7 +204,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
 
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†,  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -215,7 +215,7 @@ Qinlei Huang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](http
 
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/)
 
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
+[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†,  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
 </div>
 </div>
