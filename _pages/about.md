@@ -24,9 +24,9 @@ I am a Ph.D. student in the doctoral phase of an integrated Master–Ph.D. progr
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
-I warmly welcome academic discussions and potential collaborations. Please feel free to contact me if you are interested in my research or possible cooperation.
+<!-- I warmly welcome academic discussions and potential collaborations. Please feel free to contact me if you are interested in my research or possible cooperation.
 
-欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。
+欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
 
 
 # 🔥 News
