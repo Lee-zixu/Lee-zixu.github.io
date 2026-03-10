@@ -7,8 +7,9 @@ main:
   #   url: "/#-news"
   # - title: "Homepage"
   #   url: /
-  - title: "Publications"
-    url: "/publications/"
+  # 这里是后续要加的pubs页面
+  # - title: "Publications"
+  #   url: "/publications/"
 
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
