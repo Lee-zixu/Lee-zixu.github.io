@@ -145,7 +145,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  _publications
+  # _publications
   - scope:
       path: ""
       type: publications
