@@ -47,7 +47,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [*Coming Soon*]
 
-[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Mingyu Zhang, [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), Mingyu Zhang, [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -60,7 +60,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 <b><font color=maroon>First-authored by undergraduate student I supervised</font></b>
 
-[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†
+[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†
 
 </div>
 </div>
@@ -71,7 +71,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
 
-[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
 </div>
 </div>
@@ -82,7 +82,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
 
-[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
 </div>
 </div>
@@ -127,7 +127,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
-[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
+[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 </div>
 </div>
 
@@ -137,7 +137,7 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
-[***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Zhiwei Chen](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉,  [Zhiwei Chen](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
 </div>
 
