@@ -55,8 +55,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [*Coming Soon*]
 
@@ -68,8 +68,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 </div> 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
 
@@ -79,8 +79,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
 
@@ -124,8 +124,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
@@ -150,8 +150,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='/images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
 
@@ -160,8 +160,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[PDF]](https://dl.acm.org/doi/10.1145/3796712) [[Website]](https://sdu-l.github.io/REFINE.github.io/)
 
@@ -170,8 +170,8 @@ I warmly welcome academic discussions and potential collaborations. Please feel 
 </div>
 </div> 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
 
