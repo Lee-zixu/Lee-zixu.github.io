@@ -24,6 +24,61 @@ I am a Ph.D. student in Artificial Intelligence at [Shandong University](https:/
 
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
+
+> We advocate for full open-source access to all our work. We welcome everyone to visit our project, share their valuable feedback, and engage in mutual discussion.
+
+<br>
+<table style="width:100%; border:none; text-align:center; background-color:transparent;">
+<td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/habit-logo.png" alt="HABIT" style="width:100%; border-radius:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
+        <a href="" target="_blank">Paper</a>
+      </span>
+    </td>
+<td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/retrack-logo.png" alt="Paper 3" style="width:100%; border-radius:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
+        <a href="" target="_blank">Paper</a>
+      </span>
+    </td>
+<td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/intent-logo.png" alt="Paper 4" style="width:100%; border-radius:8px;"><br>
+      <b>AAAI 2026</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
+        <a href="" target="_blank">Paper</a>
+      </span>
+    </td>  
+<td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/hud-logo.png" alt="Paper 5" style="width:100%; border-radius:8px;"><br>
+      <b>ACM MM 2025</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
+      </span>
+    </td>
+    <!-- <tr style="border:none;"> -->
+<td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/encoder-logo.png" alt="ENCODER" style="width:100%; border-radius:8px;"><br>
+      <b>AAAI 2025</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/ENCODER" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
+      </span>
+    </td>
+  <!-- </tr> -->
+</table>
+
+
 <!-- I warmly welcome academic discussions and potential collaborations. Please feel free to contact me if you are interested in my research or possible cooperation.
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
