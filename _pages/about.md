@@ -38,7 +38,7 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:25%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
@@ -56,7 +56,7 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="" target="_blank">Paper</a>
       </span>
     </td>  
-    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:15%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ACM MM 2025</b><br>
       <span style="font-size: 0.9em;">
