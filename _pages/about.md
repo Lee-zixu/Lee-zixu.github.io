@@ -39,7 +39,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>HABIT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
       </span>
@@ -48,7 +48,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ReTrack (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
       </span>
@@ -57,7 +57,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>INTENT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
       </span>
@@ -144,7 +144,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Code]](https://github.com/Lee-zixu/ReTrack)
+**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Website]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
@@ -155,7 +155,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Code]](https://github.com/Lee-zixu/HABIT)
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Website]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -237,7 +237,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Jiale Huang](https://arcadiadream.github.io/HJL.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
