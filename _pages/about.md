@@ -25,7 +25,8 @@ I am a Ph.D. student in Artificial Intelligence at [Shandong University](https:/
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 
-> We advocate for full open-source access to all our work. We welcome everyone to visit our project, share their valuable feedback, and engage in mutual discussion.
+> I am a strong advocate for open science. All our team's projects are fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
+
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
@@ -33,27 +34,27 @@ My research interests include *multimedia computing, information retrieval, and 
       <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
-        <a href="" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
-        <a href="" target="_blank">Paper</a>
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
+        <!-- <a href="" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:25%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
-        <a href="" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
-        <a href="" target="_blank">Paper</a>
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a>
+        <!-- <a href="" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
-        <a href="" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
-        <a href="" target="_blank">Paper</a>
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a>
+        <!-- <a href="" target="_blank">Paper</a> -->
       </span>
     </td>  
     <td style="width:15%; border:none; vertical-align:top; padding-top:30px;">
