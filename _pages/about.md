@@ -30,7 +30,7 @@ My research interests include *multimedia computing, information retrieval, and 
 > 我是开放科学的坚定拥趸，主要参与的团队项目均已全面开源。欢迎大家访问我们的项目主页，非常期待听到您的真实反馈，随时欢迎找我交流探讨！
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
-This is our repository. We invite everyone to follow and support the project. Thank you for your attention! 🥰
+Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
