@@ -37,7 +37,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
   <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>AAAI 2026</b><br>
+      <b>HABIT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
         <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
@@ -46,7 +46,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>AAAI 2026</b><br>
+      <b>ReTrack (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
@@ -55,7 +55,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>AAAI 2026</b><br>
+      <b>INTENT (AAAI'26)</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
         <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
@@ -66,7 +66,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
   <tr style="border:none;">
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ACM MM 2025</b><br>
+      <b>HUD (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
@@ -75,7 +75,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ACM MM 2025</b><br>
+      <b>OFFSET (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
@@ -84,7 +84,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>AAAI 2025</b><br>
+      <b>ENCODER (AAAI'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
