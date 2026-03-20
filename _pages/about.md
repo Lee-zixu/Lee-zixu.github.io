@@ -29,10 +29,12 @@ My research interests include *multimedia computing, information retrieval, and 
 > 
 > 我是开放科学的坚定拥趸，主要参与的团队项目均已全面开源。欢迎大家访问我们的项目主页，非常期待听到您的真实反馈，随时欢迎找我交流探讨！
 
+# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Follow us on GitHub
+This is our repository. We invite everyone to follow and support the project. Thank you for your attention! 🥰
 <br>
 <table style="width:100%; border:none; text-align:center; background-color:transparent;">
   <tr style="border:none;">
-    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
@@ -41,7 +43,7 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:25%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
@@ -50,7 +52,7 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
@@ -59,7 +61,9 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
       </span>
     </td>  
-    <td style="width:15%; border:none; vertical-align:top; padding-top:30px;">
+    </tr>
+  <tr style="border:none;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ACM MM 2025</b><br>
       <span style="font-size: 0.9em;">
@@ -68,7 +72,16 @@ My research interests include *multimedia computing, information retrieval, and 
         <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>ACM MM 2025</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755366" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>AAAI 2025</b><br>
       <span style="font-size: 0.9em;">
@@ -79,7 +92,6 @@ My research interests include *multimedia computing, information retrieval, and 
     </td>
   </tr>
 </table>
-
 
 
 
