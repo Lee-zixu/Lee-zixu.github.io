@@ -71,7 +71,7 @@ My research interests include *multimedia computing, information retrieval, and 
       <b>AAAI 2025</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/ENCODER" target="_blank">Code</a> | 
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
       </span>
     </td>
