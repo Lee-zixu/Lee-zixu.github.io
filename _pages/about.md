@@ -37,8 +37,8 @@ My research interests include *multimedia computing, information retrieval, and 
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
-        <!-- <a href="" target="_blank">Paper</a> -->
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
       </span>
     </td>
     <td style="width:25%; border:none; vertical-align:top; padding-top:30px;">
@@ -46,8 +46,8 @@ My research interests include *multimedia computing, information retrieval, and 
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a>
-        <!-- <a href="" target="_blank">Paper</a> -->
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
       </span>
     </td>
     <td style="width:20%; border:none; vertical-align:top; padding-top:30px;">
@@ -55,8 +55,8 @@ My research interests include *multimedia computing, information retrieval, and 
       <b>AAAI 2026</b><br>
       <span style="font-size: 0.9em;">
         <!-- <a href="" target="_blank">Web</a> |  -->
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a>
-        <!-- <a href="" target="_blank">Paper</a> -->
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
       </span>
     </td>  
     <td style="width:15%; border:none; vertical-align:top; padding-top:30px;">
