@@ -41,7 +41,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ConeSep (CVPR'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> |  -->
+        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  
         <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
@@ -50,7 +50,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/airknow-logo.png" alt="Air-Know" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>Air-Know (CVPR'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> |  -->
+        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>  
         <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
