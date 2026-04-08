@@ -42,7 +42,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <b>TEMA (ACL'26)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/TEMA" target="_blank">Code</a>
+        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
         <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
       </span>
     </td>
