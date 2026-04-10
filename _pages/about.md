@@ -25,9 +25,11 @@ I am a Ph.D. student in Artificial Intelligence at [Shandong University](https:/
 My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
 
 
-<!-- > I am a strong advocate for open science. All the projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
+> I am a strong advocate for open science. All the projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
+> I am affiliated with the Intelligent Media Research Center (iLearn). Our lab's projects and papers are all open-source [Link], and we welcome your valuable feedback.
 > 
-> 我是开放科学的坚定拥趸，主要参与的项目均已全面开源。欢迎大家访问我们的项目主页，非常期待听到您的真实反馈，随时欢迎找我交流探讨！ -->
+> 我是开放科学的坚定拥趸，主要参与的项目均已全面开源。欢迎大家访问我们的项目主页，非常期待听到您的真实反馈，随时欢迎找我交流探讨！ 
+> 我隶属于智能媒体研究中心 (iLearn)，实验室的项目与论文均已开源[Link](https://github.com/iLearn-Lab)，欢迎大家提供宝贵意见。
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
 
