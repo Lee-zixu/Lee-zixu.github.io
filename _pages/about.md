@@ -27,11 +27,14 @@ My research interests include *multimedia computing, information retrieval, and 
 > I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source.
 > Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit [iLearn Lab](https://github.com/iLearn-Lab) and feel free to share your valuable feedback.
 
-> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。欢迎大家访问、使用并随时找我探讨！
+> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。随时欢迎大家访问与交流探讨！
 > 
 > 💻 个人项目： 我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！
 > 
 > 🏫 实验室组织： 我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 [iLearn Lab](https://github.com/iLearn-Lab) 并提供宝贵意见。
+
+
+
 
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
