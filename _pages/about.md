@@ -160,7 +160,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1">
+<div class='paper-box-text-noline' markdown="1"> 
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**
 
