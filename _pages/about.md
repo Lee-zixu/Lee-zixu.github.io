@@ -364,8 +364,8 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 
 # 📃 Services
-- Conference PC Member: CVPR, ECCV, NeurIPS, AAAI, ACM MM, SIGIR, ICME, ICMR, ICASSP
-- Journal Reviewer: TIP, ToMM
+- Conference PC Member: CVPR, ECCV, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP
+- Journal Reviewer: TIP, TIFS, ToMM
 
 
 <br>
