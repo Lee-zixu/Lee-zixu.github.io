@@ -116,7 +116,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>OFFSET (ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2507.05631" target="_blank">Paper</a>
+        <a href="https://arxiv.org/abs/2507.05631" target="_blank">Paper</a> | 
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a>
       </span>
@@ -162,7 +162,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Web]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiheng Fu](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -173,7 +173,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Website]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep)
+**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Web]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Mingyu Zhang](https://zh-mingyu.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -184,7 +184,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Website]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
+**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Web]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 
 <b><font color=maroon>First-authored by undergraduate student</font></b>
 
@@ -197,7 +197,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) [[Website]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack)
+**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Web]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) [Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) 
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
@@ -208,7 +208,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) [[Website]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT)
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18037) [[Web]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) 
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -253,7 +253,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) 
+**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Web]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) 
 
 [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 </div>
@@ -263,7 +263,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Web]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
 [***Zixu Li***](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉,  [Zhiwei Chen](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
@@ -290,7 +290,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18051) [[Web]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) 
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Jiale Huang](https://arcadiadream.github.io/HJL.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -300,7 +300,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[PDF]](https://dl.acm.org/doi/10.1145/3796712) [[Website]](https://sdu-l.github.io/REFINE.github.io/)
+**REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[Paper]](https://dl.acm.org/doi/10.1145/3796712) [[Web]](https://sdu-l.github.io/REFINE.github.io/)
 
 [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Mingzhu Xu](https://faculty.sdu.edu.cn/xumingzhu/zh_CN/)✉, [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -310,7 +310,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1">
 
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET)
+**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2507.05631) [[Web]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755366) 
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†,  [Zhiheng Fu](https://zhihfu.github.io),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -321,7 +321,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD)
+**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[Paper]](https://arxiv.org/abs/2512.02792) [[Web]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755445) 
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†,  [Zhiheng Fu](https://zhihfu.github.io),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
