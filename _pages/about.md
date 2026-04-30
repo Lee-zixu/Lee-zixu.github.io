@@ -162,6 +162,17 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [Coming Soon]
+
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACL 2026 Main</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
