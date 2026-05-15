@@ -384,6 +384,12 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 <!--# 💻 Project QSGNGT-->
 
+# 🏆 Competition
+- 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
+- 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
+- 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab))
+- 2nd place 🥈, CVPR EgoCross (Open-Source Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
+- 3rd place 🥉, CVPR EPIC-KITCHENS-100 Action Detection Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
 # 📖 Educations
 - *2023.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University. 
