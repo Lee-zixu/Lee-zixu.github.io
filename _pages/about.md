@@ -359,19 +359,27 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 
 # 🔖 Patent 
-- (已授权)一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 公开号: *CN116522120B* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202211425243.0/sqdetail/abst)
+- [发明授权, 第二发明人] 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 授权专利号: *ZL202411903224.3*
+  
+<!-- - [发明授权, 第四发明人] 基于跨模态语义解析的图文检索方法及系统 - 授权专利号: *ZL202410326442.9*-->
 
-- (已授权)基于跨模态语义解析的图文检索方法及系统 - 公开号: *CN118132677A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202410326442.9/detail/abst)
+<!-- - [发明授权, 第五发明人] 一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 授权专利号: *ZL202211425243.0*-->
 
-- 基于特征相似性和属性一致性协同约束的近似近邻混合检索的用户推荐方法及系统 - 公开号: *CN117453991A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202311201790.5/detail/abst)
+- [发明公布, 第二发明人] 基于属性的邻域关系引导的组合图像检索方法及系统 - 申请号: *CN202511944904.4*
 
-- 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202411903224.3/detail/abst)
+- [发明公布, 第二发明人] 基于共享和差异语义增强的组合视频检索方法及系统 - 申请号: *CN202511944910.X*
 
-- 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202510274983.6/detail/abst)
+- [发明公布, 第二发明人] 基于互补性引导解耦的组合图像检索方法及系统 - 申请号: *CN202510142418.4*
 
-- 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 公开号: *CN120144812A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202510143920.7/detail/abst)
+- [发明公布, 第二发明人] 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 申请号: *CN202510274983.6*
 
-- 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/84129a8ff543f9faef6efbb13f9e1a6e30cdba29ac6447dc?sc=&fq=&type=&sort=&sortField=&q=李子旭+山东大学&rows=10#1/CN202510142418.4/detail/abst)
+- [发明公布, 第三发明人] 基于特征相似性和属性一致性协同约束的近似近邻混合检索的用户推荐方法及系统 - 申请号: *CN202311201790.5*
+
+- [发明公布, 第三发明人] 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 申请号: *CN202510143920.7*
+
+- [发明公布, 第三发明人] 一种基于层次化不确定性感知消歧的组合视频检索方法及系统 - 申请号: *CN202511567477.2*
+
+- [发明公布, 第四发明人] 面向开放域视觉语言多任务的自适应指代关系对齐的检索方法及系统 - 申请号: *CN202511944907.8*
 
 
 # 🎖 Honors and Awards
