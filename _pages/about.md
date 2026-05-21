@@ -387,13 +387,13 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 **OmniEgo-R2: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
 
-[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
 
 
-<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
