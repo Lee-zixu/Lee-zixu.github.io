@@ -49,7 +49,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <img src="../images/combiner-logo.png" alt="COMBINER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>COMBINER (TIP'26)</b><br>
       <span style="font-size: 0.9em;">
-        <!-- <a href="" target="_blank">Paper</a> |  -->
+        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/COMBINER" target="_blank">Code</a>
       </span>
@@ -178,7 +178,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [Paper Coming Soon][[Project]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER)
+**COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [[Paper]](https://ieeexplore.ieee.org/abstract/document/11534406)[[Project]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
