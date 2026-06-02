@@ -157,6 +157,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
  
 # 🔥 News
+- *2026.06.02*: &nbsp;🎉🎉 Thrilled to announce that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
 - *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two 1st places🏅, two 2nd places🥈, and one 3rd place🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
 - *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
 - *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026 Main**! Thanks to all co-authors!
@@ -361,10 +362,21 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
 
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
+
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiheng Fu](https://zhihfu.github.io),  [Zhiwei Chen](https://zivchen-ty.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [Coming Soon]
+**TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge**  [[Technical Report]](https://arxiv.org/abs/2605.24470)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  Xiaowei Zhu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -375,7 +387,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [Coming Soon]
+**EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge**  [[Technical Report]](https://arxiv.org/abs/2605.24500)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io),  Guozhi Qiu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -386,7 +398,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 2nd</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
+**OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026**  [[Technical Report]](https://arxiv.org/abs/2605.24481)
 
 [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -397,7 +409,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text-noline' markdown="1"> 
 
-**EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
+**EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026**  [[Technical Report]](https://arxiv.org/abs/2605.24496)
 
 [Zhiheng Fu](https://zhihfu.github.io),  [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -439,6 +451,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <!--# 💻 Project QSGNGT-->
 
 # 🏆 Competition
+- 1st place 🏅, CVPR VidLLMs Reasoned-Aware Composed Video Retrieval (CoVR-R) challenge, 2026. 
 - 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
 - 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
