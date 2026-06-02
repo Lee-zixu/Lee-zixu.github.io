@@ -158,7 +158,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
  
 # 🔥 News
 - *2026.06.02*: &nbsp;🎉🎉 Thrilled to announce that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
-- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two 1st places🏅, two 2nd places🥈, and one 3rd place🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
+- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two **1st places**🏅, two **2nd places**🥈, and one **3rd place**🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
 - *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
 - *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026 Main**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
@@ -451,7 +451,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <!--# 💻 Project QSGNGT-->
 
 # 🏆 Competition
-- 1st place 🏅, CVPR VidLLMs Reasoned-Aware Composed Video Retrieval (CoVR-R) challenge, 2026. 
+- 1st place 🏅, CVPR Reasoned-Aware Composed Video Retrieval (CoVR-R) challenge at the VidLLMs Workshop, 2026. 
 - 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
 - 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
