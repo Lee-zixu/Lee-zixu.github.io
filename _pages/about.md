@@ -157,6 +157,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
  
 # 🔥 News
+- *2026.06.10*: &nbsp;🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).
 - *2026.06.02*: &nbsp;🎉🎉 Thrilled to share that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
 - *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won **1st places**🏅✖️2, **2nd places**🥈✖️2, and **3rd place**🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!
 - *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
@@ -441,6 +442,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <!-- - [发明授权, 第五发明人] 一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 授权专利号: *ZL202211425243.0*-->
 
 # 🎖 Honors and Awards
+- *2026.06* Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).
 - *2025.10* **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition.
 - *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
 - *2024.09* Huawei Outstanding Student Award **(Top 30 globally per year)**.
