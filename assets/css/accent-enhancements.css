@@ -1,0 +1,650 @@
+/* ==========================================================================
+   强调色增强样式 - Enhanced Accent Color Styles
+   ========================================================================== */
+
+/* 为主要元素添加强调色装饰 */
+.main-content {
+  position: relative;
+}
+
+/* 增强的页面装饰条 */
+.accent-border-top {
+  position: relative;
+}
+
+.accent-border-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #012F63 0%, #FE667B 50%, #1a4f8a 100%);
+  z-index: 10;
+}
+
+/* 强调色按钮样式 */
+.btn-accent {
+  background: #FE667B;
+  color: white !important;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(254, 102, 123, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-accent::after {
+  display: none;
+}
+
+.btn-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s;
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(254, 102, 123, 0.4);
+  color: white !important;
+}
+
+.btn-accent:hover::before {
+  left: 100%;
+}
+
+/* 强调色悬浮卡片 */
+.floating-card {
+  background: #ffffff !important; /* 强制使用白色背景 */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(1, 47, 99, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.floating-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(1, 47, 99, 0.15);
+  border-color: rgba(254, 102, 123, 0.2);
+}
+
+.floating-card:hover::before {
+  opacity: 1;
+}
+
+/* 强调色文字效果 */
+.accent-text {
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.primary-gradient-text {
+  background: linear-gradient(135deg, #012F63 0%, #1a4f8a 50%, #FE667B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+/* 图标样式 - 使用主色而不是强调色 */
+.fas, .fab, .far {
+  color: #012F63; /* 主色 */
+  transition: all 0.3s ease;
+}
+
+.fas:hover, .fab:hover, .far:hover {
+  color: #1a4f8a; /* 主色的浅色变体 */
+  transform: scale(1.05);
+}
+
+/* Sidebar图标保持主色 */
+.sidebar .fas, .sidebar .fab, .sidebar .far,
+.author__urls .fas, .author__urls .fab, .author__urls .far {
+  color: #012F63 !important;
+}
+
+.sidebar .fas:hover, .sidebar .fab:hover, .sidebar .far:hover,
+.author__urls .fas:hover, .author__urls .fab:hover, .author__urls .far:hover {
+  color: #FE667B !important; /* 悬停时使用强调色 */
+}
+
+/* 强调色分割线 */
+.divider-accent {
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #FE667B 50%, transparent 100%);
+  margin: 2rem 0;
+  border: none;
+}
+
+/* 强调色引用块 */
+.quote-accent {
+  background: #f8f9fa !important; /* 强制使用浅色背景 */
+  border-left: 4px solid #FE667B;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08);
+  position: relative;
+  margin: 2rem 0;
+  color: #012F63 !important; /* 确保文字颜色 */
+}
+
+.quote-accent::before {
+  content: '"';
+  font-size: 4rem;
+  color: #FE667B;
+  opacity: 0.2;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  font-family: serif;
+}
+
+/* 强调色进度条 */
+.progress-accent {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-accent-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 100%);
+  border-radius: 10px;
+  transition: width 1s ease;
+  position: relative;
+}
+
+.progress-accent-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* 强调色标签 */
+.tag-accent {
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0.25rem;
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.3);
+  transition: all 0.3s ease;
+}
+
+.tag-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(254, 102, 123, 0.4);
+}
+
+/* 强调色链接装饰 */
+.link-accent {
+  color: #012F63;
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.link-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 100%);
+  transition: width 0.3s ease;
+}
+
+.link-accent:hover {
+  color: #FE667B;
+}
+
+.link-accent:hover::after {
+  width: 100%;
+}
+
+/* 强调色悬浮动画 */
+.hover-float {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-float:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(1, 47, 99, 0.12);
+}
+
+/* 强调色脉冲动画 */
+.pulse-accent {
+  animation: pulse-accent 2s infinite;
+}
+
+@keyframes pulse-accent {
+  0% {
+    box-shadow: 0 0 0 0 rgba(254, 102, 123, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(254, 102, 123, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(254, 102, 123, 0);
+  }
+}
+
+/* 强调色渐变背景动画 */
+.bg-gradient-animate {
+  background: linear-gradient(-45deg, #012F63, #1a4f8a, #FE667B, #ff8599);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .highlight-blocks {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .floating-card {
+    margin: 1rem 0;
+  }
+  
+  .btn-accent {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* 防止深色模式影响 - 强制浅色主题 */
+@media (prefers-color-scheme: dark) {
+  .floating-card, .highlight-block, .paper-box, .quote-accent {
+    background: #ffffff !important;
+    color: #012F63 !important;
+    border-color: rgba(1, 47, 99, 0.08) !important;
+  }
+  
+  .floating-card *, .highlight-block *, .paper-box *, .quote-accent * {
+    color: #012F63 !important;
+  }
+  
+  .floating-card a, .highlight-block a, .paper-box a, .quote-accent a {
+    color: #012F63 !important;
+  }
+  
+  .floating-card a:hover, .highlight-block a:hover, .paper-box a:hover, .quote-accent a:hover {
+    color: #FE667B !important;
+  }
+}
+
+/* 滚动触发动画 */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.fade-in-up.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 强调色加载动画 */
+.loading-accent {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e9ecef;
+  border-top: 3px solid #FE667B;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 确保所有重要元素的背景和文字颜色 */
+body {
+  background-color: #ffffff !important;
+  color: #012F63 !important;
+}
+
+.highlight-block, .paper-box, .floating-card, blockquote, .quote-accent {
+  background: #ffffff !important;
+  color: #012F63 !important;
+}
+
+.highlight-block *, .paper-box *, .floating-card *, blockquote *, .quote-accent * {
+  color: #012F63 !important;
+}
+
+/* 但保持按钮和标签的颜色 */
+.btn-accent, .tag-accent, .badge {
+  color: white !important;
+}
+
+/* ==========================================================================
+   Publications / Challenge paper cards - clean final version
+   ========================================================================== */
+
+/* Keep text colors readable inside cards without overriding badges/buttons. */
+#publications-wrapper .paper-box,
+#publications-wrapper .floating-card {
+  color: #012F63 !important;
+}
+
+#publications-wrapper .paper-box {
+  display: grid !important;
+  grid-template-columns: minmax(200px, 40%) minmax(0, 1fr) !important;
+  align-items: center !important;
+  column-gap: 2rem !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 1.35rem 0 !important;
+  padding: 1rem !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(1, 47, 99, 0.08) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08) !important;
+  position: relative !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+}
+
+#publications-wrapper .paper-box:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 32px rgba(1, 47, 99, 0.14) !important;
+  border-color: rgba(254, 102, 123, 0.22) !important;
+}
+
+#publications-wrapper .paper-box::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%) !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+#publications-wrapper .paper-box:hover::before {
+  opacity: 1 !important;
+}
+
+/* Left image column: no gray backplate, no fixed height. Height follows image. */
+#publications-wrapper .paper-box .paper-box-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+
+#publications-wrapper .paper-box .paper-box-image::before,
+#publications-wrapper .paper-box .paper-box-image::after {
+  content: none !important;
+  display: none !important;
+}
+
+#publications-wrapper .paper-box .paper-box-image > div {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  position: relative !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+#publications-wrapper .paper-box .paper-box-image img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 400px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: 0 2px 8px rgba(1, 47, 99, 0.10) !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+#publications-wrapper .paper-box:hover .paper-box-image img {
+  transform: none !important;
+  box-shadow: 0 6px 18px rgba(1, 47, 99, 0.13) !important;
+}
+
+#publications-wrapper .paper-box .paper-box-image .badge {
+  position: absolute !important;
+  top: 0.55rem !important;
+  left: -0.45rem !important;
+  z-index: 5 !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%) !important;
+  padding: 0.32em 0.8em !important;
+  border-radius: 16px !important;
+  font-size: 0.76em !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2px !important;
+  box-shadow: 0 3px 10px rgba(254, 102, 123, 0.25) !important;
+  text-transform: none !important;
+}
+
+/* Right text column. It stays vertically centered against the image. */
+#publications-wrapper .paper-box .paper-box-text {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  align-self: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  color: #012F63 !important;
+}
+
+#publications-wrapper .paper-box .paper-box-text p {
+  margin: 0.35rem 0 0.7rem 0 !important;
+  line-height: 1.55 !important;
+}
+
+#publications-wrapper .paper-box .paper-box-text strong {
+  color: #012F63 !important;
+  font-size: 1.08em !important;
+}
+
+#publications-wrapper .venue-full-name {
+  margin: -0.25rem 0 0.65rem 0 !important;
+  color: #6b7280 !important;
+  font-size: 0.86rem !important;
+  font-style: italic !important;
+  line-height: 1.35 !important;
+}
+
+#publications-wrapper .paper-authors {
+  color: #4a5568 !important;
+  font-size: 0.93rem !important;
+}
+
+#publications-wrapper .author-self,
+#publications-wrapper .author-self:visited {
+  background: linear-gradient(90deg, #7e22ce 0%, #c026d3 32%, #e11d48 68%, #fb7185 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  filter: saturate(1.35) contrast(1.05);
+}
+
+#publications-wrapper .badge-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.35rem !important;
+  margin: 0.65rem 0 0.55rem 0 !important;
+}
+
+#publications-wrapper .inner-tag-badge {
+  display: inline-block !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  color: #4a5568 !important;
+  background-color: #edf2f7 !important;
+  padding: 4px 10px !important;
+  border-radius: 6px !important;
+  border: 1px solid #e2e8f0 !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+}
+
+#publications-wrapper .inner-tag-badge.active {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  box-shadow: 0 2px 4px rgba(161, 140, 209, 0.3) !important;
+}
+
+#publications-wrapper .paper-link-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+  margin: 0.05rem 0 0.75rem 0 !important;
+}
+
+#publications-wrapper .paper-link-btn {
+  display: inline-block !important;
+  background: #FE667B !important;
+  color: #ffffff !important;
+  border-radius: 18px !important;
+  padding: 0.25rem 0.75rem !important;
+  margin: 0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.25) !important;
+  transition: all 0.25s ease !important;
+}
+
+#publications-wrapper .paper-link-btn:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 5px 14px rgba(254, 102, 123, 0.35) !important;
+}
+
+.paper-note {
+  margin: -0.45rem 0 1rem 0 !important;
+  color: #6b7280 !important;
+  font-size: 0.88rem !important;
+  font-style: italic !important;
+  line-height: 1.4 !important;
+}
+
+@media (max-width: 768px) {
+  #publications-wrapper .paper-box {
+    grid-template-columns: 1fr !important;
+    align-items: stretch !important;
+    row-gap: 1rem !important;
+    padding: 1.1rem !important;
+  }
+
+  #publications-wrapper .paper-box .paper-box-image,
+  #publications-wrapper .paper-box .paper-box-text {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  #publications-wrapper .paper-box .paper-box-text {
+    align-self: stretch !important;
+  }
+}
+
+#publications-wrapper .author-mail,
+#publications-wrapper .author-star,
+#publications-wrapper .author-anchor {
+  display: inline-block !important;
+  margin-left: 0.08rem !important;
+  font-size: 0.92em !important;
+  vertical-align: 0.02em !important;
+}
