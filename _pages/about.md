@@ -179,10 +179,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 <h1 id="challenge-technical-report">📝 Selected Publications</h1>
 
-<div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-
 
 <div class='paper-box floating-card' data-tags="TIP 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
