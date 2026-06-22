@@ -412,7 +412,16 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-  const paperBoxes = wrapper.querySelectorAll('.paper-box');
+  const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
+  const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
+  
+  paperBoxes.forEach((box, index) => {
+    box.dataset.originalOrder = String(index + 10);
+  });
+  sectionHeadings.forEach((heading, index) => {
+    heading.dataset.originalOrder = String(index + 1);
+  });
+
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026']);
   const venueFullNames = {
@@ -428,13 +437,12 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   let tagCounts = {};
   let activeTags = new Set();
-
-  paperBoxes.forEach(box => {
+paperBoxes.forEach(box => {
     const tagsAttribute = box.getAttribute('data-tags');
     if (!tagsAttribute) return;
     const tagsList = tagsAttribute.split(',').map(t => t.trim()).filter(t => t);
-
-    const textContainer = box.querySelector('.paper-box-text');
+    
+const textContainer = box.querySelector('.paper-box-text');
     const linksContainer = box.querySelector('.links');
     if (textContainer && !textContainer.querySelector('.badge-container')) {
       const badgeContainer = document.createElement('div');
@@ -445,8 +453,7 @@ document.addEventListener('DOMContentLoaded', function() {
         badge.textContent = tag;
         badgeContainer.appendChild(badge);
       });
-
-      const paragraphs = textContainer.querySelectorAll('p');
+const paragraphs = textContainer.querySelectorAll('p');
       if (paragraphs.length >= 2) {
         paragraphs[1].insertAdjacentElement('afterend', badgeContainer);
       } else if (linksContainer) {
@@ -455,8 +462,7 @@ document.addEventListener('DOMContentLoaded', function() {
         textContainer.appendChild(badgeContainer);
       }
     }
-
-    tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
   });
 
   textContainerLinkButtons();
@@ -489,15 +495,13 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!textContainer || textContainer.querySelector('.paper-link-container')) return;
       const firstParagraph = textContainer.querySelector('p');
       if (!firstParagraph) return;
-
-      const linkContainer = document.createElement('div');
+const linkContainer = document.createElement('div');
       linkContainer.className = 'paper-link-container';
       firstParagraph.querySelectorAll('a').forEach(link => {
         link.classList.add('paper-link-btn');
         linkContainer.appendChild(link);
       });
-
-      if (linkContainer.children.length > 0) {
+if (linkContainer.children.length > 0) {
         const badgeContainer = textContainer.querySelector('.badge-container');
         if (badgeContainer) {
           badgeContainer.insertAdjacentElement('afterend', linkContainer);
@@ -507,8 +511,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
-
-  function enrichPaperCards() {
+function enrichPaperCards() {
     paperBoxes.forEach(box => {
       const textContainer = box.querySelector('.paper-box-text');
       if (!textContainer) return;
@@ -516,8 +519,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const titleParagraph = paragraphs[0];
       const authorParagraph = paragraphs[1];
       if (!titleParagraph || !authorParagraph) return;
-
-      const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
+const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
       const venueKey = Object.keys(venueFullNames).find(key => badgeText.includes(key));
       if (venueKey && !textContainer.querySelector('.venue-full-name')) {
         const venue = document.createElement('div');
@@ -525,9 +527,8 @@ document.addEventListener('DOMContentLoaded', function() {
         venue.textContent = venueFullNames[venueKey];
         titleParagraph.insertAdjacentElement('afterend', venue);
       }
-
-      authorParagraph.classList.add('paper-authors');
-      authorParagraph.innerHTML = authorParagraph.innerHTML
+authorParagraph.classList.add('paper-authors');
+authorParagraph.innerHTML = authorParagraph.innerHTML
         .replace(/\[\*\*\*Zixu Li\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zixu Li</a>')
         .replace(/\[\*\*\*Zixu Li\*\*\*\]/g, '<span class="primary-gradient-text author-self">Zixu Li</span>')
         .replace(/\*\*\*Zixu Li\*\*\*/g, '<span class="primary-gradient-text author-self">Zixu Li</span>')
@@ -542,15 +543,34 @@ document.addEventListener('DOMContentLoaded', function() {
     paperBoxes.forEach(box => {
       const boxTagsString = box.getAttribute('data-tags');
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
-      const isVisible = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
-      box.classList.toggle('hidden', !isVisible);
-      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-        badge.classList.toggle('active', activeTags.has(badge.textContent));
+      const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+      
+box.classList.remove('hidden');
+box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
+
+box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+badge.classList.toggle('active', activeTags.has(badge.textContent));
       });
     });
+
+  if (activeTags.size > 0) {
+      const sortedBoxes = [...paperBoxes].sort((a, b) => {
+        const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+        const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+        const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
+        const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+        if (aMatched !== bMatched) return aMatched ? -1 : 1;
+        return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+      });
+      sortedBoxes.forEach(box => wrapper.appendChild(box));
+    } else {
+      paperBoxes
+        .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
+        .forEach(box => wrapper.appendChild(box));
+    }
   }
 });
-</script>
+</script> 
 
 </div>
 
