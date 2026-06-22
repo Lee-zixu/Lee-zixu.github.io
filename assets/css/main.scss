@@ -1,6 +1,6 @@
 ---
 ---
- 
+
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -40,98 +40,162 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* =========================================
+   Paper Filter Styles (Added by User)
+   ========================================= */
+
+/* 过滤按钮容器 */
+#filter-container {
+  margin: 0.5rem 0 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* 按钮基础样式 */
+.filter-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  color: #555;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* 确保字体美观 */
+}
+
+/* 鼠标悬停 */
+.filter-btn:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-1px);
+}
+
+/* 选中状态 - 你的网页主色调渐变 */
+.filter-btn.active {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 隐藏被过滤掉的论文 */
+.paper-box.hidden {
+  display: none !important; /* 加个 !important 确保一定能隐藏 */
+}
+
+
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border-bottom: none;
+    padding: 1.5rem !important;
+    margin: 1.2rem 0 !important;
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(1, 47, 99, 0.08) !important;
+    box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08) !important;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 35px rgba(1, 47, 99, 0.15) !important;
+        border-color: rgba(254, 102, 123, 0.25) !important;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #FE667B 0%, #ff8599 50%, #a29bfe 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
 
     .paper-box-image{
         justify-content: center;
+        align-items: flex-start;
         display: flex;
         width: 100%;
         order: 2;
+        background: transparent !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
         img {
+            display: block;
+            width: 100%;
+            height: auto !important;
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(1, 47, 99, 0.1);
+            object-fit: contain;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        img:hover {
+            transform: none;
+            box-shadow: 0 4px 12px rgba(1, 47, 99, 0.12);
         }
     }
     
     .paper-box-text{
         max-width: 100%;
         order: 1;
+
+        p {
+            margin: 0.35rem 0 0.7rem 0;
+            line-height: 1.55;
+        }
+
+        strong {
+            color: #012F63;
+            font-size: 1.08em;
+        }
+
+        a {
+            color: #012F63;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #FE667B;
+        }
     }
     
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
+            align-items: flex-start;
+            flex: 0 0 40%;
             min-width: 200px;
             max-width: 40%;
+            width: 40%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
+            flex: 1 1 60%;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
-}
-
-.paper-box-noline {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
-
-    .paper-box-image-noline{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text-noline{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image-noline{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text-noline{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
 }
 
 $scroll_offset : 2em;
@@ -145,12 +209,130 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background: linear-gradient(135deg, #FE667B 0%, #ff8599 100%);
     font-size: .8em;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(254, 102, 123, 0.2);
+}
+
+/* =========================================
+   Inner Card Tags Highlight Logic
+   ========================================= */
+
+/* 1. 默认状态 (灰色) - 保持不变 */
+.inner-tag-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4a5568;
+  background-color: #edf2f7;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: all 0.3s ease; /* 增加平滑过渡效果 */
+  margin: 0 0.35rem 0.35rem 0;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.65rem 0 0.75rem 0;
+}
+
+/* 2. 鼠标悬停 (微亮) - 保持不变 */
+.inner-tag-badge:hover {
+  background-color: #e2e8f0;
+  color: #2d3748;
+}
+
+/* 3. 🔥 激活状态 (自动亮起) */
+/* 当这个标签被选中时，使用你的主色调渐变 */
+.inner-tag-badge.active {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%) !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: 0 2px 4px rgba(161, 140, 209, 0.3);
+}
+
+.paper-link-btn {
+  display: inline-block !important;
+  background: #FE667B !important;
+  color: #ffffff !important;
+  border-radius: 18px;
+  padding: 0.25rem 0.75rem;
+  margin: 0.15rem 0.2rem;
+  font-size: 0.82rem;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(254, 102, 123, 0.25);
+  transition: all 0.25s ease;
+}
+
+.paper-link-btn:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(254, 102, 123, 0.35);
+}
+
+.venue-full-name {
+  margin: -0.25rem 0 0.65rem 0;
+  color: #6b7280;
+  font-size: 0.86rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.paper-authors {
+  color: #4a5568;
+  font-size: 0.93rem;
+}
+
+.author-self,
+.author-self:visited {
+  background: linear-gradient(135deg, #012F63 0%, #1a4f8a 45%, #FE667B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.author-mail,
+.author-star {
+  display: inline-block;
+  margin-left: 0.08rem;
+  font-size: 0.92em;
+  vertical-align: 0.02em;
+}
+
+.paper-note {
+  margin: -0.45rem 0 1rem 0;
+  color: #6b7280;
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.paper-box-image > div {
+  background: transparent !important;
+  height: auto !important;
+  min-height: 0 !important;
+  width: 100%;
+}
+
+.paper-link-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.2rem 0 0.75rem 0;
 }
