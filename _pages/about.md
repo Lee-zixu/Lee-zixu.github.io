@@ -7,6 +7,88 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<style>
+/* 动态标签和过滤器按钮的预设样式 */
+#filter-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid #e1e4e8;
+  border-radius: 20px;
+  background-color: #f6f8fa;
+  color: #586069;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover {
+  background-color: #eaecef;
+  color: #24292e;
+}
+.filter-btn.active {
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(17, 153, 142, 0.3);
+}
+.badge-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.inner-tag-badge {
+  font-size: 0.75em;
+  padding: 2px 8px;
+  background-color: #f1f3f5;
+  color: #495057;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  transition: all 0.2s ease;
+}
+.inner-tag-badge.active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+  font-weight: bold;
+}
+.venue-full-name {
+  font-size: 0.85em;
+  color: #6a737d;
+  font-style: italic;
+  margin: 4px 0;
+}
+.paper-link-container {
+  margin-top: 8px;
+}
+.paper-link-btn {
+  font-size: 0.85em;
+  padding: 2px 8px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: 1px solid #0366d6;
+  color: #0366d6 !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+.paper-link-btn:hover {
+  background-color: #0366d6;
+  color: #fff !important;
+}
+.author-self {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.floating-card {
+  transition: opacity 0.3s ease;
+}
+</style>
  
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
@@ -177,7 +259,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 id="challenge-technical-report">📝 Selected Publications</h1>
+<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
@@ -284,7 +366,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<h1 id="challenge-technical-report">📝 More Publications</h1>
+<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TKDE 2026, First Author, Core Contributor, CCF A"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
@@ -349,7 +431,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<h1 id="challenge-technical-report">📝 Challenge Technical Report</h1>
+<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
 
 <div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
