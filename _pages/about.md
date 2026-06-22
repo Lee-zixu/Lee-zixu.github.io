@@ -259,7 +259,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
+<h1 style="font-size: 1em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
@@ -366,7 +366,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
+<h1 style="font-size: 1em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TKDE 2026, First Author, Core Contributor, CCF A"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
@@ -431,7 +431,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<h1 style="font-size: 1.55em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
+<h1 style="font-size: 1em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
 
 <div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
@@ -494,17 +494,14 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-  const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
-  const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
-  
-  paperBoxes.forEach((box, index) => {
-    box.dataset.originalOrder = String(index + 10);
-  });
-  sectionHeadings.forEach((heading, index) => {
-    heading.dataset.originalOrder = String(index + 1);
+
+  const allElements = Array.from(wrapper.children).filter(el => el.id !== 'filter-container');
+  const paperBoxes = allElements.filter(el => el.classList.contains('paper-box'));
+
+  allElements.forEach((el, index) => {
+    el.dataset.originalOrder = String(index);
   });
 
-  const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026']);
   const venueFullNames = {
     'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
@@ -519,12 +516,13 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   let tagCounts = {};
   let activeTags = new Set();
-paperBoxes.forEach(box => {
+
+  paperBoxes.forEach(box => {
     const tagsAttribute = box.getAttribute('data-tags');
     if (!tagsAttribute) return;
     const tagsList = tagsAttribute.split(',').map(t => t.trim()).filter(t => t);
-    
-const textContainer = box.querySelector('.paper-box-text');
+
+    const textContainer = box.querySelector('.paper-box-text');
     const linksContainer = box.querySelector('.links');
     if (textContainer && !textContainer.querySelector('.badge-container')) {
       const badgeContainer = document.createElement('div');
@@ -535,7 +533,8 @@ const textContainer = box.querySelector('.paper-box-text');
         badge.textContent = tag;
         badgeContainer.appendChild(badge);
       });
-const paragraphs = textContainer.querySelectorAll('p');
+
+      const paragraphs = textContainer.querySelectorAll('p');
       if (paragraphs.length >= 2) {
         paragraphs[1].insertAdjacentElement('afterend', badgeContainer);
       } else if (linksContainer) {
@@ -544,7 +543,8 @@ const paragraphs = textContainer.querySelectorAll('p');
         textContainer.appendChild(badgeContainer);
       }
     }
-tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+
+    tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
   });
 
   textContainerLinkButtons();
@@ -577,13 +577,15 @@ tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag
       if (!textContainer || textContainer.querySelector('.paper-link-container')) return;
       const firstParagraph = textContainer.querySelector('p');
       if (!firstParagraph) return;
-const linkContainer = document.createElement('div');
+
+      const linkContainer = document.createElement('div');
       linkContainer.className = 'paper-link-container';
       firstParagraph.querySelectorAll('a').forEach(link => {
         link.classList.add('paper-link-btn');
         linkContainer.appendChild(link);
       });
-if (linkContainer.children.length > 0) {
+
+      if (linkContainer.children.length > 0) {
         const badgeContainer = textContainer.querySelector('.badge-container');
         if (badgeContainer) {
           badgeContainer.insertAdjacentElement('afterend', linkContainer);
@@ -593,7 +595,8 @@ if (linkContainer.children.length > 0) {
       }
     });
   }
-function enrichPaperCards() {
+
+  function enrichPaperCards() {
     paperBoxes.forEach(box => {
       const textContainer = box.querySelector('.paper-box-text');
       if (!textContainer) return;
@@ -601,7 +604,8 @@ function enrichPaperCards() {
       const titleParagraph = paragraphs[0];
       const authorParagraph = paragraphs[1];
       if (!titleParagraph || !authorParagraph) return;
-const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
+
+      const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
       const venueKey = Object.keys(venueFullNames).find(key => badgeText.includes(key));
       if (venueKey && !textContainer.querySelector('.venue-full-name')) {
         const venue = document.createElement('div');
@@ -609,8 +613,10 @@ const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
         venue.textContent = venueFullNames[venueKey];
         titleParagraph.insertAdjacentElement('afterend', venue);
       }
-authorParagraph.classList.add('paper-authors');
-authorParagraph.innerHTML = authorParagraph.innerHTML
+
+      authorParagraph.classList.add('paper-authors');
+      authorParagraph.innerHTML = authorParagraph.innerHTML
+        .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zhiheng Fu</a>')
         .replace(/\[\*\*\*Zixu Li\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zixu Li</a>')
         .replace(/\[\*\*\*Zixu Li\*\*\*\]/g, '<span class="primary-gradient-text author-self">Zixu Li</span>')
         .replace(/\*\*\*Zixu Li\*\*\*/g, '<span class="primary-gradient-text author-self">Zixu Li</span>')
@@ -626,33 +632,42 @@ authorParagraph.innerHTML = authorParagraph.innerHTML
       const boxTagsString = box.getAttribute('data-tags');
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
       const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
-      
-box.classList.remove('hidden');
-box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
 
-box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-badge.classList.toggle('active', activeTags.has(badge.textContent));
+      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
+
+      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+        badge.classList.toggle('active', activeTags.has(badge.textContent));
       });
     });
 
-  if (activeTags.size > 0) {
-      const sortedBoxes = [...paperBoxes].sort((a, b) => {
+    if (activeTags.size > 0) {
+      const sortedElements = [...allElements].sort((a, b) => {
+        const aIsBox = a.classList.contains('paper-box');
+        const bIsBox = b.classList.contains('paper-box');
+
+        if (!aIsBox || !bIsBox) {
+          return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+        }
+
         const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
         const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
         const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
         const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+
         if (aMatched !== bMatched) return aMatched ? -1 : 1;
+
         return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
       });
-      sortedBoxes.forEach(box => wrapper.appendChild(box));
+      
+      sortedElements.forEach(el => wrapper.appendChild(el));
     } else {
-      paperBoxes
+      allElements
         .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
-        .forEach(box => wrapper.appendChild(box));
+        .forEach(el => wrapper.appendChild(el));
     }
   }
 });
-</script> 
+</script>
 
 </div>
 
