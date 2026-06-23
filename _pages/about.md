@@ -646,18 +646,25 @@ document.addEventListener('DOMContentLoaded', function() {
       const sortedElements = [...allElements].sort((a, b) => {
         const aIsBox = a.classList.contains('paper-box');
         const bIsBox = b.classList.contains('paper-box');
-
-        if (!aIsBox || !bIsBox) {
-          return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+        
+        let aScore = 1;
+        if (aIsBox) {
+          const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+          const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
+          aScore = aMatched ? 0 : 2;
         }
 
-        const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
-        const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
-        const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
-        const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+        let bScore = 1;
+        if (bIsBox) {
+          const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+          const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+          bScore = bMatched ? 0 : 2;
+        }
 
-        if (aMatched !== bMatched) return aMatched ? -1 : 1;
-
+        if (aScore !== bScore) {
+          return aScore - bScore;
+        }
+        
         return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
       });
       
