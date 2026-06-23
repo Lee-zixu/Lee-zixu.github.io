@@ -745,13 +745,13 @@ document.addEventListener('DOMContentLoaded', function() {
 - 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
 # 📖 Educations
-- *2023.09 - now*, integrated Master-Ph.D. program in the School of Software, Shandong University. 
-- *2019.09 - 2023.06*, Bachelor in the School of Software, Shandong University. 
+- *2023.09 - now*, Shandong University, Artificial Intelligence, PhD.
+- *2019.09 - 2023.06*, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.
 
 
 # 📃 Services
-- Conference PC Member: CVPR, ECCV, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP
-- Journal Reviewer: TIP, TIFS, ToMM
+- Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP
+- Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM
 
 
 <br>
