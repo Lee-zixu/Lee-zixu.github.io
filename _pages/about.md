@@ -259,7 +259,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 style="font-size: 1em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
@@ -366,7 +366,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<h1 style="font-size: 1em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
 
 <div class='paper-box floating-card' data-tags="TKDE 2026, First Author, Core Contributor, CCF A"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
@@ -431,7 +431,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<h1 style="font-size: 1em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
 
 <div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
@@ -502,9 +502,10 @@ document.addEventListener('DOMContentLoaded', function() {
     el.dataset.originalOrder = String(index);
   });
 
-  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026']);
+  const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
+  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026']);
   const venueFullNames = {
-    'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
+   'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
     'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
     'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
     'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
@@ -616,6 +617,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       authorParagraph.classList.add('paper-authors');
       authorParagraph.innerHTML = authorParagraph.innerHTML
+        .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zhiheng Fu</a>')
         .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zhiheng Fu</a>')
         .replace(/\[\*\*\*Zixu Li\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zixu Li</a>')
         .replace(/\[\*\*\*Zixu Li\*\*\*\]/g, '<span class="primary-gradient-text author-self">Zixu Li</span>')
