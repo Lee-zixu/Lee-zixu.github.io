@@ -552,7 +552,29 @@ document.addEventListener('DOMContentLoaded', function() {
   textContainerLinkButtons();
   enrichPaperCards();
 
-  const sortedTags = Object.keys(tagCounts).sort();
+  const tagOrder = [
+      'First Author',
+      'Project Leader',
+      'Core Contributor',
+      'CCF A',
+      'Preprint',
+      'Challenge',
+      'Egocentric Vision Reasoning',
+      'Multimodal Understanding',
+      'Robustness',
+      'Efficiency'
+    ];
+    
+    const sortedTags = Object.keys(tagCounts).sort((a, b) => {
+      const ia = tagOrder.indexOf(a);
+      const ib = tagOrder.indexOf(b);
+    
+      if (ia !== -1 && ib !== -1) return ia - ib;
+      if (ia !== -1) return -1;
+      if (ib !== -1) return 1;
+      return a.localeCompare(b);
+    });
+  
   if (filterContainer) {
     filterContainer.innerHTML = '';
     sortedTags.forEach(tag => {
