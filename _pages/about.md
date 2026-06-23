@@ -304,7 +304,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know) [[Official Version]](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_Air-Know_Arbiter-Calibrated_Knowledge-Internalizing_Robust_Network_for_Composed_Image_Retrieval_CVPR_2026_paper.html)
 
-<b><font color=maroon>First-authored by undergraduate student</font></b>
+<p style="color: maroon; font-weight: bold; margin: 6px 0;">First-authored by undergraduate student</p>
 
 [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†
 
@@ -369,7 +369,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
 
-<div class='paper-box floating-card' data-tags="TKDE 2026, First Author, Core Contributor, CCF A"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://www.computer.org/csdl/journal/tk/5555/01/11450508/2f5S8Le2iZ2)
 
@@ -434,7 +434,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
@@ -445,7 +445,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24470)
@@ -456,7 +456,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, Project Leader, Core Contributor, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24500)
@@ -467,7 +467,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24481)
@@ -478,7 +478,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, Project Leader, Core Contributor, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Project Leader, Core Contributor, Challenge 3rd🥉, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24496)
@@ -503,10 +503,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
-  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026']);
+  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B']);
   const venueFullNames = {
    'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
     'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
+    'CVPRW 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW 2026)',
     'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
     'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
     'AAAI 2025': 'The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)',
