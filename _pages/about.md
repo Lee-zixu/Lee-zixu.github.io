@@ -314,7 +314,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Project]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) 
@@ -433,7 +433,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
 
 
-<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPRW 2026, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
@@ -512,7 +512,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Arxiv 2025': 'arXiv preprint (2025)',
     'TKDE 2026': 'IEEE Transactions on Knowledge and Data Engineering (TKDE 2026)',
     'TIP 2026': 'IEEE Transactions on Image Processing (TIP 2026)',
-    'ACM ToMM 2026': 'ACM Transactions on Multimedia Computing, Communications, and Applications',
+    'ACM ToMM 2026': 'ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026)',
     'CVPRW 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW 2026)'
   };
   let tagCounts = {};
