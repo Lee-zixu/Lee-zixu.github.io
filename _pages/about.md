@@ -86,28 +86,29 @@ redirect_from:
 }
 .research-arrow {
   position: relative;
-  margin: 1rem 0;
+  margin: 1rem 2.4rem 1rem 0;
   height: 56px;
-  border-radius: 999px;
+  border-radius: 999px 0 0 999px;
   background: linear-gradient(90deg, #ffd6b5 0%, #ffd3dc 42%, #9ec7ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #012F63;
+  color: #fff;
   font-weight: 800;
   letter-spacing: 0.01em;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6), 0 8px 24px rgba(1,47,99,0.08);
+  text-shadow: 0 1px 5px rgba(1,47,99,0.28);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.45), 0 8px 24px rgba(1,47,99,0.08);
 }
 .research-arrow:after {
   content: '';
   position: absolute;
-  right: -24px;
-  top: 0;
+  right: -38px;
+  top: -7px;
   width: 0;
   height: 0;
-  border-top: 28px solid transparent;
-  border-bottom: 28px solid transparent;
-  border-left: 30px solid #9ec7ff;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 40px solid #9ec7ff;
 }
 .huawei-highlights {
   display: grid;
@@ -689,7 +690,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
-  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B', 'Challenge 1st🏅', 'Challenge 2nd🥈', 'Challenge 3rd🥉']);
+  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B', 'Challenge 1st🏅', 'Challenge 2nd🥈', 'Challenge 3rd🥉', 'Huawei', 'ANN', 'Vector Database']);
   const venueFullNames = {
    'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
     'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
