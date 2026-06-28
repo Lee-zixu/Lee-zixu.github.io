@@ -1192,12 +1192,16 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class="award-ribbon">
   <span class="i18n-en-flex">🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
   <span class="i18n-en-flex">🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
+  <span class="i18n-en-flex">🏆 Ranked No.1 in the world since 2023 / year</span>
+  
   <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
   <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
+  <span class="i18n-en-flex">🏆 自2023年至今蝉联世界第一 / year</span>
+  
 </div>
 
-<p class="i18n-en"><em>Student Lead, 2022–2026.</em> I led the algorithmic design and iterative optimization of QSGNGT, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.</p>
-<p class="i18n-zh"><em>学生负责人，2022–2026。</em> 我主导了 QSGNGT 算法的设计与迭代优化，该方法面向大规模近似最近邻（ANN）检索构建高效图索引。在工业级部署约束下，项目聚焦于 <span class="highlight-blue">高吞吐、高召回的向量检索</span>，并与华为联合推进云原生向量数据库场景落地。</p>
+<p class="i18n-en">As the student lead, I proposed QSGNGT, a general-purpose vector retrieval algorithm. In the official ANN-Benchmarks evaluation, QSGNGT outperformed competing algorithms from leading technology companies including Google, Microsoft, and Meta, and has continuously ranked first worldwide since 2023. Currently, QSGNGT serves as the core retrieval engine for Huawei Cloud GaussDB’s hundred-billion-scale vector database, supporting its global release. For this technical breakthrough, I received the Huawei Outstanding Technical Collaboration Award, selected as one of only 10 projects worldwide each year from over 6,000 projects, and the Huawei Outstanding Student Award, granted to no more than 30 students worldwide each year.</p>
+<p class="i18n-zh">作为学生负责人，我提出了通用向量检索算法QSGNGT。该算法在ANN-Benchmarks官方评测中击败谷歌、微软、Meta等互联网头部企业的竞品算法，性能于2023年至今蝉联世界第一。目前，QSGNGT已作为核心检索引擎支撑华为云GaussDB千亿级向量数据库面向全球发布。凭借该技术突破，我荣获“华为优秀技术合作成果奖”（全球10项/年，从6000余个项目中遴选产生）与“华为优秀学生奖”（全球 不超过30人/年）。</p>
 
 <!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
@@ -1524,7 +1528,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 <ul class="i18n-zh">
   <li><em>2026.06</em> 山东大学研究生学术之星（实践应用类，全校18人）。</li>
-  <li><em>2025.10</em> CICAS 智能电力场景竞赛<strong>特等奖</strong>。</li>
+  <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong>。</li>
   <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong>。</li>
   <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong>。</li>
   <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong>。</li>
