@@ -49,6 +49,28 @@ redirect_from:
 }
 .lang-panel { display: none; }
 .lang-panel.active { display: block; }
+/* Global bilingual blocks controlled by the top language tabs */
+.i18n-zh,
+.i18n-zh-inline,
+.i18n-zh-flex,
+.i18n-zh-list { display: none !important; }
+body.lang-zh .i18n-en,
+body.lang-zh .i18n-en-inline,
+body.lang-zh .i18n-en-flex,
+body.lang-zh .i18n-en-list { display: none !important; }
+body.lang-zh .i18n-zh { display: block !important; }
+body.lang-zh .i18n-zh-inline { display: inline !important; }
+body.lang-zh .i18n-zh-flex { display: inline-flex !important; }
+body.lang-zh .i18n-zh-list { display: list-item !important; }
+body.lang-en .i18n-en { display: block !important; }
+body.lang-en .i18n-en-inline { display: inline !important; }
+body.lang-en .i18n-en-flex { display: inline-flex !important; }
+body.lang-en .i18n-en-list { display: list-item !important; }
+.industry-project-title {
+  margin-bottom: 0.75rem;
+  color: #24292e;
+  line-height: 1.55;
+}
 .open-science-note {
   margin: 1rem 0 1.8rem 0;
   padding: 1rem 1.1rem;
@@ -423,7 +445,7 @@ redirect_from:
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.75rem;
-  max-height: 370px;
+  max-height: 430px;
   overflow-y: auto;
   padding-right: 0.35rem;
   scroll-behavior: smooth;
@@ -751,8 +773,8 @@ Hi, I am Zixu Li (李子旭).
 <a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap">↩ Back to Roadmap</a>
 
 <div class="open-science-note">
-  <p>I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
-  <p>作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
+  <p><strong>Open Science.</strong> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
+  <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
   <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
   <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
 </div>
@@ -1153,20 +1175,24 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">🏭 Industry Project</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">🏭 Industry Project</span><span class="i18n-zh-inline">🏭 产业项目</span></h1>
 
 
-<div class='paper-box floating-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
+<div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Huawei Approximate Nearest Neighbor Search Collaboration Project** [[Product Page]](https://www.huaweicloud.com/product/css/vectordb.html)
+<div class="industry-project-title i18n-en"><strong>Huawei Approximate Nearest Neighbor Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
+<div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
 
 <div class="award-ribbon">
-  <span>🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
-  <span>🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
+  <span class="i18n-en-flex">🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
+  <span class="i18n-en-flex">🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
+  <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
+  <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
 </div>
 
-*Student Lead, 2022–2026.* I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
+<p class="i18n-en"><em>Student Lead, 2022–2026.</em> I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.</p>
+<p class="i18n-zh"><em>学生负责人，2022–2026。</em> 我主导了 <span class="highlight-red">QSGNGT</span> 算法的设计与迭代优化，该方法面向大规模近似最近邻（ANN）检索构建高效图索引。在工业级部署约束下，项目聚焦于 <span class="highlight-blue">高吞吐、高召回的向量检索</span>，并与华为联合推进云原生向量数据库场景落地。</p>
 
 <!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
@@ -1176,7 +1202,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> -->
 
 <div class="benchmark-orgs">
-  <div class="benchmark-orgs-title">Representative ANN-Benchmarks participants / baselines</div>
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业 / 基线算法</span></div>
   <div class="org-logo-strip">
     <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
     <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
@@ -1216,6 +1242,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const tabs = languageSwitcher.querySelectorAll('.lang-tab');
     const panels = languageSwitcher.querySelectorAll('.lang-panel');
     const setLanguage = (lang) => {
+      document.body.classList.toggle('lang-en', lang === 'en');
+      document.body.classList.toggle('lang-zh', lang === 'zh');
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
       tabs.forEach(tab => {
         const active = tab.dataset.lang === lang;
         tab.classList.toggle('active', active);
@@ -1225,6 +1254,7 @@ document.addEventListener('DOMContentLoaded', function() {
         panel.classList.toggle('active', panel.dataset.langPanel === lang);
       });
     };
+    setLanguage(languageSwitcher.querySelector('.lang-tab.active')?.dataset.lang || 'en');
     tabs.forEach(tab => {
       tab.addEventListener('mouseenter', () => setLanguage(tab.dataset.lang));
       tab.addEventListener('click', () => setLanguage(tab.dataset.lang));
@@ -1472,14 +1502,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- - [发明授权, 第五发明人] 一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 授权专利号: *ZL202211425243.0*-->
 
-# 🎖 Honors and Awards
-- *2026.06* Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).
-- *2025.10* **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition.
-- *2024.09* Huawei Outstanding Technical Collaboration Award **(Top 10 globally per year)**.
-- *2024.09* Huawei Outstanding Student Award **(Top 30 globally per year)**.
-- *2023.06* Outstanding Undergraduate Thesis **(Ranked 1st out of 409 candidates)**.
-- *2023.06* Outstanding Graduates of Shandong Province.
-- *2023.06* Outstanding Graduates of Shandong University.
+<h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
+<ul class="i18n-en">
+  <li><em>2026.06</em> Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</li>
+  <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
+  <li><em>2024.09</em> Huawei Outstanding Technical Collaboration Award <strong>(Top 10 globally per year)</strong>.</li>
+  <li><em>2024.09</em> Huawei Outstanding Student Award <strong>(Top 30 globally per year)</strong>.</li>
+  <li><em>2023.06</em> Outstanding Undergraduate Thesis <strong>(Ranked 1st out of 409 candidates)</strong>.</li>
+  <li><em>2023.06</em> Outstanding Graduates of Shandong Province.</li>
+  <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
+</ul>
+<ul class="i18n-zh">
+  <li><em>2026.06</em> 山东大学研究生学术之星（实践应用类，全校18人）。</li>
+  <li><em>2025.10</em> CICAS 智能电力场景竞赛<strong>特等奖</strong>。</li>
+  <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong>。</li>
+  <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong>。</li>
+  <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong>。</li>
+  <li><em>2023.06</em> 山东省优秀毕业生。</li>
+  <li><em>2023.06</em> 山东大学优秀毕业生。</li>
+</ul>
 
 <!--# 💻 Project QSGNGT-->
 
@@ -1510,3 +1551,19 @@ document.addEventListener('DOMContentLoaded', function() {
 <br>
 <br>
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
