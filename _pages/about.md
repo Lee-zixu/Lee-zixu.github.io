@@ -312,6 +312,7 @@ redirect_from:
   box-shadow: 0 14px 32px rgba(1,47,99,0.14);
   border-color: rgba(254,102,123,0.32);
 }
+.opensource-card[hidden] { display: none !important; }
 .opensource-card img {
   width: auto;
   height: 98px;
@@ -370,6 +371,30 @@ redirect_from:
   border-color: #0366d6;
   color: #fff !important;
   box-shadow: 0 6px 16px rgba(3,102,214,0.22);
+}
+.opensource-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+.opensource-page-btn {
+  min-width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(1,47,99,0.12);
+  background: #fff;
+  color: #586069;
+  font-weight: 850;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.opensource-page-btn:hover,
+.opensource-page-btn.active {
+  color: #fff;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(254,102,123,0.18);
 }
 .highlight-red { color: #FE667B; font-weight: 850; }
 .highlight-blue { color: #0366d6; font-weight: 850; }
@@ -543,12 +568,9 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
     <div class="research-intro">
       <p>I am a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>. I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests lie in <strong>large multimodal models, robust cross-modal learning, and trustworthy data construction and evaluation</strong>.</p>
-
       <p>I have published multiple papers as first author or core contributor in top-tier conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, TKDE, and ToMM</strong>. Beyond academic publications, I also work on industry-scale retrieval systems and international benchmarks. As the student lead of a Huawei collaboration project on approximate nearest neighbor search, I led the design and optimization of the QSGNGT graph-indexing algorithm, contributing to large-scale vector retrieval in Huawei Cloud GaussDB / CSS VectorDB. I have also led or contributed to teams that won champion, runner-up, and third-place awards in multiple CVPR 2026 challenges. My work has been recognized by the <strong>Huawei Outstanding Technical Collaboration Award</strong>, <strong>Huawei Outstanding Student Award</strong>, and <strong>Shandong University Graduate Academic Star Award</strong>.</p>
-
       <p>My research follows the trajectory of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video retrieval, attribute-aware representation learning, and robust intent understanding, with representative works including <strong>ENCODER</strong>, <strong>COMBINER</strong>, <strong>TEMA</strong>, <strong>HABIT</strong>, <strong>INTENT</strong>, <strong>ConeSep</strong>, <strong>Air-Know</strong>, and <strong>OFFSET</strong>. On the evaluation side, I explore evidence-driven reliable reasoning, long-form video and egocentric vision understanding, open-world benchmark construction, and diagnostic evaluation of multimodal large models, including <strong>ReTrack</strong>, <strong>HUD</strong>, <strong>FineCIR</strong>, and the CVPRW challenge systems <strong>R<sup>3</sup></strong>, <strong>TempRet</strong>, <strong>EgoAdapt</strong>, <strong>OmniEgo-R<sup>2</sup></strong>, and <strong>EgoAction</strong>.</p>
     </div>
-
     <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
@@ -594,12 +616,9 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro">
       <p>我是山东大学人工智能专业直博生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 和 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。我于 2023 年在山东大学获得数据科学与大数据技术专业学士学位，目前主要从事多模态大模型、鲁棒跨模态学习、可信数据构建与模型评测等方向的研究。</p>
-
       <p>截至目前，我以第一作者或核心贡献者身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE、ToMM</strong> 等顶级会议和期刊发表多篇论文。我也积极推进科研成果在真实工业系统和国际评测中的落地：作为学生负责人参与华为近似近邻检索合作项目，主导 QSGNGT 图索引算法设计与优化，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力；同时带领或参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关工作曾获 <strong>华为优秀技术合作成果奖</strong>、<strong>华为优秀学生奖</strong> 与 <strong>山东大学研究生学术之星</strong> 等荣誉。</p>
-
       <p>我的研究围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开：一方面，我关注复杂视觉-语言场景中的细粒度语义融合、组合式图文/视频检索、属性感知表征与鲁棒意图理解，代表工作包括 <strong>ENCODER</strong>、<strong>COMBINER</strong>、<strong>TEMA</strong>、<strong>HABIT</strong>、<strong>INTENT</strong>、<strong>ConeSep</strong>、<strong>Air-Know</strong> 与 <strong>OFFSET</strong>；另一方面，我进一步探索证据驱动的可靠推理、长视频/第一视角视频理解、开放场景评测与多模态大模型能力诊断，相关工作包括 <strong>ReTrack</strong>、<strong>HUD</strong>、<strong>FineCIR</strong>，以及 CVPRW 挑战赛系统 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 和 <strong>EgoAction</strong>。</p>
     </div>
-
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
       <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
@@ -647,68 +666,110 @@ Hi, I am Zixu Li (李子旭).
 
 <div class="open-science-note">
   <p><strong>Open Science.</strong> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
-  <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。💻 个人项目：我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！🏫 实验室组织：我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
+  <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
+  <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
+  <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
 </div>
 
 <div class="opensource-section" id="open-source-projects">
   <div class="section-kicker">💻 Open Science</div>
   <div class="opensource-title">Our Open Source Projects</div>
   <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
-  <div class="opensource-grid">
-    <a class="opensource-card" href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank">
+  <div class="opensource-grid" id="opensource-grid">
+    <div class="opensource-card" data-page="1">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
       <div class="opensource-card-meta">TIP 2026 · Attribute-aware Retrieval</div>
-      <div class="opensource-card-links"><a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper">Paper</a><a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page">Project</a><a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper">Paper</a>
+        <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page">Project</a>
+        <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/tema-logo.png" alt="TEMA">
       <div class="opensource-card-title">TEMA</div>
       <div class="opensource-card-meta">ACL 2026 Main · Benchmark</div>
-      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper">Paper</a><a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page">Project</a><a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper">Paper</a>
+        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page">Project</a>
+        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/consep-logo.png" alt="ConeSep">
       <div class="opensource-card-title">ConeSep</div>
       <div class="opensource-card-meta">CVPR 2026 · Robust Unlearning</div>
-      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper">Paper</a><a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page">Project</a><a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper">Paper</a>
+        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page">Project</a>
+        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/airknow-logo.png" alt="Air-Know">
       <div class="opensource-card-title">Air-Know</div>
       <div class="opensource-card-meta">CVPR 2026 · Knowledge Calibration</div>
-      <div class="opensource-card-links"><a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper">Paper</a><a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page">Project</a><a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper">Paper</a>
+        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page">Project</a>
+        <a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/habit-logo.png" alt="HABIT">
       <div class="opensource-card-title">HABIT</div>
       <div class="opensource-card-meta">AAAI 2026 · Robust Progressive Learning</div>
-      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper">Paper</a><a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page">Project</a><a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper">Paper</a>
+        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page">Project</a>
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/retrack-logo.png" alt="ReTrack">
       <div class="opensource-card-title">ReTrack</div>
       <div class="opensource-card-meta">AAAI 2026 · Evidence-driven Retrieval</div>
-      <div class="opensource-card-links"><a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper">Paper</a><a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page">Project</a><a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper">Paper</a>
+        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page">Project</a>
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/intent-logo.png" alt="INTENT">
       <div class="opensource-card-title">INTENT</div>
       <div class="opensource-card-meta">AAAI 2026 · Intent Disentanglement</div>
-      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper">Paper</a><a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page">Project</a><a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper">Paper</a>
+        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page">Project</a>
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/hud-logo.png" alt="HUD">
       <div class="opensource-card-title">HUD</div>
       <div class="opensource-card-meta">ACM MM 2025 · Uncertainty Disambiguation</div>
-      <div class="opensource-card-links"><a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper">Paper</a><a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page">Project</a><a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository">Code</a></div>
-    </a>
-    <a class="opensource-card" href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper">Paper</a>
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page">Project</a>
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="1">
       <img src="../images/encoder-logo.png" alt="ENCODER">
       <div class="opensource-card-title">ENCODER</div>
       <div class="opensource-card-meta">AAAI 2025 · Entity Relation Binding</div>
-      <div class="opensource-card-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper">Paper</a><a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page">Project</a><a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a></div>
-    </a>
+      <div class="opensource-card-links">        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper">Paper</a>
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page">Project</a>
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a>
+      </div>
+    </div>
+    <div class="opensource-card" data-page="2">
+      <img src="../images/offset-logo.png" alt="OFFSET">
+      <div class="opensource-card-title">OFFSET</div>
+      <div class="opensource-card-meta">ACM MM 2025 · Focus Shift Revision</div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper">Paper</a>
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page">Project</a>
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
+      </div>
+    </div>
+  </div>
+  <div class="opensource-pagination" aria-label="Open source project pagination">
+    <button class="opensource-page-btn active" type="button" data-page="1">1</button>
+    <button class="opensource-page-btn" type="button" data-page="2">2</button>
   </div>
 </div>
 
@@ -985,12 +1046,12 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 *Student Lead, 2023–2026.* I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
 
-<div class="huawei-highlights">
+<!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
   <span><b>Continuous optimization:</b> improved peak performance by over <span class="highlight-red">164%</span> on Euclidean-distance datasets and <span class="highlight-red">116%</span> on angular-distance datasets.</span>
   <span><b>Industrial deployment:</b> integrated into <span class="highlight-blue">Huawei Cloud GaussDB / CSS VectorDB</span> for cloud-native, hundred-billion-scale vector retrieval.</span>
   <span><b>System impact:</b> supported <span class="highlight-red">10×</span> retrieval-scale growth, <span class="highlight-red">sub-10ms</span> latency, and <span class="highlight-red">2×</span> faster response.</span>
-</div>
+</div> -->
 
 <div class="benchmark-orgs">
   <div class="benchmark-orgs-title">Representative ANN-Benchmarks participants / baselines</div>
@@ -1047,6 +1108,26 @@ document.addEventListener('DOMContentLoaded', function() {
       tab.addEventListener('click', () => setLanguage(tab.dataset.lang));
       tab.addEventListener('focus', () => setLanguage(tab.dataset.lang));
     });
+  }
+
+  const opensourceSection = document.getElementById('open-source-projects');
+  if (opensourceSection) {
+    const cards = Array.from(opensourceSection.querySelectorAll('.opensource-card'));
+    const pageButtons = Array.from(opensourceSection.querySelectorAll('.opensource-page-btn'));
+    const setOpenSourcePage = (page) => {
+      cards.forEach(card => {
+        card.hidden = card.dataset.page !== page;
+      });
+      pageButtons.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.page === page);
+      });
+    };
+    pageButtons.forEach(btn => {
+      btn.addEventListener('mouseenter', () => setOpenSourcePage(btn.dataset.page));
+      btn.addEventListener('click', () => setOpenSourcePage(btn.dataset.page));
+      btn.addEventListener('focus', () => setOpenSourcePage(btn.dataset.page));
+    });
+    setOpenSourcePage('1');
   }
 
   const wrapper = document.getElementById('publications-wrapper');
