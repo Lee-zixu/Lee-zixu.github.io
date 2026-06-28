@@ -82,7 +82,19 @@ redirect_from:
   font-weight: 700;
   border-radius: 999px;
   padding: 0.28rem 0.75rem;
-  margin: 0.45rem 0 0.45rem 0;
+  margin: 0.2rem 0 0.65rem 0;
+}
+.research-map > .research-lane-label {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.research-lane > .research-lane-label {
+  grid-column: 1 / -1;
+  justify-self: center;
+  text-align: center;
+  margin-top: 0.65rem;
 }
 .research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
 .research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
