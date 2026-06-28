@@ -82,7 +82,7 @@ redirect_from:
   font-weight: 700;
   border-radius: 999px;
   padding: 0.28rem 0.75rem;
-  margin: 0.2rem 0 0.65rem 0;
+  margin: 0.45rem 0 0.45rem 0;
 }
 .research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
 .research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
@@ -396,6 +396,62 @@ redirect_from:
   border-color: transparent;
   box-shadow: 0 6px 16px rgba(254,102,123,0.18);
 }
+.news-section {
+  margin: 2rem 0 2.2rem 0;
+  padding: 1.2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,0.06);
+}
+.news-title {
+  margin: 0.65rem 0 1rem 0;
+  color: #012F63;
+  font-size: 1.45rem;
+  font-weight: 850;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+.news-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.8rem 1fr;
+  gap: 0.8rem;
+  align-items: start;
+  padding: 0.9rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid rgba(1,47,99,0.08);
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(1,47,99,0.06);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(1,47,99,0.12);
+  border-color: rgba(254,102,123,0.22);
+}
+.news-date {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.26rem 0.5rem;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  font-size: 0.78rem;
+  font-weight: 850;
+  box-shadow: 0 5px 14px rgba(254,102,123,0.18);
+}
+.news-text {
+  color: #24292e;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.news-text strong { color: #012F63; }
 .highlight-red { color: #FE667B; font-weight: 850; }
 .highlight-blue { color: #0366d6; font-weight: 850; }
 .highlight-gold { color: #b7791f; font-weight: 850; }
@@ -461,6 +517,8 @@ redirect_from:
   .research-arrow:after { display: none; }
   .huawei-highlights { grid-template-columns: 1fr; }
   .opensource-grid { grid-template-columns: 1fr; }
+  .news-grid { grid-template-columns: 1fr; }
+  .news-card { grid-template-columns: 1fr; }
   .roadmap-back-btn { right: 14px; bottom: 14px; padding: 0.55rem 0.8rem; font-size: 0.78rem; }
 }
 
@@ -578,17 +636,17 @@ Hi, I am Zixu Li (李子旭).
         <div class="research-node orange">
           <div class="node-title">Multimodal Semantic Fusion</div>
           <div class="node-desc">Designing entity-attribute-relation alignment algorithms to optimize cross-modal semantic interaction structures.</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div>
         </div>
         <div class="research-node orange">
           <div class="node-title">Complex-scene Intent Feature Disentanglement</div>
           <div class="node-desc">Developing robust denoising and feature extraction algorithms for complex noise and intent distortion.</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
         </div>
         <div class="research-node orange">
           <div class="node-title">Attribute-aware Efficient Representation</div>
           <div class="node-desc">Building lightweight yet accurate representation learning with attribute-neighborhood topology and acceleration strategies.</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div>
         </div>
       </div>
       <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
@@ -606,7 +664,7 @@ Hi, I am Zixu Li (李子旭).
         <div class="research-node blue">
           <div class="node-title">Fine-grained Evaluation Benchmark Construction</div>
           <div class="node-desc">Constructing fine-grained multimodal benchmarks for complex contextual and open-world scenarios.</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
         </div>
       </div>
         <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
@@ -626,17 +684,17 @@ Hi, I am Zixu Li (李子旭).
         <div class="research-node orange">
           <div class="node-title">多模态融合语义理解</div>
           <div class="node-desc">设计实体-属性-关系对齐算法，优化跨模态语义交互结构。</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div>
         </div>
         <div class="research-node orange">
           <div class="node-title">复杂场景意图特征解耦</div>
           <div class="node-desc">针对复杂噪声与意图畸变，设计鲁棒的去噪与特征提取算法。</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
         </div>
         <div class="research-node orange">
           <div class="node-title">属性感知高效表征</div>
           <div class="node-desc">基于属性邻域拓扑与加速策略，实现轻量化高精度的表征学习。</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div>
         </div>
       </div>
       <div class="research-arrow">从多模态理解到证据驱动的大模型评测</div>
@@ -654,7 +712,7 @@ Hi, I am Zixu Li (李子旭).
         <div class="research-node blue">
           <div class="node-title">细粒度评测基准构建</div>
           <div class="node-desc">针对复杂上下文场景，构建细粒度多模态评测基准。</div>
-          <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
+          <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
         </div>
       </div>
       <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
@@ -679,7 +737,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="opensource-card" data-page="1">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
-      <div class="opensource-card-meta">TIP 2026 · Attribute-aware Retrieval</div>
+      <div class="opensource-card-meta">TIP 2026 · Attribute-aware Efficient Representation</div>
       <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper">Paper</a>
         <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page">Project</a>
         <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a>
@@ -724,7 +782,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="opensource-card" data-page="1">
       <img src="../images/retrack-logo.png" alt="ReTrack">
       <div class="opensource-card-title">ReTrack</div>
-      <div class="opensource-card-meta">AAAI 2026 · Evidence-driven Retrieval</div>
+      <div class="opensource-card-meta">AAAI 2026 · Evidence-driven Reliable Reasoning</div>
       <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper">Paper</a>
         <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page">Project</a>
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a>
@@ -751,7 +809,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="opensource-card" data-page="1">
       <img src="../images/encoder-logo.png" alt="ENCODER">
       <div class="opensource-card-title">ENCODER</div>
-      <div class="opensource-card-meta">AAAI 2025 · Entity Relation Binding</div>
+      <div class="opensource-card-meta">AAAI 2025 · Multimodal Semantic Fusion</div>
       <div class="opensource-card-links">        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper">Paper</a>
         <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page">Project</a>
         <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a>
@@ -760,7 +818,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="opensource-card" data-page="2">
       <img src="../images/offset-logo.png" alt="OFFSET">
       <div class="opensource-card-title">OFFSET</div>
-      <div class="opensource-card-meta">ACM MM 2025 · Focus Shift Revision</div>
+      <div class="opensource-card-meta">ACM MM 2025 · Trustworthy Knowledge Calibration</div>
       <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper">Paper</a>
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page">Project</a>
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
@@ -780,20 +838,60 @@ Hi, I am Zixu Li (李子旭).
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
 
  
-# 🔥 News
-- *2026.06.10*: &nbsp;🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).
-- *2026.06.02*: &nbsp;🎉🎉 Thrilled to share that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
-- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won **1st places**🏅✖️2, **2nd places**🥈✖️2, and **3rd place**🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!
-- *2026.04.30*: &nbsp;🎉🎉 One paper (COMBINER), was accepted by **TIP 2026**! Thanks to all co-authors!
-- *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026 Main**! Thanks to all co-authors!
-- *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
-- *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Thanks and Congratulations to all co-authors!
-- *2025.11.08*: &nbsp;🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
-- *2025.10.18*: &nbsp;🎉🎉 As the project leader, I led our team won the **Grand Prize (特等奖)** in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
-- *2025.07.05*: &nbsp;🎉🎉 Two papers (OFFSET, HUD), were accepted by **ACM MM 2025**! Congratulations to all co-authors!
-- *2024.12.10*: &nbsp;🎉🎉 One paper (ENCODER) was accepted by **AAAI 2025**! Thanks to all co-authors!
-- *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Student Award (Top 30 globally per year)**, as well as the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
-
+<div class="news-section" id="news">
+  <div class="section-kicker">🔥 Updates</div>
+  <div class="news-title">News</div>
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="news-date">2026.06.10</div>
+      <div class="news-text">🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.06.02</div>
+      <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.05.14</div>
+      <div class="news-text">🎉🎉 Thrilled to share that our team won <strong>1st places</strong>🏅✖️2, <strong>2nd places</strong>🥈✖️2, and <strong>3rd place</strong>🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.30</div>
+      <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.07</div>
+      <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026 Main</strong>! Thanks to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.03.17</div>
+      <div class="news-text">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.02.21</div>
+      <div class="news-text">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Thanks and Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.11.08</div>
+      <div class="news-text">🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.10.18</div>
+      <div class="news-text">🎉🎉 As the project leader, I led our team won the <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.07.05</div>
+      <div class="news-text">🎉🎉 Two papers (OFFSET, HUD), were accepted by <strong>ACM MM 2025</strong>! Congratulations to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.12.10</div>
+      <div class="news-text">🎉🎉 One paper (ENCODER) was accepted by <strong>AAAI 2025</strong>! Thanks to all co-authors!</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.09.13</div>
+      <div class="news-text">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>, as well as the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</div>
+    </div>
+  </div>
+</div>
 
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
