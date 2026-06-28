@@ -529,18 +529,14 @@ Hi, I am Zixu Li (李子旭).
 
   <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
     <div class="research-intro" markdown="1">
-
 I am a Ph.D. student in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn) in 2023. My research interests lie in **large multimodal models, robust cross-modal learning, and trustworthy data construction and evaluation**.
 
 I have published multiple papers as first author or core contributor in top-tier conferences and journals, including **CVPR, ACL, AAAI, ACM MM, TIP, TKDE, and ToMM**. Beyond academic publications, I also work on industry-scale retrieval systems and international benchmarks. As the student lead of a Huawei collaboration project on approximate nearest neighbor search, I led the design and optimization of the QSGNGT graph-indexing algorithm, contributing to large-scale vector retrieval in Huawei Cloud GaussDB / CSS VectorDB. I have also led or contributed to teams that won champion, runner-up, and third-place awards in multiple CVPR 2026 challenges. My work has been recognized by the **Huawei Outstanding Technical Collaboration Award**, **Huawei Outstanding Student Award**, and **Shandong University Graduate Academic Star Award**.
 
 My research follows the trajectory of **from multimodal understanding to evidence-driven large model evaluation**. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video retrieval, attribute-aware representation learning, and robust intent understanding, with representative works including **ENCODER**, **COMBINER**, **TEMA**, **HABIT**, **INTENT**, **ConeSep**, **Air-Know**, and **OFFSET**. On the evaluation side, I explore evidence-driven reliable reasoning, long-form video and egocentric vision understanding, open-world benchmark construction, and diagnostic evaluation of multimodal large models, including **ReTrack**, **HUD**, **FineCIR**, and the CVPRW challenge systems **R<sup>3</sup>**, **TempRet**, **EgoAdapt**, **OmniEgo-R<sup>2</sup>**, and **EgoAction**.
-
     </div>
-
     <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
-
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
       <div class="research-lane top-lane">
         <div class="research-node orange">
@@ -559,9 +555,7 @@ My research follows the trajectory of **from multimodal understanding to evidenc
           <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a></div>
         </div>
       </div>
-
       <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
-
       <div class="research-lane bottom-lane">
         <div class="research-node blue">
           <div class="node-title">Evidence-driven Hallucination Diagnosis and Disambiguation</div>
@@ -582,7 +576,6 @@ My research follows the trajectory of **from multimodal understanding to evidenc
       </div>
     </div>
   </div>
-
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro" markdown="1">
 
@@ -591,12 +584,9 @@ My research follows the trajectory of **from multimodal understanding to evidenc
 截至目前，我以第一作者或核心贡献者身份在 **CVPR、ACL、AAAI、ACM MM、TIP、TKDE、ToMM** 等顶级会议和期刊发表多篇论文。我也积极推进科研成果在真实工业系统和国际评测中的落地：作为学生负责人参与华为近似近邻检索合作项目，主导 QSGNGT 图索引算法设计与优化，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力；同时带领或参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关工作曾获 **华为优秀技术合作成果奖**、**华为优秀学生奖** 与 **山东大学研究生学术之星** 等荣誉。
 
 我的研究围绕“**从多模态理解到证据驱动的大模型评测**”这一主线展开：一方面，我关注复杂视觉-语言场景中的细粒度语义融合、组合式图文/视频检索、属性感知表征与鲁棒意图理解，代表工作包括 **ENCODER**、**COMBINER**、**TEMA**、**HABIT**、**INTENT**、**ConeSep**、**Air-Know** 与 **OFFSET**；另一方面，我进一步探索证据驱动的可靠推理、长视频/第一视角视频理解、开放场景评测与多模态大模型能力诊断，相关工作包括 **ReTrack**、**HUD**、**FineCIR**，以及 CVPRW 挑战赛系统 **R<sup>3</sup>**、**TempRet**、**EgoAdapt**、**OmniEgo-R<sup>2</sup>** 和 **EgoAction**。
-
     </div>
-
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
-
       <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
       <div class="research-lane top-lane">
         <div class="research-node orange">
@@ -615,9 +605,7 @@ My research follows the trajectory of **from multimodal understanding to evidenc
           <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a></div>
         </div>
       </div>
-
       <div class="research-arrow">从多模态理解到证据驱动的大模型评测</div>
-
       <div class="research-lane bottom-lane">
         <div class="research-node blue">
           <div class="node-title">证据驱动的幻觉诊断与消歧</div>
