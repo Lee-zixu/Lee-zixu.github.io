@@ -9,6 +9,126 @@ redirect_from:
 ---
 
 <style>
+/* Research roadmap and industry project styles */
+.research-intro {
+  font-size: 1.02em;
+  line-height: 1.72;
+  color: #24292e;
+  margin-bottom: 1rem;
+}
+.research-intro strong { color: #012F63; }
+.research-map {
+  margin: 1.4rem 0 1.8rem 0;
+  padding: 1.2rem;
+  border: 1px dashed rgba(1,47,99,0.22);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,0.06);
+}
+.research-map-caption {
+  text-align: center;
+  font-weight: 700;
+  color: #012F63;
+  margin-bottom: 0.9rem;
+}
+.research-lane-label {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  margin: 0.2rem 0 0.65rem 0;
+}
+.research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
+.research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
+.research-lane {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+.research-node {
+  display: block;
+  min-height: 132px;
+  padding: 0.85rem 0.8rem;
+  border-radius: 14px;
+  text-decoration: none !important;
+  color: inherit !important;
+  background: #fff;
+  border: 1px solid rgba(1,47,99,0.08);
+  box-shadow: 0 6px 18px rgba(1,47,99,0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.research-node:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(1,47,99,0.14);
+  border-color: rgba(254,102,123,0.35);
+}
+.research-node.orange { background: linear-gradient(180deg, #fffaf6, #ffffff); }
+.research-node.blue { background: linear-gradient(180deg, #f6fbff, #ffffff); }
+.node-title { font-weight: 800; color: #012F63; margin-bottom: 0.32rem; }
+.node-desc { font-size: 0.78rem; color: #586069; line-height: 1.42; min-height: 2.2rem; }
+.node-papers { margin-top: 0.55rem; font-size: 0.78rem; font-weight: 700; color: #FE667B; line-height: 1.35; }
+.node-paper-link {
+  display: inline-block;
+  margin: 0.12rem 0.16rem 0.12rem 0;
+  padding: 0.16rem 0.42rem;
+  border-radius: 999px;
+  color: #FE667B !important;
+  background: rgba(254,102,123,0.08);
+  border: 1px solid rgba(254,102,123,0.16);
+  text-decoration: none !important;
+  transition: all 0.22s ease;
+}
+.node-paper-link:hover {
+  color: #fff !important;
+  background: #FE667B;
+  border-color: #FE667B;
+}
+.research-arrow {
+  position: relative;
+  margin: 1rem 0;
+  height: 56px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ffd6b5 0%, #ffd3dc 42%, #9ec7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #012F63;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6), 0 8px 24px rgba(1,47,99,0.08);
+}
+.research-arrow:after {
+  content: '';
+  position: absolute;
+  right: -24px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+  border-left: 30px solid #9ec7ff;
+}
+.huawei-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+}
+.huawei-highlights span {
+  background: #f6f8fa;
+  border: 1px solid #eaecef;
+  border-radius: 10px;
+  padding: 0.45rem 0.6rem;
+}
+@media (max-width: 720px) {
+  .research-lane { grid-template-columns: 1fr; }
+  .research-arrow { height: auto; min-height: 58px; padding: 0.75rem 1rem; text-align: center; border-radius: 18px; }
+  .research-arrow:after { display: none; }
+  .huawei-highlights { grid-template-columns: 1fr; }
+}
+
 /* 动态标签和过滤器按钮的预设样式 */
 #filter-container {
   margin: 20px 0;
@@ -104,7 +224,53 @@ Hi, I am Zixu Li (李子旭).
  
 I am a Ph.D. student in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). In 2023, I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn).
 
-My research interests include *large multimodal models, robust learning, and trustworthy data construction and evaluation*.
+<div class="research-intro" markdown="1">
+My research centers on **large multimodal models, robust cross-modal learning, and trustworthy data construction and evaluation**. More specifically, I study how multimodal systems can understand fine-grained visual-textual intent, remain reliable under noisy or ambiguous real-world conditions, and be evaluated through evidence-grounded, diagnostically meaningful benchmarks. Along this trajectory, my work spans: (i) multimodal semantic fusion and attribute-aware representation learning, including **ENCODER**, **COMBINER**, and **TEMA**; (ii) robust intent understanding and trustworthy knowledge calibration, including **HABIT**, **INTENT**, **ConeSep**, **Air-Know**, and **OFFSET**; and (iii) evidence-driven retrieval, egocentric/video reasoning, and fine-grained evaluation, including **ReTrack**, **HUD**, **FineCIR**, and the CVPRW challenge systems **R<sup>3</sup>**, **TempRet**, **EgoAdapt**, **OmniEgo-R<sup>2</sup>**, and **EgoAction**.
+</div>
+
+<div class="research-map" id="research-map">
+  <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
+
+  <div class="research-lane-label orange">Robust Perception and Multimodal Semantic Understanding</div>
+  <div class="research-lane">
+    <div class="research-node orange">
+      <div class="node-title">Multimodal Semantic Fusion</div>
+      <div class="node-desc">Mining entities, attributes, and relations to bind visual evidence with textual modifications.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a></div>
+    </div>
+    <div class="research-node orange">
+      <div class="node-title">Robust Intent Understanding</div>
+      <div class="node-desc">Mitigating noise, distortion, and ambiguity in complex composed-image scenarios.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-habit">HABIT [AAAI 2026]</a><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a></div>
+    </div>
+    <div class="research-node orange">
+      <div class="node-title">Attribute-aware Efficient Representation</div>
+      <div class="node-desc">Leveraging attribute-neighbor relations and efficient search strategies for scalable reasoning.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a></div>
+    </div>
+  </div>
+
+  <div class="research-arrow">Click each research node to jump to the corresponding publication panel</div>
+
+  <div class="research-lane-label blue">Trustworthy Evaluation and Large Model Diagnosis</div>
+  <div class="research-lane">
+    <div class="research-node blue">
+      <div class="node-title">Evidence-driven Reliable Reasoning</div>
+      <div class="node-desc">Constructing traceable multimodal evidence and resolving uncertainty for reliable retrieval.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-retrack">ReTrack [AAAI 2026]</a><a class="node-paper-link" href="#paper-hud">HUD [ACM MM 2025]</a></div>
+    </div>
+    <div class="research-node blue">
+      <div class="node-title">Trustworthy Knowledge Calibration</div>
+      <div class="node-desc">Separating noisy associations and internalizing calibrated knowledge for robust decision-making.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-offset">OFFSET [ACM MM 2025]</a></div>
+    </div>
+    <div class="research-node blue">
+      <div class="node-title">Fine-grained Benchmark Construction</div>
+      <div class="node-desc">Building diagnostic multimodal benchmarks for open-world understanding and model evaluation.</div>
+      <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a></div>
+    </div>
+  </div>
+</div>
 
 > I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source.
 > Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit [iLearn Lab](https://github.com/iLearn-Lab) and feel free to share your valuable feedback.
@@ -260,7 +426,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
 
 
-<div class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
+<div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **COMBINER: Composed Image Retrieval Guided by Attribute-based Neighbor Relations** [[Paper]](https://arxiv.org/abs/2606.04604) [[Project]](https://lee-zixu.github.io/COMBINER.github.io/) [[Code]](https://github.com/Lee-zixu/COMBINER) [[Official Version]](https://ieeexplore.ieee.org/abstract/document/11534406)
@@ -273,7 +439,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACL 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div id='paper-tema' class='paper-box floating-card' data-tags="ACL 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
@@ -286,7 +452,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div id='paper-conesep' class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Project]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep) [[Official Version]](https://openaccess.thecvf.com/content/CVPR2026/html/Li_ConeSep_Cone-based_Robust_Noise-Unlearning_Compositional_Network_for_Composed_Image_Retrieval_CVPR_2026_paper.html)
@@ -297,7 +463,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, Project Leader, Core Contributor, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div id='paper-airknow' class='paper-box floating-card' data-tags="CVPR 2026, Project Leader, Core Contributor, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know) [[Official Version]](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_Air-Know_Arbiter-Calibrated_Knowledge-Internalizing_Robust_Network_for_Composed_Image_Retrieval_CVPR_2026_paper.html)
@@ -312,7 +478,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-retrack' class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Project]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39507) 
@@ -325,7 +491,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-habit' class='paper-box floating-card' data-tags="AAAI 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18037) [[Project]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/37608) 
@@ -338,7 +504,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
+<div id='paper-encoder' class='paper-box floating-card' data-tags="AAAI 2025, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Project]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://github.com/Lee-zixu/ENCODER) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/32541)
@@ -351,7 +517,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box floating-card' data-tags="Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
+<div id='paper-finecir' class='paper-box floating-card' data-tags="Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
@@ -366,7 +532,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
 
 
-<div class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
+<div id='paper-stable' class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [[Paper]](https://www.computer.org/csdl/journal/tk/5555/01/11450508/2f5S8Le2iZ2)
 
@@ -378,7 +544,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACM ToMM 2026, Core Contributor, CCF B"><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
+<div id='paper-refine' class='paper-box floating-card' data-tags="ACM ToMM 2026, Core Contributor, CCF B"><div class='paper-box-image'><div><div class="badge">ACM ToMM 2026</div><img src='/images/REFINE-ToMM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **REFINE: Composed Video Retrieval via Shared and Differential Semantics Enhancement** [[Paper]](https://dl.acm.org/doi/10.1145/3796712) [[Project]](https://sdu-l.github.io/REFINE.github.io/) [[Code]](https://github.com/iLearn-Lab/TOMM26-REFINE) [[Official Version]](https://dl.acm.org/doi/10.1145/3796712) 
 
@@ -390,7 +556,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> 
 
 
-<div class='paper-box floating-card' data-tags="AAAI 2026, Project Leader, Core Contributor, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div id='paper-intent' class='paper-box floating-card' data-tags="AAAI 2026, Project Leader, Core Contributor, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18051) [[Project]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT) [[Official Version]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) 
@@ -402,7 +568,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACM MM 2025, Project Leader, Core Contributor, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div id='paper-offset' class='paper-box floating-card' data-tags="ACM MM 2025, Project Leader, Core Contributor, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2507.05631) [[Project]](https://zivchen-ty.github.io/OFFSET.github.io/) [[Code]](https://github.com/ZivChen-Ty/OFFSET) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755366) 
@@ -415,7 +581,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<div class='paper-box floating-card' data-tags="ACM MM 2025, Project Leader, Core Contributor, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div id='paper-hud' class='paper-box floating-card' data-tags="ACM MM 2025, Project Leader, Core Contributor, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='/images/HUD-MM25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[Paper]](https://arxiv.org/abs/2512.02792) [[Project]](https://zivchen-ty.github.io/HUD.github.io/) [[Code]](https://github.com/ZivChen-Ty/HUD) [[Official Version]](https://dl.acm.org/doi/10.1145/3746027.3755445) 
@@ -698,6 +864,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+</div>
+
+# 🏭 Industry Project
+
+<div class='paper-box floating-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei-vectordb-performance.svg' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Huawei Approximate Nearest Neighbor Search Collaboration Project** [[Product Page]](https://www.huaweicloud.com/product/css/vectordb.html)
+
+*Student Lead, 2023–2026.* I led the algorithmic design and iterative optimization of **QSGNGT**, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted high-throughput, high-recall vector retrieval under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
+
+<div class="huawei-highlights">
+  <span><b>SOTA performance:</b> ranked first in QPS under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
+  <span><b>Continuous optimization:</b> improved peak performance by over 164% on Euclidean-distance datasets and 116% on angular-distance datasets.</span>
+  <span><b>Industrial deployment:</b> integrated into Huawei Cloud GaussDB / CSS VectorDB for cloud-native, hundred-billion-scale vector retrieval.</span>
+  <span><b>Impact and honors:</b> supported 10× retrieval-scale growth, sub-10ms latency, 2× faster response, and won Huawei Outstanding Technical Collaboration Award and Huawei Outstanding Student Award.</span>
+</div>
+
+</div>
 </div>
 
 # 🔖 Patent 
