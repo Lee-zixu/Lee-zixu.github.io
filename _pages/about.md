@@ -49,6 +49,19 @@ redirect_from:
 }
 .lang-panel { display: none; }
 .lang-panel.active { display: block; }
+.open-science-note {
+  margin: 1rem 0 1.8rem 0;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid #0366d6;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  box-shadow: 0 6px 18px rgba(1,47,99,0.06);
+  color: #012F63;
+}
+.open-science-note p {
+  margin: 0.35rem 0;
+  line-height: 1.65;
+}
 .research-map {
   margin: 1.4rem 0 1.8rem 0;
   padding: 1.2rem;
@@ -528,13 +541,14 @@ Hi, I am Zixu Li (李子旭).
   </div>
 
   <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
-    <div class="research-intro" markdown="1">
-I am a Ph.D. student in Artificial Intelligence at [Shandong University](https://www.sdu.edu.cn), advised by Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). I received my Bachelor's degree in Data Science and Big Data Technology from [Shandong University](https://www.sdu.edu.cn) in 2023. My research interests lie in **large multimodal models, robust cross-modal learning, and trustworthy data construction and evaluation**.
+    <div class="research-intro">
+      <p>I am a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>. I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests lie in <strong>large multimodal models, robust cross-modal learning, and trustworthy data construction and evaluation</strong>.</p>
 
-I have published multiple papers as first author or core contributor in top-tier conferences and journals, including **CVPR, ACL, AAAI, ACM MM, TIP, TKDE, and ToMM**. Beyond academic publications, I also work on industry-scale retrieval systems and international benchmarks. As the student lead of a Huawei collaboration project on approximate nearest neighbor search, I led the design and optimization of the QSGNGT graph-indexing algorithm, contributing to large-scale vector retrieval in Huawei Cloud GaussDB / CSS VectorDB. I have also led or contributed to teams that won champion, runner-up, and third-place awards in multiple CVPR 2026 challenges. My work has been recognized by the **Huawei Outstanding Technical Collaboration Award**, **Huawei Outstanding Student Award**, and **Shandong University Graduate Academic Star Award**.
+      <p>I have published multiple papers as first author or core contributor in top-tier conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, TKDE, and ToMM</strong>. Beyond academic publications, I also work on industry-scale retrieval systems and international benchmarks. As the student lead of a Huawei collaboration project on approximate nearest neighbor search, I led the design and optimization of the QSGNGT graph-indexing algorithm, contributing to large-scale vector retrieval in Huawei Cloud GaussDB / CSS VectorDB. I have also led or contributed to teams that won champion, runner-up, and third-place awards in multiple CVPR 2026 challenges. My work has been recognized by the <strong>Huawei Outstanding Technical Collaboration Award</strong>, <strong>Huawei Outstanding Student Award</strong>, and <strong>Shandong University Graduate Academic Star Award</strong>.</p>
 
-My research follows the trajectory of **from multimodal understanding to evidence-driven large model evaluation**. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video retrieval, attribute-aware representation learning, and robust intent understanding, with representative works including **ENCODER**, **COMBINER**, **TEMA**, **HABIT**, **INTENT**, **ConeSep**, **Air-Know**, and **OFFSET**. On the evaluation side, I explore evidence-driven reliable reasoning, long-form video and egocentric vision understanding, open-world benchmark construction, and diagnostic evaluation of multimodal large models, including **ReTrack**, **HUD**, **FineCIR**, and the CVPRW challenge systems **R<sup>3</sup>**, **TempRet**, **EgoAdapt**, **OmniEgo-R<sup>2</sup>**, and **EgoAction**.
+      <p>My research follows the trajectory of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video retrieval, attribute-aware representation learning, and robust intent understanding, with representative works including <strong>ENCODER</strong>, <strong>COMBINER</strong>, <strong>TEMA</strong>, <strong>HABIT</strong>, <strong>INTENT</strong>, <strong>ConeSep</strong>, <strong>Air-Know</strong>, and <strong>OFFSET</strong>. On the evaluation side, I explore evidence-driven reliable reasoning, long-form video and egocentric vision understanding, open-world benchmark construction, and diagnostic evaluation of multimodal large models, including <strong>ReTrack</strong>, <strong>HUD</strong>, <strong>FineCIR</strong>, and the CVPRW challenge systems <strong>R<sup>3</sup></strong>, <strong>TempRet</strong>, <strong>EgoAdapt</strong>, <strong>OmniEgo-R<sup>2</sup></strong>, and <strong>EgoAction</strong>.</p>
     </div>
+
     <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
@@ -576,15 +590,16 @@ My research follows the trajectory of **from multimodal understanding to evidenc
       </div>
     </div>
   </div>
+
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
-    <div class="research-intro" markdown="1">
+    <div class="research-intro">
+      <p>我是山东大学人工智能专业直博生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 和 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。我于 2023 年在山东大学获得数据科学与大数据技术专业学士学位，目前主要从事多模态大模型、鲁棒跨模态学习、可信数据构建与模型评测等方向的研究。</p>
 
-我是山东大学人工智能专业直博生，师从 Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) 和 Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)。我于 2023 年在山东大学获得数据科学与大数据技术专业学士学位，目前主要从事多模态大模型、鲁棒跨模态学习、可信数据构建与模型评测等方向的研究。
+      <p>截至目前，我以第一作者或核心贡献者身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE、ToMM</strong> 等顶级会议和期刊发表多篇论文。我也积极推进科研成果在真实工业系统和国际评测中的落地：作为学生负责人参与华为近似近邻检索合作项目，主导 QSGNGT 图索引算法设计与优化，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力；同时带领或参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关工作曾获 <strong>华为优秀技术合作成果奖</strong>、<strong>华为优秀学生奖</strong> 与 <strong>山东大学研究生学术之星</strong> 等荣誉。</p>
 
-截至目前，我以第一作者或核心贡献者身份在 **CVPR、ACL、AAAI、ACM MM、TIP、TKDE、ToMM** 等顶级会议和期刊发表多篇论文。我也积极推进科研成果在真实工业系统和国际评测中的落地：作为学生负责人参与华为近似近邻检索合作项目，主导 QSGNGT 图索引算法设计与优化，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力；同时带领或参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关工作曾获 **华为优秀技术合作成果奖**、**华为优秀学生奖** 与 **山东大学研究生学术之星** 等荣誉。
-
-我的研究围绕“**从多模态理解到证据驱动的大模型评测**”这一主线展开：一方面，我关注复杂视觉-语言场景中的细粒度语义融合、组合式图文/视频检索、属性感知表征与鲁棒意图理解，代表工作包括 **ENCODER**、**COMBINER**、**TEMA**、**HABIT**、**INTENT**、**ConeSep**、**Air-Know** 与 **OFFSET**；另一方面，我进一步探索证据驱动的可靠推理、长视频/第一视角视频理解、开放场景评测与多模态大模型能力诊断，相关工作包括 **ReTrack**、**HUD**、**FineCIR**，以及 CVPRW 挑战赛系统 **R<sup>3</sup>**、**TempRet**、**EgoAdapt**、**OmniEgo-R<sup>2</sup>** 和 **EgoAction**。
+      <p>我的研究围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开：一方面，我关注复杂视觉-语言场景中的细粒度语义融合、组合式图文/视频检索、属性感知表征与鲁棒意图理解，代表工作包括 <strong>ENCODER</strong>、<strong>COMBINER</strong>、<strong>TEMA</strong>、<strong>HABIT</strong>、<strong>INTENT</strong>、<strong>ConeSep</strong>、<strong>Air-Know</strong> 与 <strong>OFFSET</strong>；另一方面，我进一步探索证据驱动的可靠推理、长视频/第一视角视频理解、开放场景评测与多模态大模型能力诊断，相关工作包括 <strong>ReTrack</strong>、<strong>HUD</strong>、<strong>FineCIR</strong>，以及 CVPRW 挑战赛系统 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 和 <strong>EgoAction</strong>。</p>
     </div>
+
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
       <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
@@ -630,17 +645,10 @@ My research follows the trajectory of **from multimodal understanding to evidenc
 
 <a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap">↩ Back to Roadmap</a>
 
-> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source.
-> Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit [iLearn Lab](https://github.com/iLearn-Lab) and feel free to share your valuable feedback.
-
-> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。随时欢迎大家访问与交流探讨！
-> 
-> 💻 个人项目： 我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！
-> 
-> 🏫 实验室组织： 我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 [iLearn Lab](https://github.com/iLearn-Lab) 并提供宝贵意见。
-
-
-
+<div class="open-science-note">
+  <p><strong>Open Science.</strong> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
+  <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。💻 个人项目：我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！🏫 实验室组织：我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
+</div>
 
 <div class="opensource-section" id="open-source-projects">
   <div class="section-kicker">💻 Open Science</div>
