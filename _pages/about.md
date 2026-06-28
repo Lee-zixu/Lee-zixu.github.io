@@ -84,6 +84,37 @@ redirect_from:
   background: #FE667B;
   border-color: #FE667B;
 }
+.roadmap-back-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 999;
+  display: none;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(1,47,99,0.12);
+  background: linear-gradient(135deg, #012F63 0%, #2f6fb3 100%);
+  color: #fff !important;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  box-shadow: 0 10px 28px rgba(1,47,99,0.22);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+}
+.roadmap-back-btn.show {
+  display: inline-flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+.roadmap-back-btn:hover {
+  color: #fff !important;
+  box-shadow: 0 14px 36px rgba(1,47,99,0.30);
+  transform: translateY(-2px);
+}
 .research-arrow {
   position: relative;
   margin: 1rem 2.4rem 1rem 0;
@@ -128,6 +159,7 @@ redirect_from:
   .research-arrow { height: auto; min-height: 58px; padding: 0.75rem 1rem; text-align: center; border-radius: 18px; }
   .research-arrow:after { display: none; }
   .huawei-highlights { grid-template-columns: 1fr; }
+  .roadmap-back-btn { right: 14px; bottom: 14px; padding: 0.55rem 0.8rem; font-size: 0.78rem; }
 }
 
 /* 动态标签和过滤器按钮的预设样式 */
@@ -273,6 +305,8 @@ My research centers on **large multimodal models, robust cross-modal learning, a
   </div>
 </div>
 
+<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap">↩ Back to Roadmap</a>
+
 > I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source.
 > Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit [iLearn Lab](https://github.com/iLearn-Lab) and feel free to share your valuable feedback.
 
@@ -310,6 +344,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
+        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -318,7 +353,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>
+        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  |
       </span>
     </td>  
       </tr>
@@ -329,7 +364,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="http://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
         <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>
+        <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>  |
       </span>
     </td>  
      <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -676,6 +711,34 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  const roadmap = document.getElementById('research-map');
+  const backToRoadmapBtn = document.getElementById('roadmap-back-btn');
+
+  if (roadmap && backToRoadmapBtn) {
+    const roadmapLinks = document.querySelectorAll('.node-paper-link[href^="#paper-"]');
+    let roadmapJumpActive = false;
+
+    roadmapLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        roadmapJumpActive = true;
+        backToRoadmapBtn.classList.add('show');
+      });
+    });
+
+    backToRoadmapBtn.addEventListener('click', () => {
+      roadmapJumpActive = false;
+      backToRoadmapBtn.classList.remove('show');
+    });
+
+    window.addEventListener('scroll', () => {
+      if (!roadmapJumpActive) return;
+      const rect = roadmap.getBoundingClientRect();
+      const roadmapInView = rect.top < window.innerHeight * 0.65 && rect.bottom > window.innerHeight * 0.2;
+      backToRoadmapBtn.classList.toggle('show', !roadmapInView);
+      if (roadmapInView) roadmapJumpActive = false;
+    }, { passive: true });
+  }
+
   const wrapper = document.getElementById('publications-wrapper');
   if (!wrapper) return;
 
