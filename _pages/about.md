@@ -412,7 +412,7 @@ redirect_from:
 }
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.75rem;
 }
 .news-card {
@@ -433,6 +433,7 @@ redirect_from:
   box-shadow: 0 12px 28px rgba(1,47,99,0.12);
   border-color: rgba(254,102,123,0.22);
 }
+.news-card[hidden] { display: none !important; }
 .news-date {
   display: inline-flex;
   align-items: center;
@@ -452,6 +453,30 @@ redirect_from:
   line-height: 1.55;
 }
 .news-text strong { color: #012F63; }
+.news-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+.news-page-btn {
+  min-width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(1,47,99,0.12);
+  background: #fff;
+  color: #586069;
+  font-weight: 850;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.news-page-btn:hover,
+.news-page-btn.active {
+  color: #fff;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(254,102,123,0.18);
+}
 .highlight-red { color: #FE667B; font-weight: 850; }
 .highlight-blue { color: #0366d6; font-weight: 850; }
 .highlight-gold { color: #b7791f; font-weight: 850; }
@@ -842,54 +867,58 @@ Hi, I am Zixu Li (李子旭).
   <div class="section-kicker">🔥 Updates</div>
   <div class="news-title">News</div>
   <div class="news-grid">
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.06.10</div>
       <div class="news-text">🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.06.02</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.05.14</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won <strong>1st places</strong>🏅✖️2, <strong>2nd places</strong>🥈✖️2, and <strong>3rd place</strong>🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.04.30</div>
       <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.04.07</div>
       <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026 Main</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="1">
       <div class="news-date">2026.03.17</div>
       <div class="news-text">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2026.02.21</div>
       <div class="news-text">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Thanks and Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2025.11.08</div>
       <div class="news-text">🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2025.10.18</div>
       <div class="news-text">🎉🎉 As the project leader, I led our team won the <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2025.07.05</div>
       <div class="news-text">🎉🎉 Two papers (OFFSET, HUD), were accepted by <strong>ACM MM 2025</strong>! Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2024.12.10</div>
       <div class="news-text">🎉🎉 One paper (ENCODER) was accepted by <strong>AAAI 2025</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card">
+    <div class="news-card" data-page="2">
       <div class="news-date">2024.09.13</div>
       <div class="news-text">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>, as well as the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</div>
     </div>
+  </div>
+  <div class="news-pagination" aria-label="News pagination">
+    <button class="news-page-btn active" type="button" data-page="1">1</button>
+    <button class="news-page-btn" type="button" data-page="2">2</button>
   </div>
 </div>
 
@@ -1142,7 +1171,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
   <span>🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
 </div>
 
-*Student Lead, 2023–2026.* I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
+*Student Lead, 2022–2026.* I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
 
 <!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
@@ -1230,6 +1259,30 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
     setOpenSourcePage('1');
+  }
+
+  const newsSection = document.getElementById('news');
+  if (newsSection) {
+    const cards = Array.from(newsSection.querySelectorAll('.news-card'));
+    const pageButtons = Array.from(newsSection.querySelectorAll('.news-page-btn'));
+    const setNewsPage = (page) => {
+      cards.forEach(card => {
+        card.hidden = card.dataset.page !== page;
+      });
+      pageButtons.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.page === page);
+      });
+    };
+    pageButtons.forEach(btn => {
+      btn.addEventListener('click', () => setNewsPage(btn.dataset.page));
+      btn.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          setNewsPage(btn.dataset.page);
+        }
+      });
+    });
+    setNewsPage('1');
   }
 
   const wrapper = document.getElementById('publications-wrapper');
