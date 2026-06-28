@@ -269,11 +269,18 @@ redirect_from:
 }
 .opensource-card img {
   width: auto;
-  height: 118px;
+  height: 98px;
   max-width: 80%;
   object-fit: contain;
   border-radius: 8px;
   margin-bottom: 0.75rem;
+  transform: none !important;
+  box-shadow: none !important;
+  transition: none !important;
+}
+.opensource-card:hover img {
+  transform: none !important;
+  box-shadow: none !important;
 }
 .opensource-card-title,
 .opensource-card-meta,
@@ -477,7 +484,7 @@ I have published multiple papers as first author or core contributor in top-tier
 
 My research follows the trajectory of **from multimodal understanding to evidence-driven large model evaluation**. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video retrieval, attribute-aware representation learning, and robust intent understanding, with representative works including **ENCODER**, **COMBINER**, **TEMA**, **HABIT**, **INTENT**, **ConeSep**, **Air-Know**, and **OFFSET**. On the evaluation side, I explore evidence-driven reliable reasoning, long-form video and egocentric vision understanding, open-world benchmark construction, and diagnostic evaluation of multimodal large models, including **ReTrack**, **HUD**, **FineCIR**, and the CVPRW challenge systems **R<sup>3</sup>**, **TempRet**, **EgoAdapt**, **OmniEgo-R<sup>2</sup>**, and **EgoAction**.
 
-我是山东大学人工智能专业直博生，师从 [聂礼强教授](https://liqiangnie.github.io/index.html) 与 [胡宇鹏教授](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)。我于 2023 年在山东大学获得数据科学与大数据技术专业学士学位，目前主要从事多模态大模型、鲁棒跨模态学习、可信数据构建与模型评测等方向的研究。
+我是山东大学人工智能专业直博生，师从 Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) 和 Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)。我于 2023 年在山东大学获得数据科学与大数据技术专业学士学位，目前主要从事多模态大模型、鲁棒跨模态学习、可信数据构建与模型评测等方向的研究。
 
 截至目前，我以第一作者或核心贡献者身份在 **CVPR、ACL、AAAI、ACM MM、TIP、TKDE、ToMM** 等顶级会议和期刊发表多篇论文。我也积极推进科研成果在真实工业系统和国际评测中的落地：作为学生负责人参与华为近似近邻检索合作项目，主导 QSGNGT 图索引算法设计与优化，并支撑华为云 GaussDB / CSS VectorDB 的大规模向量检索能力；同时带领或参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关工作曾获 **华为优秀技术合作成果奖**、**华为优秀学生奖** 与 **山东大学研究生学术之星** 等荣誉。
 
