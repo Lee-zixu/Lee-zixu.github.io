@@ -944,8 +944,8 @@ Hi, I am Zixu Li (李子旭).
   </div>
 </div>
 
-📝 <span class="i18n-en-inline">Publications</span><span class="i18n-zh-inline">论文发表</span>
-    <div class="paper-note">
+<h1>📝 <span class="i18n-en-inline">Publications</span><span class="i18n-zh-inline">论文发表</span></h1>
+    <div style="font-size: 0.88em; color: #586069; margin: -0.4rem 0 1rem 0;">
       <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
       <span class="i18n-zh-inline">⚓️ 表示项目负责人；📧 表示通讯作者。</span>
     </div>
