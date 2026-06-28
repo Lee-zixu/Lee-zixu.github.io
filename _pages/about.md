@@ -784,9 +784,16 @@ Hi, I am Zixu Li (李子旭).
 </div>
 
 <div class="opensource-section" id="open-source-projects">
+  <div class="i18n-en">
   <div class="section-kicker">💻 Open Science</div>
   <div class="opensource-title">Our Open Source Projects</div>
   <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
+    </div>
+  <div class="i18n-zh">
+<div class="section-kicker">💻 开放科学</div>
+  <div class="opensource-title">开源项目</div>
+  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
+    </div>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
