@@ -677,7 +677,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="research-intro">
       <p>Welcome to my homepage! I am currently a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, and I am honored to be advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>. Prior to this, I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests mainly focus on <strong>large multimodal models, robust representation learning, and trustworthy AI</strong>.</p>
       <p>In my research, I systematically explore the main theme of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, and TKDE</strong>. I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, and SIGIR</strong>, and as a reviewer for journals including <strong>IEEE TIP</strong> and <strong>IEEE TIFS</strong>.</p>
-      <p>For industrial deployment, I served as the student lead of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the <strong>QSGNGT</strong> algorithm. Since 2023, this work has continuously ranked first worldwide on the official <strong>ANN-Benchmarks</strong> leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award</strong> and the <strong>Huawei Outstanding Student Award</strong>.</p>
+      <p>For industrial deployment, I served as the student lead of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award</strong> and the <strong>Huawei Outstanding Student Award</strong>.</p>
     </div>
     <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
@@ -725,7 +725,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，很荣幸师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 与 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大模型、鲁棒表征学习、可信AI</strong>。</p>
       <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的获冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
-      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了<strong>QSGNGT</strong>算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评世界第一，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
+      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了QSGNGT算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
     </div>
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
@@ -773,8 +773,8 @@ Hi, I am Zixu Li (李子旭).
 <a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap">↩ Back to Roadmap</a>
 
 <div class="open-science-note">
-  <p><strong>Open Science.</strong> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
-  <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
+  <p> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
+  <p> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
   <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
   <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
 </div>
