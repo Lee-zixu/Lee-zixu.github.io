@@ -270,7 +270,7 @@ redirect_from:
 .opensource-card img {
   width: auto;
   height: 118px;
-  max-width: 92%;
+  max-width: 80%;
   object-fit: contain;
   border-radius: 8px;
   margin-bottom: 0.75rem;
