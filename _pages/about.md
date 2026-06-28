@@ -1055,9 +1055,7 @@ Hi, I am Zixu Li (李子旭).
 </div>
 
 
-
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
-
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 More Publications</span><span class="i18n-zh-inline">📝 更多成果</span></h1>
 
 <div id='paper-stable' class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1121,7 +1119,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Challenge Technical Report</span><span class="i18n-zh-inline">📝 挑战赛技术报告</span></h1>
 
 
 <div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
@@ -1186,7 +1184,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="industry-project-title i18n-en"><strong>Huawei Approximate Nearest Neighbor Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
+<div class="industry-project-title i18n-en"><strong>Huawei General Vector Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
 <div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
 
 <div class="award-ribbon">
@@ -1196,8 +1194,8 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
   <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
 </div>
 
-<p class="i18n-en"><em>Student Lead, 2022–2026.</em> I led the algorithmic design and iterative optimization of <span class="highlight-red">QSGNGT</span>, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.</p>
-<p class="i18n-zh"><em>学生负责人，2022–2026。</em> 我主导了 <span class="highlight-red">QSGNGT</span> 算法的设计与迭代优化，该方法面向大规模近似最近邻（ANN）检索构建高效图索引。在工业级部署约束下，项目聚焦于 <span class="highlight-blue">高吞吐、高召回的向量检索</span>，并与华为联合推进云原生向量数据库场景落地。</p>
+<p class="i18n-en"><em>Student Lead, 2022–2026.</em> I led the algorithmic design and iterative optimization of QSGNGT, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted <span class="highlight-blue">high-throughput, high-recall vector retrieval</span> under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.</p>
+<p class="i18n-zh"><em>学生负责人，2022–2026。</em> 我主导了 QSGNGT 算法的设计与迭代优化，该方法面向大规模近似最近邻（ANN）检索构建高效图索引。在工业级部署约束下，项目聚焦于 <span class="highlight-blue">高吞吐、高召回的向量检索</span>，并与华为联合推进云原生向量数据库场景落地。</p>
 
 <!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
@@ -1207,7 +1205,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> -->
 
 <div class="benchmark-orgs">
-  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业 / 基线算法</span></div>
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表性参与单位 </span></div>
   <div class="org-logo-strip">
     <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
     <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
@@ -1568,7 +1566,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM</li>
 </ul>
 <ul class="i18n-zh">
-  <li>会议 PC Member：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
+  <li>会议审稿人：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
   <li>期刊审稿人：IEEE TIP, IEEE TIFS, ACM ToMM</li>
 </ul>
 
