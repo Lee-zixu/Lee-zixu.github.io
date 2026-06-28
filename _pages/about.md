@@ -303,6 +303,10 @@ redirect_from:
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.85rem;
+  max-height: 760px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scroll-behavior: smooth;
 }
 .opensource-card {
   display: flex;
@@ -324,7 +328,18 @@ redirect_from:
   box-shadow: 0 14px 32px rgba(1,47,99,0.14);
   border-color: rgba(254,102,123,0.32);
 }
-.opensource-card[hidden] { display: none !important; }
+.opensource-grid::-webkit-scrollbar,
+.news-grid::-webkit-scrollbar { width: 8px; }
+.opensource-grid::-webkit-scrollbar-thumb,
+.news-grid::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FE667B 0%, #6aa9ff 100%);
+  border-radius: 999px;
+}
+.opensource-grid::-webkit-scrollbar-track,
+.news-grid::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 999px;
+}
 .opensource-card img {
   width: auto;
   height: 98px;
@@ -384,30 +399,6 @@ redirect_from:
   color: #fff !important;
   box-shadow: 0 6px 16px rgba(3,102,214,0.22);
 }
-.opensource-pagination {
-  display: flex;
-  justify-content: center;
-  gap: 0.45rem;
-  margin-top: 1rem;
-}
-.opensource-page-btn {
-  min-width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(1,47,99,0.12);
-  background: #fff;
-  color: #586069;
-  font-weight: 850;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.opensource-page-btn:hover,
-.opensource-page-btn.active {
-  color: #fff;
-  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
-  border-color: transparent;
-  box-shadow: 0 6px 16px rgba(254,102,123,0.18);
-}
 .news-section {
   margin: 2rem 0 2.2rem 0;
   padding: 1.2rem;
@@ -426,6 +417,10 @@ redirect_from:
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.75rem;
+  max-height: 645px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  scroll-behavior: smooth;
 }
 .news-card {
   position: relative;
@@ -445,7 +440,7 @@ redirect_from:
   box-shadow: 0 12px 28px rgba(1,47,99,0.12);
   border-color: rgba(254,102,123,0.22);
 }
-.news-card[hidden] { display: none !important; }
+
 .news-date {
   display: inline-flex;
   align-items: center;
@@ -465,30 +460,7 @@ redirect_from:
   line-height: 1.55;
 }
 .news-text strong { color: #012F63; }
-.news-pagination {
-  display: flex;
-  justify-content: center;
-  gap: 0.45rem;
-  margin-top: 1rem;
-}
-.news-page-btn {
-  min-width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(1,47,99,0.12);
-  background: #fff;
-  color: #586069;
-  font-weight: 850;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.news-page-btn:hover,
-.news-page-btn.active {
-  color: #fff;
-  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
-  border-color: transparent;
-  box-shadow: 0 6px 16px rgba(254,102,123,0.18);
-}
+
 .highlight-red { color: #FE667B; font-weight: 850; }
 .highlight-blue { color: #0366d6; font-weight: 850; }
 .highlight-gold { color: #b7791f; font-weight: 850; }
@@ -771,7 +743,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="opensource-title">Our Open Source Projects</div>
   <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
   <div class="opensource-grid" id="opensource-grid">
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
       <div class="opensource-card-meta">TIP 2026 · Attribute-aware Efficient Representation</div>
@@ -780,7 +752,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/tema-logo.png" alt="TEMA">
       <div class="opensource-card-title">TEMA</div>
       <div class="opensource-card-meta">ACL 2026 Main · Benchmark</div>
@@ -789,7 +761,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/consep-logo.png" alt="ConeSep">
       <div class="opensource-card-title">ConeSep</div>
       <div class="opensource-card-meta">CVPR 2026 · Robust Unlearning</div>
@@ -798,7 +770,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/airknow-logo.png" alt="Air-Know">
       <div class="opensource-card-title">Air-Know</div>
       <div class="opensource-card-meta">CVPR 2026 · Knowledge Calibration</div>
@@ -807,7 +779,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/habit-logo.png" alt="HABIT">
       <div class="opensource-card-title">HABIT</div>
       <div class="opensource-card-meta">AAAI 2026 · Robust Progressive Learning</div>
@@ -816,7 +788,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/retrack-logo.png" alt="ReTrack">
       <div class="opensource-card-title">ReTrack</div>
       <div class="opensource-card-meta">AAAI 2026 · Evidence-driven Reliable Reasoning</div>
@@ -825,7 +797,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/intent-logo.png" alt="INTENT">
       <div class="opensource-card-title">INTENT</div>
       <div class="opensource-card-meta">AAAI 2026 · Intent Disentanglement</div>
@@ -834,7 +806,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/hud-logo.png" alt="HUD">
       <div class="opensource-card-title">HUD</div>
       <div class="opensource-card-meta">ACM MM 2025 · Uncertainty Disambiguation</div>
@@ -843,7 +815,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="1">
+    <div class="opensource-card">
       <img src="../images/encoder-logo.png" alt="ENCODER">
       <div class="opensource-card-title">ENCODER</div>
       <div class="opensource-card-meta">AAAI 2025 · Multimodal Semantic Fusion</div>
@@ -852,7 +824,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a>
       </div>
     </div>
-    <div class="opensource-card" data-page="2">
+    <div class="opensource-card">
       <img src="../images/offset-logo.png" alt="OFFSET">
       <div class="opensource-card-title">OFFSET</div>
       <div class="opensource-card-meta">ACM MM 2025 · Trustworthy Knowledge Calibration</div>
@@ -861,10 +833,6 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
       </div>
     </div>
-  </div>
-  <div class="opensource-pagination" aria-label="Open source project pagination">
-    <button class="opensource-page-btn active" type="button" data-page="1">1</button>
-    <button class="opensource-page-btn" type="button" data-page="2">2</button>
   </div>
 </div>
 
@@ -879,58 +847,54 @@ Hi, I am Zixu Li (李子旭).
   <div class="section-kicker">🔥 Updates</div>
   <div class="news-title">News</div>
   <div class="news-grid">
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.06.10</div>
       <div class="news-text">🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</div>
     </div>
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.06.02</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
     </div>
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.05.14</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won <strong>1st places</strong>🏅✖️2, <strong>2nd places</strong>🥈✖️2, and <strong>3rd place</strong>🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</div>
     </div>
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.04.30</div>
       <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.04.07</div>
       <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026 Main</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="1">
+    <div class="news-card">
       <div class="news-date">2026.03.17</div>
       <div class="news-text">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2026.02.21</div>
       <div class="news-text">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Thanks and Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2025.11.08</div>
       <div class="news-text">🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2025.10.18</div>
       <div class="news-text">🎉🎉 As the project leader, I led our team won the <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2025.07.05</div>
       <div class="news-text">🎉🎉 Two papers (OFFSET, HUD), were accepted by <strong>ACM MM 2025</strong>! Congratulations to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2024.12.10</div>
       <div class="news-text">🎉🎉 One paper (ENCODER) was accepted by <strong>AAAI 2025</strong>! Thanks to all co-authors!</div>
     </div>
-    <div class="news-card" data-page="2">
+    <div class="news-card">
       <div class="news-date">2024.09.13</div>
       <div class="news-text">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>, as well as the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</div>
     </div>
-  </div>
-  <div class="news-pagination" aria-label="News pagination">
-    <button class="news-page-btn active" type="button" data-page="1">1</button>
-    <button class="news-page-btn" type="button" data-page="2">2</button>
   </div>
 </div>
 
@@ -1247,54 +1211,6 @@ document.addEventListener('DOMContentLoaded', function() {
       tab.addEventListener('click', () => setLanguage(tab.dataset.lang));
       tab.addEventListener('focus', () => setLanguage(tab.dataset.lang));
     });
-  }
-
-  const opensourceSection = document.getElementById('open-source-projects');
-  if (opensourceSection) {
-    const cards = Array.from(opensourceSection.querySelectorAll('.opensource-card'));
-    const pageButtons = Array.from(opensourceSection.querySelectorAll('.opensource-page-btn'));
-    const setOpenSourcePage = (page) => {
-      cards.forEach(card => {
-        card.hidden = card.dataset.page !== page;
-      });
-      pageButtons.forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.page === page);
-      });
-    };
-    pageButtons.forEach(btn => {
-      btn.addEventListener('click', () => setOpenSourcePage(btn.dataset.page));
-      btn.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          setOpenSourcePage(btn.dataset.page);
-        }
-      });
-    });
-    setOpenSourcePage('1');
-  }
-
-  const newsSection = document.getElementById('news');
-  if (newsSection) {
-    const cards = Array.from(newsSection.querySelectorAll('.news-card'));
-    const pageButtons = Array.from(newsSection.querySelectorAll('.news-page-btn'));
-    const setNewsPage = (page) => {
-      cards.forEach(card => {
-        card.hidden = card.dataset.page !== page;
-      });
-      pageButtons.forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.page === page);
-      });
-    };
-    pageButtons.forEach(btn => {
-      btn.addEventListener('click', () => setNewsPage(btn.dataset.page));
-      btn.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          setNewsPage(btn.dataset.page);
-        }
-      });
-    });
-    setNewsPage('1');
   }
 
   const wrapper = document.getElementById('publications-wrapper');
