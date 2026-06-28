@@ -100,7 +100,7 @@ redirect_from:
   margin-bottom: 0;
 }
 .research-lane.bottom-lane > .research-lane-label.blue {
-  transform: translateY(-0.45rem);
+  transform: translateY(-1.2rem);
 }
 .research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
 .research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
@@ -617,7 +617,7 @@ redirect_from:
   transition: opacity 0.3s ease;
 }
 .paper-box {
-  border: 1px solid transparent !important;
+  border: 2px solid transparent !important;
   background: linear-gradient(#ffffff, #ffffff) padding-box,
               linear-gradient(135deg, rgba(1,47,99,0.08), rgba(1,47,99,0.08)) border-box !important;
 }
