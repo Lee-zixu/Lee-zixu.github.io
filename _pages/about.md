@@ -1194,7 +1194,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
   
   <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
   <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
-  <span class="i18n-en-flex">🏆 自2023年至今蝉联世界第一 / year</span>
+  <span class="i18n-zh-flex">🏆 自2023年至今蝉联世界第一 / year</span>
   
 </div>
 
