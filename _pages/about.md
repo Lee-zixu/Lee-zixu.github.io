@@ -250,7 +250,7 @@ My research centers on **large multimodal models, robust cross-modal learning, a
     </div>
   </div>
 
-  <div class="research-arrow">Click each research node to jump to the corresponding publication panel</div>
+  <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
 
   <div class="research-lane-label blue">Trustworthy Evaluation and Large Model Diagnosis</div>
   <div class="research-lane">
@@ -651,6 +651,30 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 </div>
 
+
+
+# 🏭 Industry Project
+
+
+
+<div class='paper-box floating-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei-vectordb-performance.svg' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Huawei Approximate Nearest Neighbor Search Collaboration Project** [[Product Page]](https://www.huaweicloud.com/product/css/vectordb.html)
+
+*Student Lead, 2023–2026.* I led the algorithmic design and iterative optimization of **QSGNGT**, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted high-throughput, high-recall vector retrieval under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
+
+<div class="huawei-highlights">
+  <span><b>SOTA performance:</b> ranked first in QPS under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
+  <span><b>Continuous optimization:</b> improved peak performance by over 164% on Euclidean-distance datasets and 116% on angular-distance datasets.</span>
+  <span><b>Industrial deployment:</b> integrated into Huawei Cloud GaussDB / CSS VectorDB for cloud-native, hundred-billion-scale vector retrieval.</span>
+  <span><b>Impact and honors:</b> supported 10× retrieval-scale growth, sub-10ms latency, 2× faster response, and won Huawei Outstanding Technical Collaboration Award and Huawei Outstanding Student Award.</span>
+</div>
+
+</div>
+</div>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');
@@ -866,24 +890,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-# 🏭 Industry Project
 
-<div class='paper-box floating-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei-vectordb-performance.svg' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Huawei Approximate Nearest Neighbor Search Collaboration Project** [[Product Page]](https://www.huaweicloud.com/product/css/vectordb.html)
-
-*Student Lead, 2023–2026.* I led the algorithmic design and iterative optimization of **QSGNGT**, a graph-indexing method for large-scale approximate nearest neighbor (ANN) search. The project targeted high-throughput, high-recall vector retrieval under industrial-scale deployment constraints, and was jointly developed with Huawei for cloud-native vector database scenarios.
-
-<div class="huawei-highlights">
-  <span><b>SOTA performance:</b> ranked first in QPS under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
-  <span><b>Continuous optimization:</b> improved peak performance by over 164% on Euclidean-distance datasets and 116% on angular-distance datasets.</span>
-  <span><b>Industrial deployment:</b> integrated into Huawei Cloud GaussDB / CSS VectorDB for cloud-native, hundred-billion-scale vector retrieval.</span>
-  <span><b>Impact and honors:</b> supported 10× retrieval-scale growth, sub-10ms latency, 2× faster response, and won Huawei Outstanding Technical Collaboration Award and Huawei Outstanding Student Award.</span>
-</div>
-
-</div>
-</div>
 
 # 🔖 Patent 
 <!-- - [国家发明专利授权, 第二发明人] 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 授权专利号: *ZL202411903224.3*-->
