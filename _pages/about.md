@@ -781,6 +781,11 @@ Hi, I am Zixu Li (李子旭).
   <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
   <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
     </div>
+   <div class="i18n-zh">
+<div class="section-kicker">💻 开放科学</div>
+  <div class="opensource-title">开源项目</div>
+  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
+</div>
 </div>
 
 <div class="opensource-section" id="open-source-projects">
@@ -788,6 +793,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="section-kicker">💻 Open Science</div>
   <div class="opensource-title">Our Open Source Projects</div>
   <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
+      </div>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
@@ -879,103 +885,9 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
       </div>
     </div>
-  </div>
-    <div class="i18n-zh">
-<div class="section-kicker">💻 开放科学</div>
-  <div class="opensource-title">开源项目</div>
-  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
-      <div class="opensource-grid" id="opensource-grid">
-    <div class="opensource-card">
-      <img src="../images/combiner-logo.png" alt="COMBINER">
-      <div class="opensource-card-title">COMBINER</div>
-      <div class="opensource-card-meta">TIP 2026 · 属性感知的高效表征</div>
-      <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper">Paper</a>
-        <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page">Project</a>
-        <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/tema-logo.png" alt="TEMA">
-      <div class="opensource-card-title">TEMA</div>
-      <div class="opensource-card-meta">ACL 2026 Main · 评测基准</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper">Paper</a>
-        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/consep-logo.png" alt="ConeSep">
-      <div class="opensource-card-title">ConeSep</div>
-      <div class="opensource-card-meta">CVPR 2026 · 鲁棒去学习</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper">Paper</a>
-        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/airknow-logo.png" alt="Air-Know">
-      <div class="opensource-card-title">Air-Know</div>
-      <div class="opensource-card-meta">CVPR 2026 · 知识校准</div>
-      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper">Paper</a>
-        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page">Project</a>
-        <a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/habit-logo.png" alt="HABIT">
-      <div class="opensource-card-title">HABIT</div>
-      <div class="opensource-card-meta">AAAI 2026 · 鲁棒渐进学习</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper">Paper</a>
-        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page">Project</a>
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/retrack-logo.png" alt="ReTrack">
-      <div class="opensource-card-title">ReTrack</div>
-      <div class="opensource-card-meta">AAAI 2026 · 证据驱动的可靠推理</div>
-      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper">Paper</a>
-        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/intent-logo.png" alt="INTENT">
-      <div class="opensource-card-title">INTENT</div>
-      <div class="opensource-card-meta">AAAI 2026 · 意图解耦</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/hud-logo.png" alt="HUD">
-      <div class="opensource-card-title">HUD</div>
-      <div class="opensource-card-meta">ACM MM 2025 · 不确定性消歧</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/encoder-logo.png" alt="ENCODER">
-      <div class="opensource-card-title">ENCODER</div>
-      <div class="opensource-card-meta">AAAI 2025 · 多模态语义融合</div>
-      <div class="opensource-card-links">        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper">Paper</a>
-        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a>
-      </div>
-    </div>
-    <div class="opensource-card">
-      <img src="../images/offset-logo.png" alt="OFFSET">
-      <div class="opensource-card-title">OFFSET</div>
-      <div class="opensource-card-meta">ACM MM 2025 · 可信知识校准</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
-    </div>
-  </div>
-</div>
+
+    
+ 
 
 
 
@@ -1374,7 +1286,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> -->
 
 <div class="benchmark-orgs">
-  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业 / 基线算法</span></div>
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业</span></div>
   <div class="org-logo-strip">
     <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
     <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
