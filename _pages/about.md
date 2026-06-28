@@ -608,8 +608,8 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-desc">Constructing fine-grained multimodal benchmarks for complex contextual and open-world scenarios.</div>
           <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
         </div>
-        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
       </div>
+        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
     </div>
   </div>
 
@@ -656,8 +656,8 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-desc">针对复杂上下文场景，构建细粒度多模态评测基准。</div>
           <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
         </div>
-        <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
       </div>
+      <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
     </div>
   </div>
 </div>
@@ -1123,9 +1123,13 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     };
     pageButtons.forEach(btn => {
-      btn.addEventListener('mouseenter', () => setOpenSourcePage(btn.dataset.page));
       btn.addEventListener('click', () => setOpenSourcePage(btn.dataset.page));
-      btn.addEventListener('focus', () => setOpenSourcePage(btn.dataset.page));
+      btn.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          setOpenSourcePage(btn.dataset.page);
+        }
+      });
     });
     setOpenSourcePage('1');
   }
