@@ -1190,11 +1190,11 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class="award-ribbon">
   <span class="i18n-en-flex">🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
   <span class="i18n-en-flex">🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
-  <span class="i18n-en-flex">🏆 Ranked No.1 in the world since 2023 / year</span>
+  <span class="i18n-en-flex">🏆 Ranked No.1 in the world since 2023</span>
   
   <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
   <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
-  <span class="i18n-zh-flex">🏆 自2023年至今蝉联世界第一 / year</span>
+  <span class="i18n-zh-flex">🏆 自2023年至今蝉联世界第一</span>
   
 </div>
 
