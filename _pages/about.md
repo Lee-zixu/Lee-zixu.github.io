@@ -677,7 +677,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="research-intro">
       <p>Welcome to my homepage! I am currently a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, and I am honored to be advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>. Prior to this, I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests mainly focus on <strong>large multimodal models, robust representation learning, and trustworthy AI</strong>.</p>
       <p>In my research, I systematically explore the main theme of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, and TKDE</strong>. I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, and SIGIR</strong>, and as a reviewer for journals including <strong>IEEE TIP</strong> and <strong>IEEE TIFS</strong>.</p>
-      <p>For industrial deployment, I served as the student lead of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award</strong> and the <strong>Huawei Outstanding Student Award</strong>.</p>
+      <p>For industrial deployment, I served as the student lead of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the <strong>QSGNGT</strong> algorithm. Since 2023, this work has continuously ranked first worldwide on the official <strong>ANN-Benchmarks</strong> leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award</strong> and the <strong>Huawei Outstanding Student Award</strong>.</p>
     </div>
     <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
@@ -725,7 +725,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，很荣幸师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 与 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大模型、鲁棒表征学习、可信AI</strong>。</p>
       <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的获冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
-      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了QSGNGT算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
+      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了<strong>QSGNGT</strong>算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评世界第一，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
     </div>
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
@@ -770,128 +770,117 @@ Hi, I am Zixu Li (李子旭).
   </div>
 </div>
 
-<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap">↩ Back to Roadmap</a>
+<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap"><span class="i18n-en-inline">↩ Back to Roadmap</span><span class="i18n-zh-inline">↩ 返回研究路线图</span></a>
 
 <div class="open-science-note">
   <div class="i18n-en">
-  <p> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
+    <p><strong>Open Science.</strong> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
   </div>
-  
   <div class="i18n-zh">
-  <p> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
-  <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
-  <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
-    </div>
-  
-   
+    <p><strong>开放科学.</strong> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
+    <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
+    <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
+  </div>
+</div>
 
 <div class="opensource-section" id="open-source-projects">
-  <div class="i18n-en">
-  <div class="section-kicker">💻 Open Science</div>
-  <div class="opensource-title">Our Open Source Projects</div>
-  <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
-      </div>
-<div class="i18n-zh">
-<div class="section-kicker">💻 开放科学</div>
-  <div class="opensource-title">开源项目</div>
-  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
-</div>
-</div>
-  
+  <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
+  <div class="opensource-title"><span class="i18n-en-inline">Our Open Source Projects</span><span class="i18n-zh-inline">我们的开源项目</span></div>
+  <p class="opensource-subtitle i18n-en">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
+  <p class="opensource-subtitle i18n-zh">我相信开源研究能够提升多模态学习的可复现性与协作性。以下是我近期代表性工作的项目主页与代码仓库。</p>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
-      <div class="opensource-card-meta">TIP 2026 · Attribute-aware Efficient Representation</div>
-      <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper">Paper</a>
-        <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page">Project</a>
-        <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">TIP 2026 · Attribute-aware Efficient Representation</span><span class="i18n-zh-inline">TIP 2026 · 属性感知高效表征</span></div>
+      <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/tema-logo.png" alt="TEMA">
       <div class="opensource-card-title">TEMA</div>
-      <div class="opensource-card-meta">ACL 2026 Main · Benchmark</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper">Paper</a>
-        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACL 2026 Main · Benchmark</span><span class="i18n-zh-inline">ACL 2026 Main · 评测基准</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.21806" target="_blank" title="Open TEMA paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank" title="Open TEMA project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank" title="Open TEMA code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/consep-logo.png" alt="ConeSep">
       <div class="opensource-card-title">ConeSep</div>
-      <div class="opensource-card-meta">CVPR 2026 · Robust Unlearning</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper">Paper</a>
-        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">CVPR 2026 · Robust Unlearning</span><span class="i18n-zh-inline">CVPR 2026 · 鲁棒噪声遗忘</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.20358" target="_blank" title="Open ConeSep paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank" title="Open ConeSep project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank" title="Open ConeSep code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/airknow-logo.png" alt="Air-Know">
       <div class="opensource-card-title">Air-Know</div>
-      <div class="opensource-card-meta">CVPR 2026 · Knowledge Calibration</div>
-      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper">Paper</a>
-        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page">Project</a>
-        <a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">CVPR 2026 · Knowledge Calibration</span><span class="i18n-zh-inline">CVPR 2026 · 知识校准</span></div>
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.19386" target="_blank" title="Open Air-Know paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank" title="Open Air-Know project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/ZhihFu/Air-Know" target="_blank" title="Open Air-Know code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/habit-logo.png" alt="HABIT">
       <div class="opensource-card-title">HABIT</div>
-      <div class="opensource-card-meta">AAAI 2026 · Robust Progressive Learning</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper">Paper</a>
-        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page">Project</a>
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Robust Progressive Learning</span><span class="i18n-zh-inline">AAAI 2026 · 鲁棒渐进学习</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18037" target="_blank" title="Open HABIT paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank" title="Open HABIT project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank" title="Open HABIT code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/retrack-logo.png" alt="ReTrack">
       <div class="opensource-card-title">ReTrack</div>
-      <div class="opensource-card-meta">AAAI 2026 · Evidence-driven Reliable Reasoning</div>
-      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper">Paper</a>
-        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Evidence-driven Reliable Reasoning</span><span class="i18n-zh-inline">AAAI 2026 · 证据驱动可靠推理</span></div>
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2604.17898" target="_blank" title="Open ReTrack paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank" title="Open ReTrack project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank" title="Open ReTrack code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/intent-logo.png" alt="INTENT">
       <div class="opensource-card-title">INTENT</div>
-      <div class="opensource-card-meta">AAAI 2026 · Intent Disentanglement</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2026 · Intent Disentanglement</span><span class="i18n-zh-inline">AAAI 2026 · 意图解耦</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2604.18051" target="_blank" title="Open INTENT paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank" title="Open INTENT project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank" title="Open INTENT code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/hud-logo.png" alt="HUD">
       <div class="opensource-card-title">HUD</div>
-      <div class="opensource-card-meta">ACM MM 2025 · Uncertainty Disambiguation</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2025 · Uncertainty Disambiguation</span><span class="i18n-zh-inline">ACM MM 2025 · 不确定性消歧</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2512.02792" target="_blank" title="Open HUD paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank" title="Open HUD project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank" title="Open HUD code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/encoder-logo.png" alt="ENCODER">
       <div class="opensource-card-title">ENCODER</div>
-      <div class="opensource-card-meta">AAAI 2025 · Multimodal Semantic Fusion</div>
-      <div class="opensource-card-links">        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper">Paper</a>
-        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page">Project</a>
-        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">AAAI 2025 · Multimodal Semantic Fusion</span><span class="i18n-zh-inline">AAAI 2025 · 多模态语义融合</span></div>
+      <div class="opensource-card-links">        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
     <div class="opensource-card">
       <img src="../images/offset-logo.png" alt="OFFSET">
       <div class="opensource-card-title">OFFSET</div>
-      <div class="opensource-card-meta">ACM MM 2025 · Trustworthy Knowledge Calibration</div>
-      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper">Paper</a>
-        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page">Project</a>
-        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository">Code</a>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2025 · Trustworthy Knowledge Calibration</span><span class="i18n-zh-inline">ACM MM 2025 · 可信知识校准</span></div>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2507.05631" target="_blank" title="Open OFFSET paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank" title="Open OFFSET project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank" title="Open OFFSET code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
     </div>
-
-    
- 
+  </div>
+</div>
 
 
 
@@ -899,136 +888,70 @@ Hi, I am Zixu Li (李子旭).
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
 
-   <div class="i18n-en">
+ 
 <div class="news-section" id="news">
-  <div class="section-kicker">🔥 Updates</div>
-  <div class="news-title">News</div>
+  <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
+  <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
       <div class="news-date">2026.06.10</div>
-      <div class="news-text">🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 I was honored to receive the Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</span><span class="i18n-zh-inline">🎉🎉 我荣获山东大学研究生学术之星（实践应用类，全校18人）。</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.06.02</div>
-      <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 CVPR 2026 VidLLMs Workshop 的 Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.05.14</div>
-      <div class="news-text">🎉🎉 Thrilled to share that our team won <strong>1st places</strong>🏅✖️2, <strong>2nd places</strong>🥈✖️2, and <strong>3rd place</strong>🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won <strong>1st places</strong>🏅✖️2, <strong>2nd places</strong>🥈✖️2, and <strong>3rd place</strong>🥉✖️1 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 CVPR 2026 EgoVis Workshop 的多个挑战赛（HD-EPIC、EPIC-KITCHENS 和 EgoCross）中获得<strong>冠军</strong>🏅✖️2、<strong>亚军</strong>🥈✖️2 和<strong>季军</strong>🥉✖️1！祝贺所有成员！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.04.30</div>
-      <div class="news-text">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (COMBINER), was accepted by <strong>TIP 2026</strong>! Thanks to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（COMBINER）被 <strong>TIP 2026</strong> 接收！感谢所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.04.07</div>
-      <div class="news-text">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026 Main</strong>! Thanks to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (TEMA), was accepted by <strong>ACL 2026 Main</strong>! Thanks to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（TEMA）被 <strong>ACL 2026 Main</strong> 接收！感谢所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.03.17</div>
-      <div class="news-text">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (STABLE), was accepted by <strong>TKDE 2026</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（STABLE）被 <strong>TKDE 2026</strong> 接收！祝贺所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.02.21</div>
-      <div class="news-text">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Thanks and Congratulations to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Two papers (ConeSep, Air-Know), were accepted by <strong>CVPR 2026</strong>! Thanks and Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 两篇论文（ConeSep、Air-Know）被 <strong>CVPR 2026</strong> 接收！感谢并祝贺所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2025.11.08</div>
-      <div class="news-text">🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Three papers (ReTrack, INTENT, HABIT), were accepted by <strong>AAAI 2026</strong>! Thanks and Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 三篇论文（ReTrack、INTENT、HABIT）被 <strong>AAAI 2026</strong> 接收！感谢并祝贺所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2025.10.18</div>
-      <div class="news-text">🎉🎉 As the project leader, I led our team won the <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 As the project leader, I led our team won the <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition. Congratulations to all team members!</span><span class="i18n-zh-inline">🎉🎉 作为项目负责人，我带领团队获得 CICAS 智能电力场景竞赛<strong>特等奖</strong>！祝贺所有团队成员！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2025.07.05</div>
-      <div class="news-text">🎉🎉 Two papers (OFFSET, HUD), were accepted by <strong>ACM MM 2025</strong>! Congratulations to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Two papers (OFFSET, HUD), were accepted by <strong>ACM MM 2025</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 两篇论文（OFFSET、HUD）被 <strong>ACM MM 2025</strong> 接收！祝贺所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2024.12.10</div>
-      <div class="news-text">🎉🎉 One paper (ENCODER) was accepted by <strong>AAAI 2025</strong>! Thanks to all co-authors!</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (ENCODER) was accepted by <strong>AAAI 2025</strong>! Thanks to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（ENCODER）被 <strong>AAAI 2025</strong> 接收！感谢所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2024.09.13</div>
-      <div class="news-text">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>, as well as the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 I was honored to receive the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>, as well as the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)</strong>.</span><span class="i18n-zh-inline">🎉🎉 我荣获<strong>华为优秀学生奖（全球每年 Top 30）</strong>以及<strong>华为优秀技术合作成果奖（全球每年 Top 10）</strong>。</span></div>
     </div>
   </div>
 </div>
-</div>
-  <div class="i18n-zh">
-<div class="news-section" id="news">
-  <div class="section-kicker">🔥 更新</div>
-  <div class="news-title">新闻</div>
-  <div class="news-grid">
-    <div class="news-card">
-      <div class="news-date">2026.06.10</div>
-      <div class="news-text">🎉🎉 本人荣获山东大学研究生学术之星奖（应用实践类，全校18人）。</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.06.02</div>
-      <div class="news-text">🎉🎉 我们团队在VidLLMs Workshop @ CVPR 2026的Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge中赢得了<strong>冠军</strong>🏅！祝贺所有成员！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.05.14</div>
-      <div class="news-text">🎉🎉 我们团队在EgoVis Workshop @ CVPR 2026的多个挑战赛（HD-EPIC、EPIC-KITCHENS和EgoCross）中赢得了<strong>冠军</strong>🏅✖️2，<strong>亚军</strong>🥈✖️2和<strong>季军</strong>🥉✖️1！祝贺所有成员！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.04.30</div>
-      <div class="news-text">🎉🎉 一篇论文（COMBINER）被<strong>TIP 2026</strong>接受！感谢所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.04.07</div>
-      <div class="news-text">🎉🎉 一篇论文（TEMA）被<strong>ACL 2026 Main</strong>接受！感谢所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.03.17</div>
-      <div class="news-text">🎉🎉 一篇论文（STABLE）被<strong>TKDE 2026</strong>接受！祝贺所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2026.02.21</div>
-      <div class="news-text">🎉🎉 两篇论文（ConeSep，Air-Know）被<strong>CVPR 2026</strong>接受！感谢并祝贺所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2025.11.08</div>
-      <div class="news-text">🎉🎉 三篇论文（ReTrack、INTENT、HABIT）被<strong>AAAI 2026</strong>接受！感谢并祝贺所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2025.10.18</div>
-      <div class="news-text">🎉🎉 作为项目负责人，我带领我们的团队在CICAS智能电力场景挑战赛中赢得了<strong>特等奖</strong>。祝贺所有团队成员！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2025.07.05</div>
-      <div class="news-text">🎉🎉 两篇论文（OFFSET，HUD）被<strong>ACM MM 2025</strong>接受！祝贺所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2024.12.10</div>
-      <div class="news-text">🎉🎉 一篇论文（ENCODER）被<strong>AAAI 2025</strong>接受！感谢所有合著者！</div>
-    </div>
-    <div class="news-card">
-      <div class="news-date">2024.09.13</div>
-      <div class="news-text">🎉🎉 本人荣获<strong>华为优秀学生奖（每年全球前30名）</strong>，以及<strong>华为优秀技术合作奖（每年全球前10名）</strong>。</div>
-    </div>
-  </div>
-</div>
-  </div>
 
-  
-   <div class="i18n-en">
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
+
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
-  </div>
-   <div class="i18n-zh">
-# 📝 论文成果
-<div class="paper-note">⚓️ 表示project leader; 📧 表示通讯作者.</div>
-<div id="publications-wrapper">
-<div id="filter-container"></div>
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 部分成果</h1>
-  </div>
 
 <div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1132,12 +1055,9 @@ Hi, I am Zixu Li (李子旭).
 </div>
 
 
-  <div class="i18n-en">
+
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
-      </div>
-  <div class="i18n-zh">
-    <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 更多成果</h1>
-  </div>
+
 
 <div id='paper-stable' class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1200,12 +1120,9 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 </div>
 
-  <div class="i18n-en">
+
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
-     </div> 
-  <div class="i18n-zh">
-    <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 挑战赛技术报告</h1>
-  </div>
+
 
 <div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
@@ -1269,7 +1186,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="industry-project-title i18n-en"><strong>Huawei General Vector Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
+<div class="industry-project-title i18n-en"><strong>Huawei Approximate Nearest Neighbor Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
 <div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
 
 <div class="award-ribbon">
@@ -1290,7 +1207,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> -->
 
 <div class="benchmark-orgs">
-  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业</span></div>
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表参与企业 / 基线算法</span></div>
   <div class="org-logo-strip">
     <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
     <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
@@ -1565,10 +1482,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-# 🔖 Patent 
+<h1><span class="i18n-en-inline">🔖 Patent</span><span class="i18n-zh-inline">🔖 专利</span></h1>
 <!-- - [国家发明专利授权, 第二发明人] 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 授权专利号: *ZL202411903224.3*-->
 
-- [国家发明专利实审, 第二发明人] 数据处理方法、电子设备、可读存储介质和程序产品 - 申请号: *CN202410533951.9*
+<ul class="i18n-en">
+  <li>[Under substantive examination, second inventor] Data processing method, electronic device, readable storage medium and program product - Application No.: <em>CN202410533951.9</em></li>
+</ul>
+<ul class="i18n-zh">
+  <li>[国家发明专利实审，第二发明人] 数据处理方法、电子设备、可读存储介质和程序产品 - 申请号：<em>CN202410533951.9</em></li>
+</ul>
   
 <!-- - [国家发明专利实审, 第二发明人] 基于属性的邻域关系引导的组合图像检索方法及系统 - 申请号: *CN202511944904.4*
 
@@ -1612,22 +1534,43 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!--# 💻 Project QSGNGT-->
 
-# 🏆 Competition
-- 1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.
-- 1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
-- 1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
-- 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
-- 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
-- 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
+<h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
+<ul class="i18n-en">
+  <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Link</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Link</a></li>
+  <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
+</ul>
+<ul class="i18n-zh">
+  <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026。</li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026。<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026。<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026。<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026。<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
+  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026。<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
+</ul>
 
-# 📖 Educations
-- *2023.09 - now*, Shandong University, Artificial Intelligence, PhD.
-- *2019.09 - 2023.06*, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.
+<h1><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
+<ul class="i18n-en">
+  <li><em>2023.09 - now</em>, Shandong University, Artificial Intelligence, Ph.D.</li>
+  <li><em>2019.09 - 2023.06</em>, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.</li>
+</ul>
+<ul class="i18n-zh">
+  <li><em>2023.09 - 至今</em>，山东大学，人工智能，博士研究生。</li>
+  <li><em>2019.09 - 2023.06</em>，山东大学，数据科学与大数据技术，学士。</li>
+</ul>
 
-
-# 📃 Services
-- Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP
-- Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM
+<h1><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
+<ul class="i18n-en">
+  <li>Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
+  <li>Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM</li>
+</ul>
+<ul class="i18n-zh">
+  <li>会议 PC Member：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
+  <li>期刊审稿人：IEEE TIP, IEEE TIFS, ACM ToMM</li>
+</ul>
 
 
 <br>
