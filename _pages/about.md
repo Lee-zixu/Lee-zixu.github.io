@@ -428,7 +428,7 @@ redirect_from:
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.75rem;
-  max-height: 645px;
+  max-height: 370px;
   overflow-y: auto;
   padding-right: 0.35rem;
   scroll-behavior: smooth;
