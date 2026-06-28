@@ -192,10 +192,23 @@ redirect_from:
   font-size: 0.9em;
 }
 .huawei-highlights span {
+  display: block;
   background: #f6f8fa;
   border: 1px solid #eaecef;
   border-radius: 10px;
   padding: 0.45rem 0.6rem;
+  line-height: 1.55;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.huawei-highlights span span {
+  display: inline;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  line-height: inherit;
+  overflow-wrap: normal;
 }
 .opensource-section {
   margin: 2rem 0 2.2rem 0;
@@ -239,8 +252,8 @@ redirect_from:
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-height: 158px;
-  padding: 0.95rem 0.75rem;
+  min-height: 225px;
+  padding: 1rem 0.85rem;
   border-radius: 15px;
   border: 1px solid rgba(1,47,99,0.08);
   background: #fff;
@@ -256,12 +269,15 @@ redirect_from:
 }
 .opensource-card img {
   width: auto;
-  height: 54px;
-  max-width: 112px;
+  height: 118px;
+  max-width: 92%;
   object-fit: contain;
   border-radius: 8px;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.75rem;
 }
+.opensource-card-title,
+.opensource-card-meta,
+.opensource-card-links { position: relative; z-index: 2; }
 .opensource-card-title {
   color: #012F63;
   font-size: 0.95rem;
@@ -494,7 +510,7 @@ My research follows the trajectory of **from multimodal understanding to evidenc
 
   <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
 
-  <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
+
   <div class="research-lane bottom-lane">
     <div class="research-node blue">
       <div class="node-title">Evidence-driven Hallucination Diagnosis and Disambiguation</div>
@@ -511,6 +527,7 @@ My research follows the trajectory of **from multimodal understanding to evidenc
       <div class="node-desc">Constructing fine-grained multimodal benchmarks for complex contextual and open-world scenarios.</div>
       <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div>
     </div>
+    <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
   </div>
 </div>
 
@@ -524,7 +541,6 @@ My research follows the trajectory of **from multimodal understanding to evidenc
 > 💻 个人项目： 我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！
 > 
 > 🏫 实验室组织： 我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 [iLearn Lab](https://github.com/iLearn-Lab) 并提供宝贵意见。
-
 
 
 
