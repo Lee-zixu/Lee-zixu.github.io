@@ -944,14 +944,16 @@ Hi, I am Zixu Li (李子旭).
   </div>
 </div>
 
-# 📝 Publications
-<div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
-
+📝 <span class="i18n-en-inline">Publications</span><span class="i18n-zh-inline">论文发表</span>
+    <div class="paper-note">
+      <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
+      <span class="i18n-zh-inline">⚓️ 表示项目负责人；📧 表示通讯作者。</span>
+    </div>
+    
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
-
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Selected Publications</span><span class="i18n-zh-inline">📝 代表性工作</span></h1>
 
 <div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
