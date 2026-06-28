@@ -96,8 +96,8 @@ redirect_from:
   grid-column: 1 / -1;
   justify-self: center;
   text-align: center;
-  margin-top: 0.85rem;
-  margin-bottom: 0.35rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
 }
 .research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
 .research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
