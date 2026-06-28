@@ -983,7 +983,7 @@ Hi, I am Zixu Li (李子旭).
 
 欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
 
- 
+   <div class="i18n-en">
 <div class="news-section" id="news">
   <div class="section-kicker">🔥 Updates</div>
   <div class="news-title">News</div>
@@ -1038,15 +1038,81 @@ Hi, I am Zixu Li (李子旭).
     </div>
   </div>
 </div>
+</div>
+  <div class="i18n-zh">
+<div class="news-section" id="news">
+  <div class="section-kicker">🔥 更新</div>
+  <div class="news-title">新闻</div>
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="news-date">2026.06.10</div>
+      <div class="news-text">🎉🎉 本人荣获山东大学研究生学术之星奖（应用实践类，全校18人）。</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.06.02</div>
+      <div class="news-text">🎉🎉 我们团队在VidLLMs Workshop @ CVPR 2026的Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge中赢得了<strong>冠军</strong>🏅！祝贺所有成员！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.05.14</div>
+      <div class="news-text">🎉🎉 我们团队在EgoVis Workshop @ CVPR 2026的多个挑战赛（HD-EPIC、EPIC-KITCHENS和EgoCross）中赢得了<strong>冠军</strong>🏅✖️2，<strong>亚军</strong>🥈✖️2和<strong>季军</strong>🥉✖️1！祝贺所有成员！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.30</div>
+      <div class="news-text">🎉🎉 一篇论文（COMBINER）被<strong>TIP 2026</strong>接受！感谢所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.04.07</div>
+      <div class="news-text">🎉🎉 一篇论文（TEMA）被<strong>ACL 2026 Main</strong>接受！感谢所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.03.17</div>
+      <div class="news-text">🎉🎉 一篇论文（STABLE）被<strong>TKDE 2026</strong>接受！祝贺所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2026.02.21</div>
+      <div class="news-text">🎉🎉 两篇论文（ConeSep，Air-Know）被<strong>CVPR 2026</strong>接受！感谢并祝贺所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.11.08</div>
+      <div class="news-text">🎉🎉 三篇论文（ReTrack、INTENT、HABIT）被<strong>AAAI 2026</strong>接受！感谢并祝贺所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.10.18</div>
+      <div class="news-text">🎉🎉 作为项目负责人，我带领我们的团队在CICAS智能电力场景挑战赛中赢得了<strong>特等奖</strong>。祝贺所有团队成员！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2025.07.05</div>
+      <div class="news-text">🎉🎉 两篇论文（OFFSET，HUD）被<strong>ACM MM 2025</strong>接受！祝贺所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.12.10</div>
+      <div class="news-text">🎉🎉 一篇论文（ENCODER）被<strong>AAAI 2025</strong>接受！感谢所有合著者！</div>
+    </div>
+    <div class="news-card">
+      <div class="news-date">2024.09.13</div>
+      <div class="news-text">🎉🎉 本人荣获<strong>华为优秀学生奖（每年全球前30名）</strong>，以及<strong>华为优秀技术合作奖（每年全球前10名）</strong>。</div>
+    </div>
+  </div>
+</div>
+  </div>
 
+  
+   <div class="i18n-en">
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
-
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
+  </div>
+   <div class="i18n-zh">
+# 📝 论文成果
+<div class="paper-note">⚓️ 表示project leader; 📧 表示通讯作者.</div>
+<div id="publications-wrapper">
+<div id="filter-container"></div>
 
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 部分成果</h1>
+  </div>
 
 <div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1150,9 +1216,12 @@ Hi, I am Zixu Li (李子旭).
 </div>
 
 
-
+  <div class="i18n-en">
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 More Publications</h1>
-
+      </div>
+  <div class="i18n-zh">
+    <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 更多成果</h1>
+  </div>
 
 <div id='paper-stable' class='paper-box floating-card' data-tags="TKDE 2026, Core Contributor, CCF A, Efficiency"><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1215,9 +1284,12 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div>
 </div>
 
-
+  <div class="i18n-en">
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Challenge Technical Report</h1>
-
+     </div> 
+  <div class="i18n-zh">
+    <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 挑战赛技术报告</h1>
+  </div>
 
 <div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
@@ -1281,7 +1353,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div class="industry-project-title i18n-en"><strong>Huawei Approximate Nearest Neighbor Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
+<div class="industry-project-title i18n-en"><strong>Huawei General Vector Search Collaboration Project</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">Product Page</a></div>
 <div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
 
 <div class="award-ribbon">
