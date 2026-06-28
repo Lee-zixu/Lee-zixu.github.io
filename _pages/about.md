@@ -776,17 +776,14 @@ Hi, I am Zixu Li (李子旭).
   <div class="i18n-en">
   <p> I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab’s papers and code are open source. Please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p>
   </div>
+  
   <div class="i18n-zh">
   <p> 作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。</p>
   <p><strong>💻 个人项目：</strong>我主要参与的项目均已全面开源，欢迎访问我们的项目主页，非常期待您的真实反馈（欢迎提出 Issue 或 PR）！</p>
   <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
     </div>
-   <div class="i18n-zh">
-<div class="section-kicker">💻 开放科学</div>
-  <div class="opensource-title">开源项目</div>
-  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
-</div>
-</div>
+  
+   
 
 <div class="opensource-section" id="open-source-projects">
   <div class="i18n-en">
@@ -794,6 +791,13 @@ Hi, I am Zixu Li (李子旭).
   <div class="opensource-title">Our Open Source Projects</div>
   <p class="opensource-subtitle">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
       </div>
+<div class="i18n-zh">
+<div class="section-kicker">💻 开放科学</div>
+  <div class="opensource-title">开源项目</div>
+  <p class="opensource-subtitle">我相信开源研究使多模态学习更具可复现性和协作性。以下是我近期代表性工作的项目页面和仓库。</p>
+</div>
+</div>
+  
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
