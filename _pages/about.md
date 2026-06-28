@@ -309,7 +309,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
         <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -318,7 +317,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  |
+        <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>
       </span>
     </td>  
       </tr>
@@ -329,7 +328,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="http://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
         <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>  |
+        <a href="https://github.com/ZhihFu/Air-Know" target="_blank">Code</a>
       </span>
     </td>  
      <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
