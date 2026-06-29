@@ -724,7 +724,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，很荣幸师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 与 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大模型、鲁棒表征学习、可信AI</strong>。</p>
-      <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的获冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
+      <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
       <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了QSGNGT算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
     </div>
     <div class="research-map">
@@ -787,7 +787,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
   <div class="opensource-title"><span class="i18n-en-inline">Our Open Source Projects</span><span class="i18n-zh-inline">我们的开源项目</span></div>
   <p class="opensource-subtitle i18n-en">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
-  <p class="opensource-subtitle i18n-zh">我相信开源研究能够提升多模态学习的可复现性与协作性。以下是我近期代表性工作的项目主页与代码仓库。</p>
+  <p class="opensource-subtitle i18n-zh">以下是我们近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
@@ -1192,18 +1192,18 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 <div class="industry-project-title i18n-zh"><strong>华为通用向量检索合作项目</strong> <a class="paper-link-btn" href="https://www.huaweicloud.com/product/css/vectordb.html" target="_blank">产品页面</a></div>
 
 <div class="award-ribbon">
-  <span class="i18n-en-flex">🏆 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
+  <span class="i18n-en-flex">🌟 Huawei Outstanding Technical Collaboration Award · Top 10 globally / year</span>
   <span class="i18n-en-flex">🌟 Huawei Outstanding Student Award · Top 30 globally / year</span>
   <span class="i18n-en-flex">🏆 Ranked No.1 in the world since 2023</span>
   
-  <span class="i18n-zh-flex">🏆 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
+  <span class="i18n-zh-flex">🌟 华为优秀技术合作成果奖 · 全球每年 Top 10</span>
   <span class="i18n-zh-flex">🌟 华为优秀学生奖 · 全球每年 Top 30</span>
   <span class="i18n-zh-flex">🏆 自2023年至今蝉联世界第一</span>
   
 </div>
 
 <p class="i18n-en">As the student lead, I proposed QSGNGT, a general-purpose vector retrieval algorithm. In the official ANN-Benchmarks evaluation, QSGNGT outperformed competing algorithms from leading technology companies including Google, Microsoft, and Meta, and has continuously ranked first worldwide since 2023. Currently, QSGNGT serves as the core retrieval engine for Huawei Cloud GaussDB’s hundred-billion-scale vector database, supporting its global release. For this technical breakthrough, I received the Huawei Outstanding Technical Collaboration Award, selected as one of only 10 projects worldwide each year from over 6,000 projects, and the Huawei Outstanding Student Award, granted to no more than 30 students worldwide each year.</p>
-<p class="i18n-zh">作为学生负责人，我提出了通用向量检索算法QSGNGT。该算法在ANN-Benchmarks官方评测中击败谷歌、微软、Meta等互联网头部企业的竞品算法，性能于2023年至今蝉联世界第一。目前，QSGNGT已作为核心检索引擎支撑华为云GaussDB千亿级向量数据库面向全球发布。凭借该技术突破，我荣获“华为优秀技术合作成果奖”（全球10项/年，从6000余个项目中遴选产生）与“华为优秀学生奖”（全球 不超过30人/年）。</p>
+<p class="i18n-zh">作为学生负责人，我提出了通用向量检索算法QSGNGT。该算法在ANN-Benchmarks官方评测中击败谷歌、微软、Meta等互联网头部企业的竞品算法，性能于2023年至今蝉联世界第一。目前，QSGNGT已作为核心检索引擎支撑华为云GaussDB千亿级向量数据库面向全球发布。凭借该技术突破，我荣获“华为优秀技术合作成果奖”（全球10项/年，从6000余个项目中遴选产生）与“华为优秀学生奖”（全球不超过30人/年）。</p>
 
 <!-- <div class="huawei-highlights">
   <span><b>SOTA performance:</b> ranked <span class="highlight-red">1st in QPS</span> under fixed Recall on six million-scale ANN-Benchmarks datasets.</span>
@@ -1529,7 +1529,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
-  <li><em>2026.06</em> 山东大学研究生学术之星（实践应用类，全校18人）。</li>
+  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）<strong>。</li>
   <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong>。</li>
   <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong>。</li>
   <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong>。</li>
