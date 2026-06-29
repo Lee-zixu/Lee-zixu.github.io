@@ -1529,7 +1529,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
-  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）<strong>。</li>
+  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong>。</li>
   <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong>。</li>
   <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong>。</li>
   <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong>。</li>
