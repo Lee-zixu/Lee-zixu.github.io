@@ -725,7 +725,7 @@ Hi, I am Zixu Li (李子旭).
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，很荣幸师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> 与 Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大模型、鲁棒表征学习、可信AI</strong>。</p>
       <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
-      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，主导了QSGNGT算法的设计与优化，该成果于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖</strong>”与“<strong>华为优秀学生奖</strong>”。</p>
+      <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，负责QSGNGT算法的设计与优化，该算法于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖 (全球10项/年, 从6000余个项目中遴选产生)</strong>”与“<strong>华为优秀学生奖 (全球30人/年)</strong>”。</p>
     </div>
     <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
