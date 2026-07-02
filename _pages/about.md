@@ -680,7 +680,7 @@ Hi, I am Zixu Li (李子旭).
       <p>For industrial deployment, I served as the student leader of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year, selected from over 6,000 projects)</strong> and the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>.</p>
     </div>
     <div class="research-map" id="research-map">
-      <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
+      <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Multimodal Large Language Models Evaluation</div>
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
       <div class="research-lane top-lane">
         <div class="research-node orange">
@@ -699,7 +699,7 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-papers"><a class="node-paper-link" href="#paper-combiner">COMBINER [TIP 2026]</a><a class="node-paper-link" href="#paper-stable">STABLE [TKDE 2026]</a><a class="node-paper-link" href="#paper-refine">REFINE [ToMM 2026]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div>
         </div>
       </div>
-      <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
+      <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Multimodal Large Language Models</div>
       <div class="research-lane bottom-lane">
         <div class="research-node blue">
           <div class="node-title">Evidence-driven Hallucination Diagnosis and Disambiguation</div>
@@ -708,7 +708,7 @@ Hi, I am Zixu Li (李子旭).
         </div>
         <div class="research-node blue">
           <div class="node-title">Trustworthy Knowledge Calibration</div>
-          <div class="node-desc">Building noise-separation frameworks for calibrated and trustworthy alignment of large-model outputs.</div>
+          <div class="node-desc">Building noise-separation frameworks for calibrated and trustworthy alignment of MLLM outputs.</div>
           <div class="node-papers"><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-offset">OFFSET [ACM MM 2025]</a></div>
         </div>
         <div class="research-node blue">
@@ -717,7 +717,7 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
         </div>
       </div>
-        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
+        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Multimodal Large Language Models</div>
     </div>
   </div>
 
