@@ -1213,7 +1213,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 </div> -->
 
 <div class="benchmark-orgs">
-  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants / baselines</span><span class="i18n-zh-inline">ANN-Benchmarks 代表性参与单位 </span></div>
+  <div class="benchmark-orgs-title"><span class="i18n-en-inline">Representative ANN-Benchmarks participants</span><span class="i18n-zh-inline">ANN-Benchmarks 代表性参与单位 </span></div>
   <div class="org-logo-strip">
     <span class="org-logo-card"><img src="images/company-logos/google.svg" alt="Google">Google</span>
     <span class="org-logo-card"><img src="images/company-logos/microsoft.svg" alt="Microsoft">Microsoft</span>
