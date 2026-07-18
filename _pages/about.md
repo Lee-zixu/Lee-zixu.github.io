@@ -1300,12 +1300,13 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
-  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B', 'Challenge 1st🏅', 'Challenge 2nd🥈', 'Challenge 3rd🥉', 'Huawei', 'ANN', 'Vector Database']);
+  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'ACM MM 2026', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B', 'Challenge 1st🏅', 'Challenge 2nd🥈', 'Challenge 3rd🥉', 'Huawei', 'ANN', 'Vector Database']);
   const venueFullNames = {
    'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
     'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
     'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
     'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
+    'ACM MM 2026': 'ACM International Conference on Multimedia (ACM MM 2026)',
     'AAAI 2025': 'The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)',
     'Arxiv 2025': 'arXiv preprint (2025)',
     'TKDE 2026': 'IEEE Transactions on Knowledge and Data Engineering (TKDE 2026)',
