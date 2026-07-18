@@ -895,7 +895,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="news-grid">
     <div class="news-card">
       <div class="news-date">2026.07.10</div>
-      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Thanks to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！感谢所有合作者！</span></div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！祝贺所有合作者！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.06.10</div>
@@ -1070,7 +1070,7 @@ Hi, I am Zixu Li (李子旭).
 
 **LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
 
-Yulun Zhang, [***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
+Yulun Zhang, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
 </div> 
