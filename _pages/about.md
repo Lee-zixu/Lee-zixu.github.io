@@ -1065,7 +1065,7 @@ Hi, I am Zixu Li (李子旭).
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 More Publications</span><span class="i18n-zh-inline">📝 更多成果</span></h1>
 
-<div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
+<div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
