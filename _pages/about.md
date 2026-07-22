@@ -1070,7 +1070,7 @@ Hi, I am Zixu Li (李子旭).
 
 **LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
 
-Yulun Zhang, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
+[Yulun Zhang](https://rainy-london.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
 </div> 
