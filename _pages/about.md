@@ -894,6 +894,10 @@ Hi, I am Zixu Li (李子旭).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
+      <div class="news-date">2026.07.23</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 SIGIR 2026 eCommerce Workshop 的 eCommerce Data Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
+    </div>
+    <div class="news-card">
       <div class="news-date">2026.07.10</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！祝贺所有合作者！</span></div>
     </div>
@@ -1544,19 +1548,20 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
-  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong>。</li>
-  <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong>。</li>
-  <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong>。</li>
-  <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong>。</li>
-  <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong>。</li>
-  <li><em>2023.06</em> 山东省优秀毕业生。</li>
-  <li><em>2023.06</em> 山东大学优秀毕业生。</li>
+  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong></li>
+  <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong></li>
+  <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong></li>
+  <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong></li>
+  <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong></li>
+  <li><em>2023.06</em> 山东省优秀毕业生</li>
+  <li><em>2023.06</em> 山东大学优秀毕业生</li>
 </ul>
 
 <!--# 💻 Project QSGNGT-->
 
 <h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
 <ul class="i18n-en">
+  <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
   <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
   <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
   <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
@@ -1565,12 +1570,13 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
 </ul>
 <ul class="i18n-zh">
-  <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026。</li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026。<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026。<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026。<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026。<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
-  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026。<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
+  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li> 
+  <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
+  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
 </ul>
 
 <h1><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
