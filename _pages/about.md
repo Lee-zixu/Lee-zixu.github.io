@@ -717,8 +717,8 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
         </div>
       </div>
-        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Multimodal Large Language Models</div> -->
-    </div>
+        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Multimodal Large Language Models</div>
+    </div> -->
   </div>
 
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
