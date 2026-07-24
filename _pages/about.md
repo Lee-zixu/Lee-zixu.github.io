@@ -679,7 +679,7 @@ Hi, I am Zixu Li (李子旭).
       <p>In my research, I systematically explore the main theme of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, and TKDE</strong>. I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, and SIGIR</strong>, and as a reviewer for journals including <strong>IEEE TIP</strong> and <strong>IEEE TIFS</strong>.</p>
       <p>For industrial deployment, I served as the student leader of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year, selected from over 6,000 projects)</strong> and the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>.</p>
     </div>
-    <div class="research-map" id="research-map">
+    <!-- <div class="research-map" id="research-map">
       <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Multimodal Large Language Models Evaluation</div>
       <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
       <div class="research-lane top-lane">
@@ -717,7 +717,7 @@ Hi, I am Zixu Li (李子旭).
           <div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div>
         </div>
       </div>
-        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Multimodal Large Language Models</div>
+        <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Multimodal Large Language Models</div> -->
     </div>
   </div>
 
@@ -727,7 +727,7 @@ Hi, I am Zixu Li (李子旭).
       <p>在科研探索中，我紧密围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、TIP、TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次获得CVPR等顶会挑战赛的冠、亚、季军。此外，我长期担任 <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TIFS</strong> 等期刊的审稿人。</p>
       <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，负责QSGNGT算法的设计与优化，该算法于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖 (全球10项/年, 从6000余个项目中遴选产生)</strong>”与“<strong>华为优秀学生奖 (全球30人/年)</strong>”。</p>
     </div>
-    <div class="research-map">
+    <!-- <div class="research-map">
       <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
       <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
       <div class="research-lane top-lane">
@@ -766,7 +766,7 @@ Hi, I am Zixu Li (李子旭).
         </div>
       </div>
       <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
-    </div>
+    </div> -->
   </div>
 </div>
 
