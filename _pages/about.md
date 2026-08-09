@@ -793,7 +793,7 @@ Hi, I am Zixu Li (李子旭).
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
       <div class="opensource-card-meta"><span class="i18n-en-inline">TIP 2026 · Attribute-aware Efficient Representation</span><span class="i18n-zh-inline">TIP 2026 · 属性感知高效表征</span></div>
-      <div class="opensource-card-links">        <a href="https://ieeexplore.ieee.org/abstract/document/11534406" target="_blank" title="Open COMBINER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+      <div class="opensource-card-links">        <a href="https://arxiv.org/abs/2606.04604" target="_blank" title="Open COMBINER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
         <a href="https://lee-zixu.github.io/COMBINER.github.io/" target="_blank" title="Open COMBINER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
         <a href="https://github.com/Lee-zixu/COMBINER" target="_blank" title="Open COMBINER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
