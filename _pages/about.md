@@ -790,6 +790,15 @@ Hi, I am Zixu Li (李子旭).
   <p class="opensource-subtitle i18n-zh">以下是我们近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
+      <img src="../images/lightair-logo.png" alt="LightAIR">
+      <div class="opensource-card-title">LightAIR</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2026 · Lightweight Anomaly Action Search</span><span class="i18n-zh-inline">ACM MM 2026 · 轻量化异常动作搜索</span></div>
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2608.09152" target="_blank" title="Open LightAIR paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://rainy-london.github.io/LightAIR.github.io/" target="_blank" title="Open LightAIR project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/rainy-london/LightAIR" target="_blank" title="Open LightAIR code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
+      </div>
+    </div>
+    <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
       <div class="opensource-card-meta"><span class="i18n-en-inline">TIP 2026 · Attribute-aware Efficient Representation</span><span class="i18n-zh-inline">TIP 2026 · 属性感知高效表征</span></div>
@@ -1072,7 +1081,7 @@ Hi, I am Zixu Li (李子旭).
 <div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
+**LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search**  [[Paper]](http://arxiv.org/abs/2608.09152) [[Project]](https://rainy-london.github.io/LightAIR.github.io/) [[Code]](https://github.com/rainy-london/LightAIR)
 
 [Yulun Zhang](https://rainy-london.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
