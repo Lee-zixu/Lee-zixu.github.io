@@ -1440,14 +1440,27 @@ document.addEventListener('DOMContentLoaded', function() {
       const authorParagraph = paragraphs[1];
       if (!titleParagraph || !authorParagraph) return;
 
-      const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
-      const venueKey = Object.keys(venueFullNames).find(key => badgeText.includes(key));
-      if (venueKey && !textContainer.querySelector('.venue-full-name')) {
-        const venue = document.createElement('div');
-        venue.className = 'venue-full-name';
-        venue.textContent = venueFullNames[venueKey];
-        titleParagraph.insertAdjacentElement('afterend', venue);
-      }
+      function enrichPaperCards() {
+  paperBoxes.forEach(box => {
+    const textContainer = box.querySelector('.paper-box-text');
+    if (!textContainer) return;
+
+    const paragraphs = textContainer.querySelectorAll('p');
+    const titleParagraph = paragraphs[0];
+    const authorParagraph = paragraphs[1];
+    if (!titleParagraph || !authorParagraph) return;
+
+    const venueKey = (box.dataset.tags || '')
+      .split(',')
+      .map(tag => tag.trim())
+      .find(tag => venueFullNames[tag]);
+
+    if (venueKey && !textContainer.querySelector('.venue-full-name')) {
+      const venue = document.createElement('div');
+      venue.className = 'venue-full-name';
+      venue.textContent = venueFullNames[venueKey];
+      titleParagraph.insertAdjacentElement('afterend', venue);
+    }
 
       authorParagraph.classList.add('paper-authors');
       authorParagraph.innerHTML = authorParagraph.innerHTML
