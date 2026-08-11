@@ -797,7 +797,7 @@ Hi, I am Zixu Li (李子旭).
         <a href="https://rainy-london.github.io/LightAIR.github.io/" target="_blank" title="Open LightAIR project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
         <a href="https://github.com/rainy-london/LightAIR" target="_blank" title="Open LightAIR code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
       </div>
-    </div>
+    </div> 
     <div class="opensource-card">
       <img src="../images/combiner-logo.png" alt="COMBINER">
       <div class="opensource-card-title">COMBINER</div>
