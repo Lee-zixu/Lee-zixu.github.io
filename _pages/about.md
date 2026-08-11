@@ -1432,15 +1432,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function enrichPaperCards() {
-    paperBoxes.forEach(box => {
-      const textContainer = box.querySelector('.paper-box-text');
-      if (!textContainer) return;
-      const paragraphs = textContainer.querySelectorAll('p');
-      const titleParagraph = paragraphs[0];
-      const authorParagraph = paragraphs[1];
-      if (!titleParagraph || !authorParagraph) return;
-
-      function enrichPaperCards() {
   paperBoxes.forEach(box => {
     const textContainer = box.querySelector('.paper-box-text');
     if (!textContainer) return;
@@ -1461,6 +1452,10 @@ document.addEventListener('DOMContentLoaded', function() {
       venue.textContent = venueFullNames[venueKey];
       titleParagraph.insertAdjacentElement('afterend', venue);
     }
+
+    // 后续代码保持不变
+  });
+}
 
       authorParagraph.classList.add('paper-authors');
       authorParagraph.innerHTML = authorParagraph.innerHTML
