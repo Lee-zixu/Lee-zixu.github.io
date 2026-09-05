@@ -902,6 +902,10 @@ Hi, I am Zixu Li (李子旭).
   <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
+    <!-- <div class="news-card">
+      <div class="news-date">2026.09.05</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the SceneFun3D Benchmark Challenge at the Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop @ ECCV 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 ECCV 2026 Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop 的 SceneFun3D Benchmark Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
+    </div> -->
     <div class="news-card">
       <div class="news-date">2026.07.23</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 SIGIR 2026 eCommerce Workshop 的 eCommerce Data Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
@@ -1570,6 +1574,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
 <ul class="i18n-en">
+  <!-- <li>1st place 🏅, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li> -->
   <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
   <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
   <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
