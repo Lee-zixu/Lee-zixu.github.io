@@ -1807,8 +1807,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag">TIP’26 (under review)</span>
-          <span class="student-tag">ACM MM’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">TIP’26 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag"><strong class="primary-gradient-text">ACM MM’26</strong> <small>(first author)</small></span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
@@ -1818,7 +1818,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">TOIS’26 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">TOIS’26 (under review)</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’25</span>
         </div>
         <span class="student-label">🎖 Awards</span>
@@ -1831,7 +1831,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
@@ -1844,8 +1844,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag">TOIS’26 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag"><strong class="primary-gradient-text">TOIS’26 (under review)</strong> <small>(first author)</small></span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
@@ -1869,11 +1869,11 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
+          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
           <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
-          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
-          <span class="student-tag award">Presidential Scholarship Finalist</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ SIGIR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
           <span class="student-tag award">CICAS Grand Prize</span>
@@ -1884,13 +1884,13 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’26 ×2</span>
           <span class="student-tag">ToMM’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1901,7 +1901,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="student-tags">
           <span class="student-tag">ICLR’27 (under review)</span>
           <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag">ICMR’26 ×2</span>
+          <span class="student-tag"><strong class="primary-gradient-text">ICMR’26 ×2</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
@@ -1915,7 +1915,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">ICLR’27 (under review)</span>
-          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag">CVPR’26</span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
         <span class="student-label">🎖 Awards</span>
