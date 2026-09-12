@@ -10,23 +10,6 @@ redirect_from:
 
 <style>
   /* Students and collaborators */
-  .sidebar-collab-note {
-  display: block;
-  margin: 1rem auto 0;
-  max-width: 220px;
-  color: #d71920 !important;
-  font-size: .78rem;
-  font-weight: 850;
-  line-height: 1.45;
-  text-align: center;
-  text-decoration: none !important;
-  transition: color .2s ease, transform .2s ease;
-}
-
-.sidebar-collab-note:hover {
-  color: #FE667B !important;
-  transform: translateY(-1px);
-}
 .students-section {
   margin: 2rem 0 2.2rem;
   padding: 1.2rem;
@@ -92,6 +75,18 @@ redirect_from:
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.sidebar-collab-note {
+  display: block;
+  margin: 1rem auto 0;
+  max-width: 220px;
+  color: #d71920 !important;
+  font-size: .78rem;
+  font-weight: 850;
+  line-height: 1.45;
+  text-align: center;
+  text-decoration: none !important;
+}
+.sidebar-collab-note:hover { color: #FE667B !important; }
 .student-card {
   position: relative;
   padding: .95rem 1rem;
@@ -805,11 +800,8 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   border-color: transparent !important;
 }
 
-.page-nav { position: sticky; top: 0; z-index: 1000; display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.5rem; padding: .6rem .75rem; border: 1px solid rgba(1,47,99,.1); border-radius: 14px; background: rgba(255,255,255,.95); box-shadow: 0 6px 18px rgba(1,47,99,.08); backdrop-filter: blur(10px); }
-.page-nav a { padding: .34rem .68rem; border-radius: 999px; color: #012F63 !important; font-size: .8rem; font-weight: 800; text-decoration: none !important; }
-.page-nav a:hover { color: #fff !important; background: linear-gradient(135deg,#FE667B,#6aa9ff); }
-html { scroll-behavior: smooth; }
-[id] { scroll-margin-top: 90px; }
+html { scroll-behavior: auto; }
+[id] { scroll-margin-top: 110px; }
 </style>
  
 {% if site.google_scholar_stats_use_cdn %}
@@ -1778,26 +1770,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<h1>
+<h1 id="students-and-collaborators">
   <span class="i18n-en-inline">🤝 Students and Collaborators</span>
   <span class="i18n-zh-inline">🤝 学生与合作者</span>
 </h1>
 
-<section class="students-section" id="students-and-collaborators">
+<section class="students-section">
   <p class="students-intro recruitment-note i18n-en">
-  I am always looking for self‑motivated students with an interest in research. If you are interested in working with me, regardless of your institution or location, feel free to email me at <a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a> with your CV attached.
+  I am always looking for self‑motivated students who are interested in research and open to collaborating across institutions and locations. If you would like to work with me, please do not hesitate to send your CV and a brief introduction to <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>.
 </p>
 <p class="students-intro i18n-en">
   I am very fortunate to work with many outstanding students. The list below details the
   students I have supervised, including their backgrounds, publications, and awards.
 </p>
 <p class="students-intro i18n-en">
-  <span class="student-tag first-author"> </span> <em>indicates the student is the first author.</em>
+  <span class="student-tag first-author">First Author</span> <em>indicates the student is the first author.</em>
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
-    我一直期待与对科研感兴趣、积极主动的同学交流。</strong>
-    无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件至<a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
+    我一直期待与对科研感兴趣、积极主动的同学交流。无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历和个人简介的邮件至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
     感谢关注！
     </p>
     <p class="students-intro i18n-zh">
@@ -1995,8 +1986,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <br>
 <br>
 <br>
-
-
 
 
 
