@@ -1806,7 +1806,7 @@ document.addEventListener('DOMContentLoaded', function() {
   students I have supervised, including their backgrounds, publications, and awards.
 </p>
 <p class="students-intro i18n-en">
-  <span class="student-tag first-author">First Author</span> <em>indicates the student is the first author.</em>
+  <span class="student-tag first-author"> </span> <em>indicates the student is the first author.</em>
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
