@@ -1800,7 +1800,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">CVPR’26</span>
-          <span class="student-tag first-author">AAAI’26</span></span>
+          <span class="student-tag first-author">AAAI’26</span>
           <span class="student-tag">TKDE’26</span>
           <span class="student-tag first-author">ACM MM’25 ×2</span>
         </div>
@@ -1852,7 +1852,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">TOIS’26 (under review)</span>
-          <span class="student-tag">AAAI’25</span>
+          <span class="student-tag first-author">AAAI’25</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
