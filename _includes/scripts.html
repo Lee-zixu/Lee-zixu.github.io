@@ -1,48 +1,37 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
-  document.addEventListener(
+  window.addEventListener(
     "click",
     function (event) {
-      var link = event.target.closest("#site-nav a[href*='#']");
+      var link = event.target.closest("#site-nav a");
 
-      if (
-        !link ||
-        event.button !== 0 ||
-        event.metaKey ||
-        event.ctrlKey ||
-        event.shiftKey ||
-        event.altKey
-      ) {
+      if (!link) {
         return;
       }
 
-      var targetUrl = new URL(link.href, window.location.href);
-      var hash = targetUrl.hash;
+      var href = link.getAttribute("href");
+      var hashIndex = href ? href.indexOf("#") : -1;
 
-      if (targetUrl.origin !== window.location.origin || !hash) {
+      if (hashIndex === -1) {
         return;
       }
 
+      var hash = href.substring(hashIndex);
       var target = document.getElementById(hash.substring(1));
 
       if (!target) {
         return;
       }
 
-      // 阻止主题默认的 smoothScroll
       event.preventDefault();
       event.stopPropagation();
       event.stopImmediatePropagation();
 
-      // 地址栏更新为 /#xxx
-      history.pushState(
-        null,
-        "",
-        targetUrl.pathname + targetUrl.search + hash
-      );
+      // 强制修改地址栏
+      window.location.hash = hash;
 
-      // 避开顶部 masthead 后立即跳转
+      // 立即跳转，并避开顶部导航
       var masthead = document.querySelector(".masthead");
       var offset = masthead
         ? masthead.getBoundingClientRect().height + 12
