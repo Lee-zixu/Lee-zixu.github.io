@@ -1732,13 +1732,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+<style>
+.student-tag small { font-size: .92em; font-weight: 700; }
+.student-tag .primary-gradient-text { font-weight: 900; }
+</style>
+
+<section class="students-section" id="students-and-collaborators">
+  <span class="section-kicker">🤝 Mentorship</span>
   <h1 class="students-title">
     <span class="i18n-en-inline">Students and Collaborators</span>
     <span class="i18n-zh-inline">学生与合作者</span>
   </h1>
-    <p class="students-intro i18n-en">
-<section class="students-section" id="students-and-collaborators">
-  <span class="section-kicker">🤝 Mentorship</span>
+  <p class="students-intro i18n-en">
     <strong>I am always looking for self-motivated students with an interest in research.</strong>
     If you are interested in working with me, regardless of your institution or location,
     feel free to send me an email with your CV attached. Thank you!
@@ -1766,17 +1771,17 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
-          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’26</span>
           <span class="student-tag">TKDE’26</span>
           <span class="student-tag">ACM MM’25 ×2</span>
         </div>
         <span class="student-label">Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
           <span class="student-tag award">BYD Scholarship</span>
@@ -1795,7 +1800,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">Publications</span>
         <div class="student-tags">
           <span class="student-tag">TKDE’26</span>
-          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag">TDSC’26</span>
         </div>
         <span class="student-label">Awards</span>
@@ -1835,7 +1840,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1863,16 +1868,16 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="student-tags">
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
-          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">AAAI’25</span>
         </div>
         <span class="student-label">Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">Presidential Scholarship Finalist</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
@@ -1890,7 +1895,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1915,7 +1920,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">Publications</span>
         <div class="student-tags">
           <span class="student-tag">ICLR’27 (under review)</span>
-          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
         <span class="student-label">Awards</span>
@@ -1931,6 +1936,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <em>Underlining indicates the first author.</em>
   </p>
 </section>
+
+
 
 
 
