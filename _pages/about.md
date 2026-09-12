@@ -823,7 +823,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
     <div class="research-intro">
       <p>Welcome to my homepage! I am currently a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, and I am honored to be advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a>. Prior to this, I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests mainly focus on <strong>Multimodal Large Language Models, robust representation learning, and trustworthy AI</strong>.</p>
-      <p>In my research, I systematically explore the main theme of <strong>Multimodal understanding, retrieval, and generation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, TIP, and TKDE</strong>. I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, and SIGIR</strong>, and as a reviewer for journals including <strong>IEEE TIP</strong> and <strong>IEEE TIFS</strong>.</p>
+      <p>In my research, I systematically explore the main theme of <strong>Multimodal understanding, retrieval, and generation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, IEEE TIP, and IEEE TKDE</strong>. I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, and SIGIR</strong>, and as a reviewer for journals including <strong>IEEE TIP</strong> and <strong>IEEE TIFS</strong>.</p>
       <p>For industrial deployment, I served as the student leader of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year, selected from over 6,000 projects)</strong> and the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>.</p>
     </div>
     <!-- <div class="research-map" id="research-map">
@@ -1702,7 +1702,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
-  <li><em>2026.06</em> Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</li>
+  <li><em>2026.06</em> Shandong University "Academic Star" Graduate Student Award for Outstanding Achievements (Practical Application Category, 18 people in the whole university).</li>
   <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
   <li><em>2024.09</em> Huawei Outstanding Technical Collaboration Award <strong>(Top 10 globally per year)</strong>.</li>
   <li><em>2024.09</em> Huawei Outstanding Student Award <strong>(Top 30 globally per year)</strong>.</li>
@@ -1711,7 +1711,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
-  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong></li>
+  <li><em>2026.06</em> 山东大学研究生学术之星·优秀成果奖<strong>（实践应用类，全校18人）</strong></li>
   <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong></li>
   <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong></li>
   <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong></li>
