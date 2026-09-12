@@ -807,7 +807,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='about'></span>
 
 Hi, I am Zixu Li (李子旭).
 =====
@@ -1360,7 +1360,7 @@ Qianyun Yang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://
 
 
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">🏭 Industry Project</span><span class="i18n-zh-inline">🏭 产业项目</span></h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="industry-project"><span class="i18n-en-inline">🏭 Industry Project</span><span class="i18n-zh-inline">🏭 产业项目</span></h1>
 
 
 <div class='paper-box floating-card industry-card' data-tags="Huawei, Industry Project, ANN, Vector Database, Efficiency"><div class='paper-box-image'><div><div class="badge">Huawei Cloud VectorDB</div><img src='images/huawei.png' alt="Huawei CSS VectorDB performance" width="100%"></div></div>
@@ -1667,7 +1667,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<h1><span class="i18n-en-inline">🔖 Patent</span><span class="i18n-zh-inline">🔖 专利</span></h1>
+<h1 id="patent"><span class="i18n-en-inline">🔖 Patent</span><span class="i18n-zh-inline">🔖 专利</span></h1>
 <!-- - [国家发明专利授权, 第二发明人] 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 授权专利号: *ZL202411903224.3*-->
 
 <ul class="i18n-en">
@@ -1700,7 +1700,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
+<h1 id="honors-and-awards"><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
   <li><em>2026.06</em> Shandong University "Academic Star" Graduate Student Award for Outstanding Achievements (Practical Application Category, 18 people in the whole university).</li>
   <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
@@ -1722,7 +1722,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!--# 💻 Project QSGNGT-->
 
-<h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
+<h1 id="competition"><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
 <ul class="i18n-en">
   <!-- <li>1st place 🏅, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li> -->
   <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
@@ -1743,7 +1743,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
 </ul>
 
-<h1><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
+<h1 id="education"><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
 <ul class="i18n-en">
   <li><em>2023.09 - now</em>, Shandong University, Artificial Intelligence, Ph.D.</li>
   <li><em>2019.09 - 2023.06</em>, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.</li>
@@ -1753,7 +1753,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2019.09 - 2023.06</em>，山东大学，数据科学与大数据技术，学士。</li>
 </ul>
 
-<h1><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
+<h1 id="services"><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
 <ul class="i18n-en">
   <li>Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
   <li>Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM</li>
