@@ -14,16 +14,33 @@ redirect_from:
   <a href="#news">News</a>
   <a href="#publications">Publications</a>
   <a href="#industry-project">Industry Project</a>
-  <a href="#students-and-collaborators">Students</a>
   <a href="#patent">Patent</a>
   <a href="#honors-and-awards">Awards</a>
   <a href="#competition">Competition</a>
   <a href="#education">Education</a>
   <a href="#services">Services</a>
+  <a href="#students-and-collaborators">Students</a>
 </nav>
 
 <style>
   /* Students and collaborators */
+  .sidebar-collab-note {
+  display: block;
+  margin: 1rem auto 0;
+  max-width: 220px;
+  color: #d71920 !important;
+  font-size: .78rem;
+  font-weight: 850;
+  line-height: 1.45;
+  text-align: center;
+  text-decoration: none !important;
+  transition: color .2s ease, transform .2s ease;
+}
+
+.sidebar-collab-note:hover {
+  color: #FE667B !important;
+  transform: translateY(-1px);
+}
 .students-section {
   margin: 2rem 0 2.2rem;
   padding: 1.2rem;
