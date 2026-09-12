@@ -8,20 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<nav class="page-nav" aria-label="Page navigation">
-  <a href="#about">About</a>
-  <a href="#open-source-projects">Projects</a>
-  <a href="#news">News</a>
-  <a href="#publications">Publications</a>
-  <a href="#industry-project">Industry Project</a>
-  <a href="#patent">Patent</a>
-  <a href="#honors-and-awards">Awards</a>
-  <a href="#competition">Competition</a>
-  <a href="#education">Education</a>
-  <a href="#services">Services</a>
-  <a href="#students-and-collaborators">Students</a>
-</nav>
-
 <style>
   /* Students and collaborators */
   .sidebar-collab-note {
