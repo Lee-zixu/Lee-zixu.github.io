@@ -1,54 +1,62 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
-  $(function () {
-    var navLinks = $('#site-nav a[href*="#"]');
+  document.addEventListener(
+    "click",
+    function (event) {
+      var link = event.target.closest("#site-nav a[href*='#']");
 
-    // 移除主题默认的平滑滚动
-    navLinks.off('click.smoothscroll');
-
-    // 顶部导航：瞬移、更新地址栏、避开顶部导航
-    navLinks.on('click.zixuNavigation', function (event) {
-      var targetUrl = new URL(this.href, window.location.href);
-
-      if (!targetUrl.hash) {
-        return;
-      }
-
-      // 当前页面内的锚点导航
       if (
-        targetUrl.origin !== window.location.origin ||
-        targetUrl.pathname !== window.location.pathname
+        !link ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey
       ) {
         return;
       }
 
-      event.preventDefault();
+      var targetUrl = new URL(link.href, window.location.href);
+      var hash = targetUrl.hash;
 
-      var target = document.getElementById(targetUrl.hash.slice(1));
+      if (targetUrl.origin !== window.location.origin || !hash) {
+        return;
+      }
+
+      var target = document.getElementById(hash.substring(1));
+
+      if (!target) {
+        return;
+      }
+
+      // 阻止主题默认的 smoothScroll
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
 
       // 地址栏更新为 /#xxx
       history.pushState(
         null,
-        '',
-        targetUrl.pathname + targetUrl.search + targetUrl.hash
+        "",
+        targetUrl.pathname + targetUrl.search + hash
       );
 
-      if (target) {
-        var masthead = document.querySelector('.masthead');
-        var offset = masthead
-          ? masthead.getBoundingClientRect().height + 12
-          : 72;
+      // 避开顶部 masthead 后立即跳转
+      var masthead = document.querySelector(".masthead");
+      var offset = masthead
+        ? masthead.getBoundingClientRect().height + 12
+        : 72;
 
-        var targetTop =
-          target.getBoundingClientRect().top +
-          window.pageYOffset -
-          offset;
+      var targetTop =
+        target.getBoundingClientRect().top +
+        window.pageYOffset -
+        offset;
 
-        window.scrollTo(0, Math.max(0, targetTop));
-      }
-    });
-  });
+      window.scrollTo(0, Math.max(0, targetTop));
+    },
+    true
+  );
 </script>
 
 {% include analytics.html %}
