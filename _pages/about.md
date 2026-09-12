@@ -1767,9 +1767,9 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">CVPR’26</span>
-          <span class="student-tag">AAAI’26</span>
+          <span class="student-tag"><strong class="primary-gradient-text">AAAI’26</strong> <small>(first author)</small></span>
           <span class="student-tag">TKDE’26</span>
-          <span class="student-tag">ACM MM’25 ×2</span>
+          <span class="student-tag"><strong class="primary-gradient-text">ACM MM’25 ×2</strong> <small>(first author)</small></span>
         </div>
         <span class="student-label">Awards</span>
         <div class="student-tags">
