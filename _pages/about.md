@@ -37,6 +37,11 @@ redirect_from:
   border-color: transparent;
   box-shadow: 0 4px 10px rgba(254, 102, 123, .18);
 }
+  .students-intro.recruitment-note {
+  color: #FE667B;
+  font-weight: 800;
+  line-height: 1.7;
+}
 .student-group { margin-top: 1.35rem; }
 .student-group-title {
   display: flex;
@@ -57,6 +62,18 @@ redirect_from:
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
   gap: .8rem;
+}
+.recruitment-note {
+  color: #d71920;
+  font-weight: 800;
+  line-height: 1.7;
+}
+
+.recruitment-email {
+  color: #4aa8c8 !important;
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 .student-card {
   position: relative;
@@ -1744,14 +1761,16 @@ document.addEventListener('DOMContentLoaded', function() {
 </h1>
 
 <section class="students-section" id="students-and-collaborators">
-  <p class="students-intro i18n-en">
-    <strong>I am always looking for self-motivated students with an interest in research.</strong>
-    If you are interested in working with me, regardless of your institution or location,
-    feel free to send me an email with your CV attached. Thank you!
-    <br>
-    I am very fortunate to work with many outstanding students. The list below details the
-    students I have supervised, including their backgrounds, publications, and awards.
-  </p>
+  <p class="students-intro recruitment-note i18n-en">
+  I am always looking for self-motivated students with an interest in research.
+  If you are interested in working with me, regardless of your institution or location,
+  feel free to send me your CV attached to
+  <a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>.
+</p>
+<p class="students-intro i18n-en">
+  I am very fortunate to work with many outstanding students. The list below details the
+  students I have supervised, including their backgrounds, publications, and awards.
+</p>
 
   <p class="students-intro i18n-zh">
     <strong>我一直期待与对科研感兴趣、积极主动的同学交流。</strong>
