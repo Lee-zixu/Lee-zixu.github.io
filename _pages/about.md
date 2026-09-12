@@ -1792,36 +1792,36 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Qianyun Yang</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag"><strong class="primary-gradient-text">TKDE’26</strong> <small>(first author)</small></span>
           <span class="student-tag">CVPR’26</span>
           <span class="student-tag"><strong class="primary-gradient-text">TDSC’26</strong> <small>(first author)</small></span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
       </article>
       <article class="student-card">
         <h3 class="student-name">Yulun Zhang</h3>
         <p class="student-meta">Master @ UCAS · Co-supervision with Prof. Ruxin Wang</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
           <span class="student-tag">ACM MM’26</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
       </article>
       <article class="student-card">
         <h3 class="student-name">Haocong Wang</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">TOIS’26 (under review)</span>
           <span class="student-tag">AAAI’25</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
@@ -1829,11 +1829,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Fangxu Liu</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">CICAS Grand Prize</span>
@@ -1842,12 +1842,12 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Xiangrun Li</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
       </article>
     </div>
@@ -1859,7 +1859,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Zhiheng Fu</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
@@ -1867,7 +1867,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">AAAI’25</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
@@ -1882,13 +1882,13 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Qinlei Huang</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag">AAAI’26 ×2</span>
           <span class="student-tag">ToMM’26</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
           <span class="student-tag award">CICAS Grand Prize</span>
@@ -1897,14 +1897,14 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Jiale Huang</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">ICLR’27 (under review)</span>
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag">ICMR’26 ×2</span>
           <span class="student-tag">AAAI’26</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
@@ -1912,13 +1912,13 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Mingyu Zhang</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">Publications</span>
+        <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">ICLR’27 (under review)</span>
           <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
-        <span class="student-label">Awards</span>
+        <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
           <span class="student-tag award">Top 5% GPA over three years</span>
           <span class="student-tag award">CICAS Grand Prize</span>
