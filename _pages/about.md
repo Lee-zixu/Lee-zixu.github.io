@@ -12,9 +12,12 @@ redirect_from:
   <a href="#about">About</a>
   <a href="#open-source-projects">Projects</a>
   <a href="#news">News</a>
-  <a href="#publications-wrapper">Publications</a>
+  <a href="#publications">Publications</a>
+  <a href="#industry-project">Industry Project</a>
   <a href="#students-and-collaborators">Students</a>
+  <a href="#patent">Patent</a>
   <a href="#honors-and-awards">Awards</a>
+  <a href="#competition">Competition</a>
   <a href="#education">Education</a>
   <a href="#services">Services</a>
 </nav>
@@ -798,6 +801,12 @@ body.lang-en .i18n-en-list { display: list-item !important; }
               linear-gradient(135deg, #FE667B 0%, #ff8599 45%, #a29bfe 100%) border-box !important;
   border-color: transparent !important;
 }
+
+.page-nav { position: sticky; top: 0; z-index: 1000; display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.5rem; padding: .6rem .75rem; border: 1px solid rgba(1,47,99,.1); border-radius: 14px; background: rgba(255,255,255,.95); box-shadow: 0 6px 18px rgba(1,47,99,.08); backdrop-filter: blur(10px); }
+.page-nav a { padding: .34rem .68rem; border-radius: 999px; color: #012F63 !important; font-size: .8rem; font-weight: 800; text-decoration: none !important; }
+.page-nav a:hover { color: #fff !important; background: linear-gradient(135deg,#FE667B,#6aa9ff); }
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 90px; }
 </style>
  
 {% if site.google_scholar_stats_use_cdn %}
@@ -1113,7 +1122,7 @@ Hi, I am Zixu Li (李子旭).
 </div>
 
 <div>
-      <h1>📝 <span class="i18n-en-inline">Publications</span><span class="i18n-zh-inline">论文成果</span></h1>
+      <h1 id="publications">📝 <span class="i18n-en-inline">Publications</span><span class="i18n-zh-inline">论文成果</span></h1>
       <div style="font-size: 0.88em; color: #586069; margin: -0.4rem 0 1rem 0; line-height: 1.6;">
         <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
         <span class="i18n-zh-inline">⚓️ 表示project leader；📧 表示通讯作者。</span>
