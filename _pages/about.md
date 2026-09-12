@@ -1664,6 +1664,75 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- - [发明授权, 第五发明人] 一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 授权专利号: *ZL202211425243.0*-->
 
 
+
+
+<h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
+<ul class="i18n-en">
+  <li><em>2026.06</em> Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</li>
+  <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
+  <li><em>2024.09</em> Huawei Outstanding Technical Collaboration Award <strong>(Top 10 globally per year)</strong>.</li>
+  <li><em>2024.09</em> Huawei Outstanding Student Award <strong>(Top 30 globally per year)</strong>.</li>
+  <li><em>2023.06</em> Outstanding Undergraduate Thesis <strong>(Ranked 1st out of 409 candidates)</strong>.</li>
+  <li><em>2023.06</em> Outstanding Graduates of Shandong Province.</li>
+  <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
+</ul>
+<ul class="i18n-zh">
+  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong></li>
+  <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong></li>
+  <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong></li>
+  <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong></li>
+  <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong></li>
+  <li><em>2023.06</em> 山东省优秀毕业生</li>
+  <li><em>2023.06</em> 山东大学优秀毕业生</li>
+</ul>
+
+<!--# 💻 Project QSGNGT-->
+
+<h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
+<ul class="i18n-en">
+  <!-- <li>1st place 🏅, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li> -->
+  <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
+  <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Link</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Link</a></li>
+  <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
+</ul>
+<ul class="i18n-zh">
+  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li> 
+  <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
+  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
+</ul>
+
+<h1><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
+<ul class="i18n-en">
+  <li><em>2023.09 - now</em>, Shandong University, Artificial Intelligence, Ph.D.</li>
+  <li><em>2019.09 - 2023.06</em>, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.</li>
+</ul>
+<ul class="i18n-zh">
+  <li><em>2023.09 - 至今</em>，山东大学，人工智能，博士研究生。</li>
+  <li><em>2019.09 - 2023.06</em>，山东大学，数据科学与大数据技术，学士。</li>
+</ul>
+
+<h1><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
+<ul class="i18n-en">
+  <li>Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
+  <li>Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM</li>
+</ul>
+<ul class="i18n-zh">
+  <li>会议审稿人：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
+  <li>期刊审稿人：IEEE TIP, IEEE TIFS, ACM ToMM</li>
+</ul>
+
+
+
+
+
 <section class="students-section" id="students-and-collaborators">
   <span class="section-kicker">🤝 Mentorship</span>
 
@@ -1866,70 +1935,6 @@ document.addEventListener('DOMContentLoaded', function() {
   </p>
 </section>
 
-
-
-<h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
-<ul class="i18n-en">
-  <li><em>2026.06</em> Shandong University Graduate Academic Star Award (Practical Application Category, 18 people in the whole university).</li>
-  <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
-  <li><em>2024.09</em> Huawei Outstanding Technical Collaboration Award <strong>(Top 10 globally per year)</strong>.</li>
-  <li><em>2024.09</em> Huawei Outstanding Student Award <strong>(Top 30 globally per year)</strong>.</li>
-  <li><em>2023.06</em> Outstanding Undergraduate Thesis <strong>(Ranked 1st out of 409 candidates)</strong>.</li>
-  <li><em>2023.06</em> Outstanding Graduates of Shandong Province.</li>
-  <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
-</ul>
-<ul class="i18n-zh">
-  <li><em>2026.06</em> 山东大学研究生学术之星<strong>（实践应用类，全校18人）</strong></li>
-  <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong></li>
-  <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong></li>
-  <li><em>2024.09</em> 华为优秀学生奖<strong>（全球每年 Top 30）</strong></li>
-  <li><em>2023.06</em> 山东大学优秀本科毕业论文<strong>（409名候选人中排名第1）</strong></li>
-  <li><em>2023.06</em> 山东省优秀毕业生</li>
-  <li><em>2023.06</em> 山东大学优秀毕业生</li>
-</ul>
-
-<!--# 💻 Project QSGNGT-->
-
-<h1><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
-<ul class="i18n-en">
-  <!-- <li>1st place 🏅, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li> -->
-  <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
-  <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
-  <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
-  <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
-  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Link</a></li>
-  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Link</a></li>
-  <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
-</ul>
-<ul class="i18n-zh">
-  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li> 
-  <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
-  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
-</ul>
-
-<h1><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
-<ul class="i18n-en">
-  <li><em>2023.09 - now</em>, Shandong University, Artificial Intelligence, Ph.D.</li>
-  <li><em>2019.09 - 2023.06</em>, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.</li>
-</ul>
-<ul class="i18n-zh">
-  <li><em>2023.09 - 至今</em>，山东大学，人工智能，博士研究生。</li>
-  <li><em>2019.09 - 2023.06</em>，山东大学，数据科学与大数据技术，学士。</li>
-</ul>
-
-<h1><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
-<ul class="i18n-en">
-  <li>Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
-  <li>Journal Reviewer: IEEE TIP, IEEE TIFS, ACM ToMM</li>
-</ul>
-<ul class="i18n-zh">
-  <li>会议审稿人：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, IJCAI, ICME, ICMR, ICASSP</li>
-  <li>期刊审稿人：IEEE TIP, IEEE TIFS, ACM ToMM</li>
-</ul>
 
 
 <br>
