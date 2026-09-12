@@ -1927,9 +1927,6 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
-  <p class="students-intro" style="margin-top:1rem;font-size:.82rem;">
-    <em>Underlining indicates the first author.</em>
-  </p>
 </section>
 
 
