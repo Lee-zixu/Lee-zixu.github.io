@@ -1899,7 +1899,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">ICLR’27 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">ICLR’27 (under review)</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag"><strong class="primary-gradient-text">ICMR’26 ×2</strong> <small>(first author)</small></span>
           <span class="student-tag">AAAI’26</span>
@@ -1914,7 +1914,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">ICLR’27 (under review)</span>
+          <span class="student-tag"><strong class="primary-gradient-text">ICLR’27 (under review)</strong> <small>(first author)</small></span>
           <span class="student-tag">CVPR’26</span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
