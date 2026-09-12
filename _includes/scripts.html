@@ -1,3 +1,54 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  $(function () {
+    var navLinks = $('#site-nav a[href*="#"]');
+
+    // 移除主题默认的平滑滚动
+    navLinks.off('click.smoothscroll');
+
+    // 顶部导航：瞬移、更新地址栏、避开顶部导航
+    navLinks.on('click.zixuNavigation', function (event) {
+      var targetUrl = new URL(this.href, window.location.href);
+
+      if (!targetUrl.hash) {
+        return;
+      }
+
+      // 当前页面内的锚点导航
+      if (
+        targetUrl.origin !== window.location.origin ||
+        targetUrl.pathname !== window.location.pathname
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+
+      var target = document.getElementById(targetUrl.hash.slice(1));
+
+      // 地址栏更新为 /#xxx
+      history.pushState(
+        null,
+        '',
+        targetUrl.pathname + targetUrl.search + targetUrl.hash
+      );
+
+      if (target) {
+        var masthead = document.querySelector('.masthead');
+        var offset = masthead
+          ? masthead.getBoundingClientRect().height + 12
+          : 72;
+
+        var targetTop =
+          target.getBoundingClientRect().top +
+          window.pageYOffset -
+          offset;
+
+        window.scrollTo(0, Math.max(0, targetTop));
+      }
+    });
+  });
+</script>
+
 {% include analytics.html %}
