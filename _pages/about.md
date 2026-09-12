@@ -1769,17 +1769,17 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">PhD @ SDU · Co-supervision with Prof. Liqiang Nie</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">TPAMI’26 (under review)</span>
+          <span class="student-tag first-author">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">CVPR’26</span>
-          <span class="student-tag"><span class="student-tag first-author">AAAI’26</span></span>
+          <span class="student-tag first-author">AAAI’26</span></span>
           <span class="student-tag">TKDE’26</span>
-          <span class="student-tag"><strong class="primary-gradient-text">ACM MM’25 ×2</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">ACM MM’25 ×2</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
+          <span class="student-tag first-author">Ground Challenge 1st @ CVPR’26 ×3</span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
           <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
           <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
@@ -1800,9 +1800,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">TKDE’26</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">TKDE’26</span>
           <span class="student-tag">CVPR’26</span>
-          <span class="student-tag"><strong class="primary-gradient-text">TDSC’26</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">TDSC’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
@@ -1813,8 +1813,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag"><strong class="primary-gradient-text">TIP’26 (under review)</strong> <small>(first author)</small></span>
-          <span class="student-tag"><strong class="primary-gradient-text">ACM MM’26</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">TIP’26 (under review)</span>
+          <span class="student-tag first-author">ACM MM’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
@@ -1824,7 +1824,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">TOIS’26 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">TOIS’26 (under review)</span>
           <span class="student-tag">AAAI’25</span>
         </div>
         <span class="student-label">🎖 Awards</span>
@@ -1837,11 +1837,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">AAAI’27 (under review)</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1850,8 +1850,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
-          <span class="student-tag"><strong class="primary-gradient-text">TOIS’26 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">AAAI’27 (under review)</span>
+          <span class="student-tag first-author">TOIS’26 (under review)</span>
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
@@ -1869,7 +1869,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="student-tags">
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
-          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">CVPR’26</span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">AAAI’25</span>
         </div>
@@ -1877,8 +1877,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="student-tags">
           <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ SIGIR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag first-author">Ground Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
@@ -1890,7 +1890,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">AAAI’27 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">AAAI’27 (under review)</span>
           <span class="student-tag">AAAI’26 ×2</span>
           <span class="student-tag">ToMM’26</span>
         </div>
@@ -1905,9 +1905,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">ICLR’27 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">ICLR’27 (under review)</span>
           <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag"><strong class="primary-gradient-text">ICMR’26 ×2</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">ICMR’26 ×2</span>
           <span class="student-tag">AAAI’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
@@ -1920,7 +1920,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag"><strong class="primary-gradient-text">ICLR’27 (under review)</strong> <small>(first author)</small></span>
+          <span class="student-tag first-author">ICLR’27 (under review)</span>
           <span class="student-tag">CVPR’26</span>
           <span class="student-tag">TOIS’26 (under review)</span>
         </div>
