@@ -1773,10 +1773,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <section class="students-section" id="students-and-collaborators">
   <p class="students-intro recruitment-note i18n-en">
-  I am always looking for self-motivated students with an interest in research.
-  If you are interested in working with me, regardless of your institution or location,
-  feel free to send me your CV attached to
-  <a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>.
+  I am always looking for self‑motivated students with an interest in research. If you are interested in working with me, regardless of your institution or location, feel free to email me at <a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a> with your CV attached.
 </p>
 <p class="students-intro i18n-en">
   I am very fortunate to work with many outstanding students. The list below details the
