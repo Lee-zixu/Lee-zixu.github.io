@@ -1766,7 +1766,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
-          <span class="student-tag"><strong class="primary-gradient-text">CVPR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag">CVPR’26</span>
           <span class="student-tag">AAAI’26</span>
           <span class="student-tag">TKDE’26</span>
           <span class="student-tag">ACM MM’25 ×2</span>
@@ -1775,8 +1775,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="student-tags">
           <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 1st @ CVPR’26 ×3</strong> <small>(including one as first author)</small></span>
           <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award"><strong class="primary-gradient-text">Ground Challenge 3rd @ CVPR’26</strong> <small>(first author)</small></span>
-          <span class="student-tag award"><strong class="primary-gradient-text">1st @ SIGIR’26</strong> <small>(first author)</small></span>
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
           <span class="student-tag award">BYD Scholarship</span>
