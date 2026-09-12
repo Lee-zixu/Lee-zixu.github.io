@@ -1779,14 +1779,22 @@ document.addEventListener('DOMContentLoaded', function() {
   I am very fortunate to work with many outstanding students. The list below details the
   students I have supervised, including their backgrounds, publications, and awards.
 </p>
+<p class="students-intro i18n-en">
+  <span class="student-tag first-author">First Author</span> <em>indicates the student is the first author.</em>
+</p>
 
-  <p class="students-intro i18n-zh">
-    <strong>我一直期待与对科研感兴趣、积极主动的同学交流。</strong>
-    无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件。
+  <p class="students-intro recruitment-note i18n-zh">
+    我一直期待与对科研感兴趣、积极主动的同学交流。</strong>
+    无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件至<a class="recruitment-email" href="lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
     感谢关注！
-    <br>
+    </p>
+    <p class="students-intro i18n-zh">
     我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
   </p>
+  <p class="students-intro i18n-zh">
+  <span class="student-tag first-author">First Author</span> <em>表示作为第一作者的成果.</em>
+</p>
+  
 
   <div class="student-group">
     <h2 class="student-group-title">Ph.D. Students</h2>
