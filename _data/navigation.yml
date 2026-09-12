@@ -15,9 +15,6 @@ main:
   - title: "Industry Project"
     url: "/#industry-project"
 
-  - title: "Students"
-    url: "/#students-and-collaborators"
-
   - title: "Patent"
     url: "/#patent"
 
@@ -32,3 +29,8 @@ main:
 
   - title: "Services"
     url: "/#services"
+    
+  - title: "Students"
+    url: "/#students-and-collaborators"
+
+
