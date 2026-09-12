@@ -28,7 +28,7 @@ redirect_from:
   margin: 0 0 1rem;
   color: #586069;
   line-height: 1.65;
-}
+} 
 .students-intro strong { color: #012F63; }
 .student-tag.first-author {
   color: #fff;
