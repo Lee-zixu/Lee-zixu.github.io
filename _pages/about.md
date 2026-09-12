@@ -1792,7 +1792,7 @@ document.addEventListener('DOMContentLoaded', function() {
     我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
   </p>
   <p class="students-intro i18n-zh">
-  <span class="student-tag first-author">First Author</span> <em>表示作为第一作者的成果.</em>
+  <span class="student-tag first-author"> </span> <em>表示作为第一作者的成果.</em>
 </p>
   
 
