@@ -1,36 +1,24 @@
-# main links
+# main links links
 main:
   - title: "About"
     url: "/#about"
-
   - title: "Projects"
     url: "/#open-source-projects"
-
   - title: "News"
     url: "/#news"
-
   - title: "Publications"
     url: "/#publications"
-
   - title: "Industry Project"
     url: "/#industry-project"
-
   - title: "Patent"
     url: "/#patent"
-
   - title: "Awards"
     url: "/#honors-and-awards"
-
   - title: "Competition"
     url: "/#competition"
-
   - title: "Education"
     url: "/#education"
-
   - title: "Services"
     url: "/#services"
-    
   - title: "Students"
     url: "/#students-and-collaborators"
-
-
