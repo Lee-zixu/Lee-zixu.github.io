@@ -9,6 +9,119 @@ redirect_from:
 ---
 
 <style>
+  /* Students and collaborators */
+.students-section {
+  margin: 2rem 0 2.2rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(1,47,99,.08);
+  border-radius: 18px;
+  background: linear-gradient(180deg,#fff 0%,#f8fbff 100%);
+  box-shadow: 0 10px 30px rgba(1,47,99,.06);
+}
+.students-title {
+  margin: .65rem 0 .35rem;
+  color: #012F63;
+  font-size: 1.45rem;
+  font-weight: 850;
+}
+.students-intro {
+  margin: 0 0 1rem;
+  color: #586069;
+  line-height: 1.65;
+}
+.students-intro strong { color: #012F63; }
+
+.student-group { margin-top: 1.35rem; }
+.student-group-title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 0 0 .7rem;
+  color: #012F63;
+  font-size: 1.05rem;
+  font-weight: 850;
+}
+.student-group-title:after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg,rgba(1,47,99,.18),transparent);
+}
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: .8rem;
+}
+.student-card {
+  position: relative;
+  padding: .95rem 1rem;
+  border: 1px solid rgba(1,47,99,.08);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(1,47,99,.06);
+  transition: transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+.student-card:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(180deg,#FE667B,#6aa9ff);
+}
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(1,47,99,.12);
+  border-color: rgba(254,102,123,.24);
+}
+.student-name {
+  margin: 0 0 .2rem;
+  color: #012F63;
+  font-size: 1rem;
+  font-weight: 850;
+}
+.student-meta {
+  margin: 0 0 .55rem;
+  color: #6a737d;
+  font-size: .8rem;
+  line-height: 1.45;
+}
+.student-label {
+  display: block;
+  margin-top: .42rem;
+  color: #586069;
+  font-size: .76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.student-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .28rem;
+  margin-top: .25rem;
+}
+.student-tag {
+  display: inline-block;
+  padding: .18rem .48rem;
+  border-radius: 999px;
+  color: #174f91;
+  background: #edf6ff;
+  border: 1px solid #cfe4fa;
+  font-size: .75rem;
+  line-height: 1.3;
+}
+.student-tag.award {
+  color: #7a4b00;
+  background: #fff7d6;
+  border-color: #f1d58c;
+}
+@media (max-width:700px) {
+  .student-grid { grid-template-columns: 1fr; }
+  .students-section { padding: 1rem; }
+}
 /* Research roadmap and industry project styles */
 .research-intro {
   font-size: 1.02em;
@@ -1549,6 +1662,211 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- - [发明授权, 第四发明人] 基于跨模态语义解析的图文检索方法及系统 - 授权专利号: *ZL202410326442.9*-->
 
 <!-- - [发明授权, 第五发明人] 一种基于受挫随机游走和特征加权聚类的高校经济困难生识别方法及系统 - 授权专利号: *ZL202211425243.0*-->
+
+
+<section class="students-section" id="students-and-collaborators">
+  <span class="section-kicker">🤝 Mentorship</span>
+
+  <h1 class="students-title">
+    <span class="i18n-en-inline">Students and Collaborators</span>
+    <span class="i18n-zh-inline">学生与合作者</span>
+  </h1>
+
+  <p class="students-intro i18n-en">
+    <strong>I am always looking for self-motivated students with an interest in research.</strong>
+    If you are interested in working with me, regardless of your institution or location,
+    feel free to send me an email with your CV attached. Thank you!
+    <br>
+    I am very fortunate to work with many outstanding students. The list below details the
+    students I have supervised, including their backgrounds, publications, and awards.
+  </p>
+
+  <p class="students-intro i18n-zh">
+    <strong>我一直期待与对科研感兴趣、积极主动的同学交流。</strong>
+    无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件。
+    感谢关注！
+    <br>
+    我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
+  </p>
+
+  <div class="student-group">
+    <h2 class="student-group-title">Ph.D. Students</h2>
+    <div class="student-grid">
+      <article class="student-card">
+        <h3 class="student-name">Zhiwei Chen</h3>
+        <p class="student-meta">PhD @ SDU · Co-supervision with Prof. Liqiang Nie</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">TPAMI’26 (under review)</span>
+          <span class="student-tag">TIP’26</span>
+          <span class="student-tag">ACL’26</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag">AAAI’26</span>
+          <span class="student-tag">TKDE’26</span>
+          <span class="student-tag">ACM MM’25 ×2</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
+          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag award">BYD Scholarship</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="student-group">
+    <h2 class="student-group-title">Master Students</h2>
+    <div class="student-grid">
+      <article class="student-card">
+        <h3 class="student-name">Qianyun Yang</h3>
+        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">TKDE’26</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag">TDSC’26</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags"><span class="student-meta">—</span></div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Yulun Zhang</h3>
+        <p class="student-meta">Master @ UCAS · Co-supervision with Prof. Ruxin Wang</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag">TIP’26 (under review)</span>
+          <span class="student-tag">ACM MM’26</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags"><span class="student-meta">—</span></div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Haocong Wang</h3>
+        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">TOIS’26 (under review)</span>
+          <span class="student-tag">AAAI’25</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Fangxu Liu</h3>
+        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">AAAI’27 (under review)</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Xiangrun Li</h3>
+        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag">TOIS’26 (under review)</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags"><span class="student-meta">—</span></div>
+      </article>
+    </div>
+  </div>
+
+  <div class="student-group">
+    <h2 class="student-group-title">Undergraduate Students</h2>
+    <div class="student-grid">
+      <article class="student-card">
+        <h3 class="student-name">Zhiheng Fu</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">TPAMI’26 (under review)</span>
+          <span class="student-tag">TIP’26 (under review)</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag">ACL’26</span>
+          <span class="student-tag">AAAI’25</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award">Presidential Scholarship Finalist</span>
+          <span class="student-tag award">National Scholarship</span>
+          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Qinlei Huang</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag">AAAI’26 ×2</span>
+          <span class="student-tag">ToMM’26</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">1st @ SIGIR’26</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Jiale Huang</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">ICLR’27 (under review)</span>
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag">ICMR’26 ×2</span>
+          <span class="student-tag">AAAI’26</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Mingyu Zhang</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">ICLR’27 (under review)</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag">TOIS’26 (under review)</span>
+        </div>
+        <span class="student-label">Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Top 5% GPA over three years</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <p class="students-intro" style="margin-top:1rem;font-size:.82rem;">
+    <em>Underlining indicates the first author.</em>
+  </p>
+</section>
+
+
 
 <h1><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
