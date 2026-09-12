@@ -30,7 +30,13 @@ redirect_from:
   line-height: 1.65;
 }
 .students-intro strong { color: #012F63; }
-
+.student-tag.first-author {
+  color: #fff;
+  font-weight: 900;
+  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  border-color: transparent;
+  box-shadow: 0 4px 10px rgba(254, 102, 123, .18);
+}
 .student-group { margin-top: 1.35rem; }
 .student-group-title {
   display: flex;
@@ -1767,7 +1773,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag">TIP’26</span>
           <span class="student-tag">ACL’26</span>
           <span class="student-tag">CVPR’26</span>
-          <span class="student-tag"><strong class="primary-gradient-text">AAAI’26</strong> <small>(first author)</small></span>
+          <span class="student-tag"><span class="student-tag first-author">AAAI’26</span></span>
           <span class="student-tag">TKDE’26</span>
           <span class="student-tag"><strong class="primary-gradient-text">ACM MM’25 ×2</strong> <small>(first author)</small></span>
         </div>
