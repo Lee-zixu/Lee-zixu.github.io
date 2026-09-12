@@ -1732,17 +1732,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<style>
-.student-tag small { font-size: .92em; font-weight: 700; }
-.student-tag .primary-gradient-text { font-weight: 900; }
-</style>
+<h1>
+  <span class="i18n-en-inline">🤝 Students and Collaborators</span>
+  <span class="i18n-zh-inline">🤝 学生与合作者</span>
+</h1>
 
 <section class="students-section" id="students-and-collaborators">
-  <span class="section-kicker">🤝 Mentorship</span>
-  <h1 class="students-title">
-    <span class="i18n-en-inline">Students and Collaborators</span>
-    <span class="i18n-zh-inline">学生与合作者</span>
-  </h1>
   <p class="students-intro i18n-en">
     <strong>I am always looking for self-motivated students with an interest in research.</strong>
     If you are interested in working with me, regardless of your institution or location,
