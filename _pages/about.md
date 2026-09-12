@@ -1732,16 +1732,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-<section class="students-section" id="students-and-collaborators">
-  <span class="section-kicker">🤝 Mentorship</span>
-
   <h1 class="students-title">
     <span class="i18n-en-inline">Students and Collaborators</span>
     <span class="i18n-zh-inline">学生与合作者</span>
   </h1>
-
-  <p class="students-intro i18n-en">
+    <p class="students-intro i18n-en">
+<section class="students-section" id="students-and-collaborators">
+  <span class="section-kicker">🤝 Mentorship</span>
     <strong>I am always looking for self-motivated students with an interest in research.</strong>
     If you are interested in working with me, regardless of your institution or location,
     feel free to send me an email with your CV attached. Thank you!
