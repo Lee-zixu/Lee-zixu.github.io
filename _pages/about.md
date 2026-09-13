@@ -1788,7 +1788,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
-    我一直期待与对科研感兴趣、积极主动的同学交流。无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历和个人简介的邮件至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
+    我一直期待与对科研感兴趣、积极主动的同学交流。无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
     感谢关注！
     </p>
     <p class="students-intro i18n-zh">
