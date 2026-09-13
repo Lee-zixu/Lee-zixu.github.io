@@ -1,51 +1,56 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
-  window.addEventListener(
-    "click",
-    function (event) {
-      var link = event.target.closest("#site-nav a");
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('#site-nav a[href*="#"]');
 
-      if (!link) {
-        return;
-      }
+    if (
+      !link ||
+      event.button !== 0 ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey
+    ) {
+      return;
+    }
 
-      var href = link.getAttribute("href");
-      var hashIndex = href ? href.indexOf("#") : -1;
+    var targetUrl = new URL(link.href, window.location.href);
 
-      if (hashIndex === -1) {
-        return;
-      }
+    if (
+      targetUrl.origin !== window.location.origin ||
+      !targetUrl.hash
+    ) {
+      return;
+    }
 
-      var hash = href.substring(hashIndex);
-      var target = document.getElementById(hash.substring(1));
+    var target = document.getElementById(targetUrl.hash.slice(1));
 
-      if (!target) {
-        return;
-      }
+    if (!target) {
+      return;
+    }
 
-      event.preventDefault();
-      event.stopPropagation();
-      event.stopImmediatePropagation();
+    event.preventDefault();
+    event.stopImmediatePropagation();
 
-      // 强制修改地址栏
-      window.location.hash = hash;
+    history.pushState(
+      null,
+      '',
+      targetUrl.pathname + targetUrl.search + targetUrl.hash
+    );
 
-      // 立即跳转，并避开顶部导航
-      var masthead = document.querySelector(".masthead");
-      var offset = masthead
-        ? masthead.getBoundingClientRect().height + 12
-        : 72;
+    var masthead = document.querySelector('.masthead');
+    var offset = masthead
+      ? masthead.getBoundingClientRect().height + 12
+      : 72;
 
-      var targetTop =
-        target.getBoundingClientRect().top +
-        window.pageYOffset -
-        offset;
+    var targetTop =
+      target.getBoundingClientRect().top +
+      window.pageYOffset -
+      offset;
 
-      window.scrollTo(0, Math.max(0, targetTop));
-    },
-    true
-  );
+    window.scrollTo(0, Math.max(0, targetTop));
+  }, true);
 </script>
 
 {% include analytics.html %}
