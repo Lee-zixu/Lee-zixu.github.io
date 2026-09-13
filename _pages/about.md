@@ -75,6 +75,21 @@ redirect_from:
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.sidebar-collab-note,
+.sidebar-collab-note a,
+.sidebar-collab-note a:visited,
+.sidebar-collab-note a:hover {
+  color: #d62828;
+}
+
+.sidebar-collab-note a {
+  text-decoration: none;
+}
+
+.sidebar-collab-note a:hover {
+  text-decoration: underline;
+}
+  
 .sidebar-collab-note {
   display: block;
   margin: 1rem auto 0;
