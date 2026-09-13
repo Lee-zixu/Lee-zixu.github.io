@@ -23,7 +23,7 @@ redirect_from:
   color: #012F63;
   font-size: 1.45rem;
   font-weight: 850;
-}
+} 
 .students-intro {
   margin: 0 0 1rem;
   color: #586069;
