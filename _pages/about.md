@@ -1770,9 +1770,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<h1 id="students-and-collaborators">
-  <span class="i18n-en-inline">🤝 Students and Collaborators</span>
-  <span class="i18n-zh-inline">🤝 学生与合作者</span>
+<h1 id="students">
+  <span class="i18n-en-inline">🤝 Students Supervised/Co‑Supervised</span>
+  <span class="i18n-zh-inline">🤝 指导/共同指导学生</span>
 </h1>
 
 <section class="students-section">
