@@ -1772,7 +1772,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1 id="students">
   <span class="i18n-en-inline">🤝 Students Supervised/Co‑Supervised</span>
-  <span class="i18n-zh-inline">🤝 指导/共同指导学生</span>
+  <span class="i18n-zh-inline">🤝 指导/共同指导学生</span> 
 </h1>
 
 <section class="students-section">
