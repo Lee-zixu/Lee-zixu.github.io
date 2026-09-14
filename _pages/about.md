@@ -1803,8 +1803,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
-    我一直期待与对科研感兴趣、积极主动的同学交流。无论你来自哪所学校、身处何地，如果希望与我合作，欢迎发送附有个人简历的邮件至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>。
-    感谢关注！
+    我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
     </p>
     <p class="students-intro i18n-zh">
     我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
@@ -1818,7 +1817,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Ph.D. Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiwei Chen</h3>
+        <h3 class="student-name">Zhiwei Chen (2024–Present)</h3>
         <p class="student-meta">PhD @ SDU · Co-supervision with Prof. Liqiang Nie</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1849,7 +1848,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Master Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Qianyun Yang</h3>
+        <h3 class="student-name">Qianyun Yang (2024–2027)</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1859,21 +1858,8 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
-      </article>
       <article class="student-card">
-        <h3 class="student-name">Yulun Zhang</h3>
-        <p class="student-meta">Master @ UCAS · Co-supervision with Prof. Ruxin Wang</p>
-        <span class="student-label">📝 Publications</span>
-        <div class="student-tags">
-          <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag first-author">TIP’26 (under review)</span>
-          <span class="student-tag first-author">ACM MM’26</span>
-        </div>
-        <span class="student-label">🎖 Awards</span>
-        <div class="student-tags"><span class="student-meta">—</span></div>
-      </article>
-      <article class="student-card">
-        <h3 class="student-name">Haocong Wang</h3>
+        <h3 class="student-name">Haocong Wang (2024–2027)</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1886,7 +1872,20 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Fangxu Liu</h3>
+        <h3 class="student-name">Yulun Zhang (2025–2028)</h3>
+        <p class="student-meta">Master @ UCAS · Co-supervision with Prof. Ruxin Wang</p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag first-author">TIP’26 (under review)</span>
+          <span class="student-tag first-author">ACM MM’26</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags"><span class="student-meta">—</span></div>
+      </article>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Fangxu Liu (2025–2028)</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1899,7 +1898,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Xiangrun Li</h3>
+        <h3 class="student-name">Xiangrun Li (2025–2028)</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1916,7 +1915,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Undergraduate Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiheng Fu</h3>
+        <h3 class="student-name">Zhiheng Fu (2022–2026)</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1939,7 +1938,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Qinlei Huang</h3>
+        <h3 class="student-name">Qinlei Huang (2022–2026)</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1954,7 +1953,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Jiale Huang</h3>
+        <h3 class="student-name">Jiale Huang (2023–2027)</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -1969,7 +1968,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Mingyu Zhang</h3>
+        <h3 class="student-name">Mingyu Zhang (2023–2027)</h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
