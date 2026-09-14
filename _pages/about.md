@@ -1787,43 +1787,54 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1 id="students">
   <span class="i18n-en-inline">🤝 Students Supervised/Co‑Supervised</span>
-  <span class="i18n-zh-inline">🤝 指导/共同指导学生</span> 
+  <span class="i18n-zh-inline">🤝 指导/共同指导学生</span>
 </h1>
 
 <section class="students-section">
+
   <h1>
-  <span class="i18n-en-inline">Current Students</span>
-  <span class="i18n-zh-inline">目前指导学生</span> 
-</h1>
-  
+    <span class="i18n-en-inline">Current Students</span>
+    <span class="i18n-zh-inline">目前指导学生</span>
+  </h1>
+
   <p class="students-intro recruitment-note i18n-en">
-    I am always looking for self‑motivated students interested in research. If you are interested in collaborating, feel free to email me at <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a> with your CV attached.
-</p>
-<p class="students-intro i18n-en">
-  I am very fortunate to work with many outstanding students. The list below details the
-  students I have supervised, including their backgrounds, publications, and awards.
-</p>
-<p class="students-intro i18n-en">
-  <span class="student-tag first-author">  </span> <em>indicates the student is the first author.</em>
-</p>
+    I am always looking for self‑motivated students interested in research.
+    If you are interested in collaborating, feel free to email me at
+    <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
+    with your CV attached.
+  </p>
+
+  <p class="students-intro i18n-en">
+    I am very fortunate to work with many outstanding students. The list below details the
+    students I have supervised, including their backgrounds, publications, and awards.
+  </p>
+
+  <p class="students-intro i18n-en">
+    <span class="student-tag first-author"></span>
+    <em>indicates the student is the first author.</em>
+  </p>
 
   <p class="students-intro recruitment-note i18n-zh">
-    我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至<a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
-    </p>
-    <p class="students-intro i18n-zh">
+    我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
+    <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
+  </p>
+
+  <p class="students-intro i18n-zh">
     我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
   </p>
-  <p class="students-intro i18n-zh">
-  <span class="student-tag first-author"> </span> <em>表示作为第一作者的成果.</em>
-</p>
-  
 
+  <p class="students-intro i18n-zh">
+    <span class="student-tag first-author"></span>
+    <em>表示作为第一作者的成果。</em>
+  </p>
   <div class="student-group">
     <h2 class="student-group-title">Ph.D. Students</h2>
     <div class="student-grid">
       <article class="student-card">
         <h3 class="student-name">Zhiwei Chen (Sep 2024 - Present)</h3>
-        <p class="student-meta">PhD @ SDU · Co-supervision with Prof. Liqiang Nie</p>
+        <p class="student-meta">
+          PhD @ SDU · Co-supervision with Prof. Liqiang Nie
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">TPAMI’26 (under review)</span>
@@ -1854,7 +1865,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="student-grid">
       <article class="student-card">
         <h3 class="student-name">Qianyun Yang (Sep 2024 - Present)</h3>
-        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">TKDE’26</span>
@@ -1862,11 +1875,15 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag first-author">TDSC’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
-        <div class="student-tags"><span class="student-meta">—</span></div>
-        </article>
+        <div class="student-tags">
+          <span class="student-meta">—</span>
+        </div>
+      </article>
       <article class="student-card">
         <h3 class="student-name">Haocong Wang (Sep 2024 - Present)</h3>
-        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">TOIS’26 (under review)</span>
@@ -1879,7 +1896,9 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
       <article class="student-card">
         <h3 class="student-name">Yulun Zhang (Sep 2025 - Present)</h3>
-        <p class="student-meta">Master @ UCAS · Co-supervision with Prof. Ruxin Wang</p>
+        <p class="student-meta">
+          Master @ UCAS · Co-supervision with Prof. Ruxin Wang
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">AAAI’27 (under review)</span>
@@ -1887,11 +1906,15 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag first-author">ACM MM’26</span>
         </div>
         <span class="student-label">🎖 Awards</span>
-        <div class="student-tags"><span class="student-meta">—</span></div>
+        <div class="student-tags">
+          <span class="student-meta">—</span>
+        </div>
       </article>
       <article class="student-card">
         <h3 class="student-name">Fangxu Liu (Sep 2025 - Present)</h3>
-        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">AAAI’27 (under review)</span>
@@ -1904,24 +1927,109 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
       <article class="student-card">
         <h3 class="student-name">Xiangrun Li (Sep 2025 - Present)</h3>
-        <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">AAAI’27 (under review)</span>
           <span class="student-tag first-author">TOIS’26 (under review)</span>
         </div>
         <span class="student-label">🎖 Awards</span>
-        <div class="student-tags"><span class="student-meta">—</span></div>
+        <div class="student-tags">
+          <span class="student-meta">—</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Zhiheng Fu (Sep 2026 - Present)</h3>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag">TPAMI’26 (under review)</span>
+          <span class="student-tag">TIP’26 (under review)</span>
+          <span class="student-tag first-author">CVPR’26</span>
+          <span class="student-tag">ACL’26</span>
+          <span class="student-tag">AAAI’25</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag first-author">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag first-author">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
+          <span class="student-tag award">National Scholarship</span>
+          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Qinlei Huang (Sep 2026 - Present)</h3>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">AAAI’27 (under review)</span>
+          <span class="student-tag">AAAI’26 ×2</span>
+          <span class="student-tag">ToMM’26</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
       </article>
     </div>
   </div>
 
+
+<section class="students-section">
+
+  <h1>
+    <span class="i18n-en-inline">Alumni</span>
+    <span class="i18n-zh-inline">毕业生</span>
+  </h1>
+  <p class="students-intro recruitment-note i18n-en">
+   Note: For students who have switched roles while staying within the group, please check the Current Students section above for their subsequent publications.
+  </p>
+
   <div class="student-group">
-    <h2 class="student-group-title">Undergraduate Students</h2>
     <div class="student-grid">
       <article class="student-card">
+        <h3 class="student-name">Zhiwei Chen (Jul 2022 - Jun 2024)</h3>
+        <p class="student-meta">
+          Undergraduate @ SDU · Next stop: PhD program at SDU
+        </p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">TPAMI’26 (under review)</span>
+          <span class="student-tag">TIP’26</span>
+          <span class="student-tag">ACL’26</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag first-author">AAAI’26</span>
+          <span class="student-tag">TKDE’26</span>
+          <span class="student-tag first-author">ACM MM’25 ×2</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">Ground Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
+          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag award">BYD Scholarship</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
         <h3 class="student-name">Zhiheng Fu (Jul 2023 - Jun 2026)</h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
+        <p class="student-meta">
+          Undergraduate @ SDU · Next stop: Master’s program at SDU
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag">TPAMI’26 (under review)</span>
@@ -1944,7 +2052,9 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
       <article class="student-card">
         <h3 class="student-name">Qinlei Huang (Jul 2023 - Jun 2026)</h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
+        <p class="student-meta">
+          Undergraduate @ SDU · Next stop: Master’s program at SDU
+        </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">AAAI’27 (under review)</span>
@@ -1957,38 +2067,9 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
-      <article class="student-card">
-        <h3 class="student-name">Jiale Huang (Jul 2024 - Present)</h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">📝 Publications</span>
-        <div class="student-tags">
-          <span class="student-tag first-author">ICLR’27 (under review)</span>
-          <span class="student-tag">AAAI’27 (under review)</span>
-          <span class="student-tag first-author">ICMR’26 ×2</span>
-          <span class="student-tag">AAAI’26</span>
-        </div>
-        <span class="student-label">🎖 Awards</span>
-        <div class="student-tags">
-          <span class="student-tag award">CICAS Grand Prize</span>
-        </div>
-      </article>
-      <article class="student-card">
-        <h3 class="student-name">Mingyu Zhang (Nov 2024 - Present)</h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
-        <span class="student-label">📝 Publications</span>
-        <div class="student-tags">
-          <span class="student-tag first-author">ICLR’27 (under review)</span>
-          <span class="student-tag">CVPR’26</span>
-          <span class="student-tag">TOIS’26 (under review)</span>
-        </div>
-        <span class="student-label">🎖 Awards</span>
-        <div class="student-tags">
-          <span class="student-tag award">Top 5% GPA over three years</span>
-          <span class="student-tag award">CICAS Grand Prize</span>
-        </div>
-      </article>
     </div>
   </div>
+
 
 </section>
 
