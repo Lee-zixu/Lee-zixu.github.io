@@ -1858,6 +1858,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags"><span class="student-meta">—</span></div>
+        </article>
       <article class="student-card">
         <h3 class="student-name">Haocong Wang (Sep 2024 - Present)</h3>
         <p class="student-meta">Master @ SDU · Co-supervision with Prof. Yupeng Hu</p>
