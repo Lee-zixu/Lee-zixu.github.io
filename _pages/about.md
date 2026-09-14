@@ -1790,7 +1790,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <span class="i18n-zh-inline">🤝 指导/共同指导学生</span> 
 </h1>
 
-<section class="students-section">
+
   <p class="students-intro recruitment-note i18n-en">
     I am always looking for self‑motivated students interested in research. If you are interested in collaborating, feel free to email me at <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a> with your CV attached.
 </p>
