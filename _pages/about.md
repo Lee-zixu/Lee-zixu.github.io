@@ -1811,8 +1811,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p class="students-intro i18n-en">
   <span class="student-tag first-author"></span>
-  <em>indicates the student is the first author.</em>
-  · Note: Students marked with † joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work produced since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.
+  <em>indicates the student is the first author</em>
+  · Note students marked with † joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work produced since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
