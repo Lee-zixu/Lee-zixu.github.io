@@ -1829,6 +1829,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <p class="students-intro i18n-zh">
     <span class="student-tag first-author"></span>
     <em>表示作为第一作者的成果。</em>
+    <em>† 表示该学生最初以其他身份加入我的团队，随后继续在此攻读学位。所列成果涵盖了他们自加入我的团队以来完成的所有工作。关于他们在团队内先前角色的详细信息，请参见“毕业生”栏目。</em>
   </p>
   <div class="student-group">
     <h2 class="student-group-title">Ph.D. Students</h2>
@@ -2035,6 +2036,11 @@ document.addEventListener('DOMContentLoaded', function() {
   <em>indicates the student is the first author. </em>
   <em>For students who transitioned to a new academic role while remaining in the group, please see the Current Students section above for their subsequent publications.</em>
 </p>
+<p class="students-intro i18n-zh">
+    <span class="student-tag first-author"></span>
+    <em>表示作为第一作者的成果。</em>
+    <em>对于继续留在本团队的同时转入新角色的学生，请参阅上文“目前指导学生”部分，了解他们此后的发表情况。</em>
+  </p>
 
   <div class="student-group">
     <div class="student-grid">
