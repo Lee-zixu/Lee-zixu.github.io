@@ -2006,7 +2006,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Zhiheng Fu (Jul 2023 - Jun 2026)</h3>
         <p class="student-meta">
-          Undergraduate @ SDU · Next stop: Master’s program at SDU
+          Undergraduate @ SDU · Next stop: Master @ SDU
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -2030,7 +2030,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <article class="student-card">
         <h3 class="student-name">Qinlei Huang (Jul 2023 - Jun 2026)</h3>
         <p class="student-meta">
-          Undergraduate @ SDU · Next stop: Master’s program at SDU
+          Undergraduate @ SDU · Next stop: Master @ SDU
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
