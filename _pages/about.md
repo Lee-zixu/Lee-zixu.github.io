@@ -1992,39 +1992,13 @@ document.addEventListener('DOMContentLoaded', function() {
     <span class="i18n-en-inline">Alumni</span>
     <span class="i18n-zh-inline">毕业生</span>
   </h1>
-  <p class="students-intro recruitment-note i18n-en">
-   Note: For students who have switched roles while staying within the group, please check the Current Students section above for their subsequent publications.
-  </p>
+  <p class="students-intro i18n-en">
+  Note: For students who have switched roles while staying within the group,
+  please check the Current Students section above for their subsequent publications.
+</p>
 
   <div class="student-group">
     <div class="student-grid">
-      <article class="student-card">
-        <h3 class="student-name">Zhiwei Chen (Jul 2022 - Jun 2024)</h3>
-        <p class="student-meta">
-          Undergraduate @ SDU · Next stop: PhD program at SDU
-        </p>
-        <span class="student-label">📝 Publications</span>
-        <div class="student-tags">
-          <span class="student-tag first-author">TPAMI’26 (under review)</span>
-          <span class="student-tag">TIP’26</span>
-          <span class="student-tag">ACL’26</span>
-          <span class="student-tag">CVPR’26</span>
-          <span class="student-tag first-author">AAAI’26</span>
-          <span class="student-tag">TKDE’26</span>
-          <span class="student-tag first-author">ACM MM’25 ×2</span>
-        </div>
-        <span class="student-label">🎖 Awards</span>
-        <div class="student-tags">
-          <span class="student-tag first-author">Ground Challenge 1st @ CVPR’26 ×3</span>
-          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
-          <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
-          <span class="student-tag award">First-Class Academic Scholarship</span>
-          <span class="student-tag award">BYD Scholarship</span>
-          <span class="student-tag award">CICAS Grand Prize</span>
-        </div>
-      </article>
       <article class="student-card">
         <h3 class="student-name">Zhiheng Fu (Jul 2023 - Jun 2026)</h3>
         <p class="student-meta">
@@ -2032,7 +2006,6 @@ document.addEventListener('DOMContentLoaded', function() {
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
           <span class="student-tag first-author">CVPR’26</span>
           <span class="student-tag">ACL’26</span>
