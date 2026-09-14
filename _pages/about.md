@@ -1993,9 +1993,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <span class="i18n-en-inline">Alumni</span>
     <span class="i18n-zh-inline">毕业生</span>
   </h1>
-  <p class="students-intro i18n-en">
-  Note: For students who have switched roles while staying within the group,
-  please check the Current Students section above for their subsequent publications.
+<p class="students-intro i18n-en">
+  <span class="student-tag first-author"></span>
+  <em>indicates the student is the first author</em>
+  · <em>Note for students who have switched roles while staying within the group,
+  please check the Current Students section above for their subsequent publications.</em>
 </p>
 
   <div class="student-group">
