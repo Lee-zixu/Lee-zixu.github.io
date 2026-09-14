@@ -1809,10 +1809,11 @@ document.addEventListener('DOMContentLoaded', function() {
     students I have supervised, including their backgrounds, publications, and awards.
   </p>
 
-  <p class="students-intro i18n-en">
-    <span class="student-tag first-author"></span>
-    <em>indicates the student is the first author.</em>
-  </p>
+<p class="students-intro i18n-en">
+  <span class="student-tag first-author"></span>
+  <em>indicates the student is the first author.</em>
+  · Note: Students marked with † joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work produced since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.
+</p>
 
   <p class="students-intro recruitment-note i18n-zh">
     我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
@@ -1831,7 +1832,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Ph.D. Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiwei Chen (Sep 2024 - Present)</h3>
+        <h3 class="student-name">Zhiwei Chen † (Sep 2024 - Present)</h3>
         <p class="student-meta">
           PhD @ SDU · Co-supervision with Prof. Liqiang Nie
         </p>
@@ -1941,7 +1942,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Zhiheng Fu (Sep 2026 - Present)</h3>
+        <h3 class="student-name">Zhiheng Fu † (Sep 2026 - Present)</h3>
         <p class="student-meta">
           Master @ SDU · Co-supervision with Prof. Yupeng Hu
         </p>
@@ -1966,7 +1967,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Qinlei Huang (Sep 2026 - Present)</h3>
+        <h3 class="student-name">Qinlei Huang † (Sep 2026 - Present)</h3>
         <p class="student-meta">
           Master @ SDU · Co-supervision with Prof. Yupeng Hu
         </p>
