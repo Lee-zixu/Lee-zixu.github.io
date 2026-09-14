@@ -1811,8 +1811,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <p class="students-intro i18n-en">
   <span class="student-tag first-author"></span>
-  <em>indicates the student is the first author</em>
-  · <em>Note students marked with † joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work produced since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
+  <em>indicates the student is the first author. </em>
+  <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
@@ -1832,7 +1832,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Ph.D. Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiwei Chen † (Sep 2024 - Present)</h3>
+        <h3 class="student-name">Zhiwei Chen (Sep 2024 - Present)</h3>
         <p class="student-meta">
           PhD @ SDU · Co-supervision with Prof. Liqiang Nie
         </p>
@@ -1995,9 +1995,8 @@ document.addEventListener('DOMContentLoaded', function() {
   </h1>
 <p class="students-intro i18n-en">
   <span class="student-tag first-author"></span>
-  <em>indicates the student is the first author</em>
-  · <em>Note for students who have switched roles while staying within the group,
-  please check the Current Students section above for their subsequent publications.</em>
+  <em>indicates the student is the first author. </em>
+  <em>For students who transitioned to a new academic role while remaining in the group, please see the Current Students section above for their subsequent publications.</em>
 </p>
 
   <div class="student-group">
