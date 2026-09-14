@@ -1988,7 +1988,41 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
-
+<div class="student-group">
+    <h2 class="student-group-title">Undergraduate Students</h2>
+    <div class="student-grid">
+      <article class="student-card">
+        <h3 class="student-name">Jiale Huang (Jul 2024 - Present)</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">ICLR’27 (under review)</span>
+          <span class="student-tag">AAAI’27 (under review)</span>
+          <span class="student-tag first-author">ICMR’26 ×2</span>
+          <span class="student-tag">AAAI’26</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">Mingyu Zhang (Nov 2024 - Present)</h3>
+        <p class="student-meta">Undergraduate @ SDU</p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">ICLR’27 (under review)</span>
+          <span class="student-tag">CVPR’26</span>
+          <span class="student-tag">TOIS’26 (under review)</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Top 5% GPA over three years</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+    </div>
+  </div>
 <section class="students-section">
 
   <h1>
