@@ -1798,11 +1798,11 @@ document.addEventListener('DOMContentLoaded', function() {
   </h1>
 
   <p class="students-intro recruitment-note i18n-en">
-    I am always looking for self‑motivated students interested in research.
+    <!-- I am always looking for self‑motivated students interested in research.
     If you are interested in collaborating, feel free to email me at
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
-    with your CV attached.
-    我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
+    with your CV attached. -->
+    我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
 
@@ -1818,7 +1818,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </p>
 
   <p class="students-intro recruitment-note i18n-zh">
-    我一直在寻找对科研感兴趣且具有主动性的学生。无论你来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
+    我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
 
