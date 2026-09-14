@@ -2023,6 +2023,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
     </div>
   </div>
+  </section>
 <section class="students-section">
 
   <h1>
