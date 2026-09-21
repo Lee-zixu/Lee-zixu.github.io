@@ -15,7 +15,7 @@ redirect_from:
   padding: 1.2rem;
   border: 1px solid rgba(1,47,99,.08);
   border-radius: 18px;
-  background: linear-gradient(180deg,#fff 0%,#f8fbff 100%);
+  backgrand: linear-gradient(180deg,#fff 0%,#f8fbff 100%);
   box-shadow: 0 10px 30px rgba(1,47,99,.06);
 }
 .students-title {
@@ -33,7 +33,7 @@ redirect_from:
 .student-tag.first-author {
   color: #fff;
   font-weight: 900;
-  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  backgrand: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
   border-color: transparent;
   box-shadow: 0 4px 10px rgba(254, 102, 123, .18);
 }
@@ -56,7 +56,7 @@ redirect_from:
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg,rgba(1,47,99,.18),transparent);
+  backgrand: linear-gradient(90deg,rgba(1,47,99,.18),transparent);
 }
 .student-grid {
   display: grid;
@@ -107,7 +107,7 @@ redirect_from:
   padding: .95rem 1rem;
   border: 1px solid rgba(1,47,99,.08);
   border-radius: 14px;
-  background: #fff;
+  backgrand: #fff;
   box-shadow: 0 6px 18px rgba(1,47,99,.06);
   transition: transform .22s ease,box-shadow .22s ease,border-color .22s ease;
 }
@@ -119,7 +119,7 @@ redirect_from:
   bottom: 14px;
   width: 3px;
   border-radius: 0 4px 4px 0;
-  background: linear-gradient(180deg,#FE667B,#6aa9ff);
+  backgrand: linear-gradient(180deg,#FE667B,#6aa9ff);
 }
 .student-card:hover {
   transform: translateY(-4px);
@@ -158,14 +158,14 @@ redirect_from:
   padding: .18rem .48rem;
   border-radius: 999px;
   color: #174f91;
-  background: #edf6ff;
+  backgrand: #edf6ff;
   border: 1px solid #cfe4fa;
   font-size: .75rem;
   line-height: 1.3;
 }
 .student-tag.award {
   color: #7a4b00;
-  background: #fff7d6;
+  backgrand: #fff7d6;
   border-color: #f1d58c;
 }
 @media (max-width:700px) {
@@ -188,7 +188,7 @@ redirect_from:
   gap: 0.35rem;
   padding: 0.28rem;
   border-radius: 999px;
-  background: #f6f8fa;
+  backgrand: #f6f8fa;
   border: 1px solid rgba(1,47,99,0.08);
   box-shadow: 0 4px 14px rgba(1,47,99,0.05);
   margin-bottom: 1rem;
@@ -197,7 +197,7 @@ redirect_from:
   border: 0;
   border-radius: 999px;
   padding: 0.42rem 0.92rem;
-  background: transparent;
+  backgrand: transparent;
   color: #586069;
   font-size: 0.86rem;
   font-weight: 850;
@@ -207,7 +207,7 @@ redirect_from:
 .lang-tab:hover,
 .lang-tab.active {
   color: #fff;
-  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  backgrand: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
   box-shadow: 0 6px 16px rgba(254,102,123,0.18);
 }
 .lang-panel { display: none; }
@@ -239,7 +239,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 1rem 1.1rem;
   border-left: 4px solid #0366d6;
   border-radius: 12px;
-  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  backgrand: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
   box-shadow: 0 6px 18px rgba(1,47,99,0.06);
   color: #012F63;
 }
@@ -252,7 +252,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 1.2rem;
   border: 1px dashed rgba(1,47,99,0.22);
   border-radius: 18px;
-  background: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
+  backgrand: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
   box-shadow: 0 10px 30px rgba(1,47,99,0.06);
 }
 .research-map-caption {
@@ -287,8 +287,8 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 .research-lane.bottom-lane > .research-lane-label.blue {
   transform: translateY(-1.2rem);
 }
-.research-lane-label.orange { color: #a54816; background: #fff0e6; border: 1px dashed #ffc7a0; }
-.research-lane-label.blue { color: #174f91; background: #eaf4ff; border: 1px dashed #a9cff7; }
+.research-lane-label.orange { color: #a54816; backgrand: #fff0e6; border: 1px dashed #ffc7a0; }
+.research-lane-label.blue { color: #174f91; backgrand: #eaf4ff; border: 1px dashed #a9cff7; }
 .research-lane {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -304,7 +304,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   border-radius: 14px;
   text-decoration: none !important;
   color: inherit !important;
-  background: #fff;
+  backgrand: #fff;
   border: 1px solid rgba(1,47,99,0.08);
   box-shadow: 0 6px 18px rgba(1,47,99,0.07);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
@@ -314,8 +314,8 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   box-shadow: 0 14px 32px rgba(1,47,99,0.14);
   border-color: rgba(254,102,123,0.35);
 }
-.research-node.orange { background: linear-gradient(180deg, #fffaf6, #ffffff); }
-.research-node.blue { background: linear-gradient(180deg, #f6fbff, #ffffff); }
+.research-node.orange { backgrand: linear-gradient(180deg, #fffaf6, #ffffff); }
+.research-node.blue { backgrand: linear-gradient(180deg, #f6fbff, #ffffff); }
 .research-node.orange:before,
 .research-node.blue:before {
   content: '';
@@ -325,7 +325,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #fff;
+  backgrand: #fff;
   z-index: 3;
 }
 .research-node.orange:after,
@@ -365,14 +365,14 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.16rem 0.42rem;
   border-radius: 999px;
   color: #FE667B !important;
-  background: rgba(254,102,123,0.08);
+  backgrand: rgba(254,102,123,0.08);
   border: 1px solid rgba(254,102,123,0.16);
   text-decoration: none !important;
   transition: all 0.22s ease;
 }
 .node-paper-link:hover {
   color: #fff !important;
-  background: #FE667B;
+  backgrand: #FE667B;
   border-color: #FE667B;
 }
 .roadmap-back-btn {
@@ -386,7 +386,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.65rem 1rem;
   border-radius: 999px;
   border: 1px solid rgba(1,47,99,0.12);
-  background: linear-gradient(135deg, #012F63 0%, #2f6fb3 100%);
+  backgrand: linear-gradient(135deg, #012F63 0%, #2f6fb3 100%);
   color: #fff !important;
   font-size: 0.86rem;
   font-weight: 800;
@@ -411,7 +411,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   margin: 1rem 2.4rem 1rem 0;
   height: 56px;
   border-radius: 999px 0 0 999px;
-  background: linear-gradient(90deg, #ffd6b5 0%, #ffd3dc 42%, #9ec7ff 100%);
+  backgrand: linear-gradient(90deg, #ffd6b5 0%, #ffd3dc 42%, #9ec7ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -441,7 +441,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 }
 .huawei-highlights span {
   display: block;
-  background: #f6f8fa;
+  backgrand: #f6f8fa;
   border: 1px solid #eaecef;
   border-radius: 10px;
   padding: 0.45rem 0.6rem;
@@ -451,7 +451,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 }
 .huawei-highlights span span {
   display: inline;
-  background: transparent;
+  backgrand: transparent;
   border: 0;
   border-radius: 0;
   padding: 0;
@@ -463,7 +463,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 1.2rem;
   border-radius: 18px;
   border: 1px solid rgba(1,47,99,0.08);
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  backgrand: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
   box-shadow: 0 10px 30px rgba(1,47,99,0.06);
 }
 .section-kicker {
@@ -472,7 +472,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   gap: 0.45rem;
   padding: 0.28rem 0.75rem;
   border-radius: 999px;
-  background: rgba(254,102,123,0.08);
+  backgrand: rgba(254,102,123,0.08);
   color: #FE667B;
   font-size: 0.78rem;
   font-weight: 800;
@@ -508,7 +508,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 1rem 0.85rem;
   border-radius: 15px;
   border: 1px solid rgba(1,47,99,0.08);
-  background: #fff;
+  backgrand: #fff;
   box-shadow: 0 6px 18px rgba(1,47,99,0.07);
   text-decoration: none !important;
   color: inherit !important;
@@ -523,12 +523,12 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 .news-grid::-webkit-scrollbar { width: 8px; }
 .opensource-grid::-webkit-scrollbar-thumb,
 .news-grid::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #FE667B 0%, #6aa9ff 100%);
+  backgrand: linear-gradient(180deg, #FE667B 0%, #6aa9ff 100%);
   border-radius: 999px;
 }
 .opensource-grid::-webkit-scrollbar-track,
 .news-grid::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  backgrand: #f1f5f9;
   border-radius: 999px;
 }
 .opensource-card img {
@@ -575,7 +575,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.18rem 0.52rem;
   border-radius: 999px;
   border: 1px solid rgba(3,102,214,0.16);
-  background: rgba(3,102,214,0.06);
+  backgrand: rgba(3,102,214,0.06);
   color: #0366d6 !important;
   font-size: 0.72rem;
   font-weight: 750;
@@ -585,7 +585,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 }
 .opensource-card-links a:hover {
   transform: translateY(-2px);
-  background: #0366d6;
+  backgrand: #0366d6;
   border-color: #0366d6;
   color: #fff !important;
   box-shadow: 0 6px 16px rgba(3,102,214,0.22);
@@ -595,7 +595,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 1.2rem;
   border-radius: 18px;
   border: 1px solid rgba(1,47,99,0.08);
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  backgrand: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
   box-shadow: 0 10px 30px rgba(1,47,99,0.06);
 }
 .news-title {
@@ -622,7 +622,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.9rem 0.95rem;
   border-radius: 14px;
   border: 1px solid rgba(1,47,99,0.08);
-  background: #fff;
+  backgrand: #fff;
   box-shadow: 0 6px 18px rgba(1,47,99,0.06);
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
@@ -640,7 +640,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.26rem 0.5rem;
   border-radius: 999px;
   color: #fff;
-  background: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
+  backgrand: linear-gradient(135deg, #FE667B 0%, #6aa9ff 100%);
   font-size: 0.78rem;
   font-weight: 850;
   box-shadow: 0 5px 14px rgba(254,102,123,0.18);
@@ -667,7 +667,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 0.34rem 0.72rem;
   border-radius: 999px;
   color: #7a4b00;
-  background: linear-gradient(135deg, #fff7d6, #ffe5a3);
+  backgrand: linear-gradient(135deg, #fff7d6, #ffe5a3);
   border: 1px solid rgba(183,121,31,0.22);
   font-size: 0.82rem;
   font-weight: 850;
@@ -676,7 +676,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   margin-top: 0.8rem;
   padding: 0.85rem;
   border-radius: 14px;
-  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  backgrand: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
   border: 1px solid rgba(1,47,99,0.08);
 }
 .benchmark-orgs-title {
@@ -697,7 +697,7 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   min-height: 34px;
   padding: 0.32rem 0.58rem;
   border-radius: 10px;
-  background: #fff;
+  backgrand: #fff;
   border: 1px solid rgba(1,47,99,0.08);
   box-shadow: 0 3px 10px rgba(1,47,99,0.05);
   color: #24292e;
@@ -733,18 +733,18 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   padding: 6px 14px;
   border: 1px solid #e1e4e8;
   border-radius: 20px;
-  background-color: #f6f8fa;
+  backgrand-color: #f6f8fa;
   color: #586069;
   font-size: 0.85em;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 .filter-btn:hover {
-  background-color: #eaecef;
+  backgrand-color: #eaecef;
   color: #24292e;
 }
 .filter-btn.active {
-  background: linear-gradient(135deg, #38ef7d, #11998e);
+  backgrand: linear-gradient(135deg, #38ef7d, #11998e);
   color: white;
   border-color: transparent;
   box-shadow: 0 2px 8px rgba(17, 153, 142, 0.3);
@@ -759,14 +759,14 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 .inner-tag-badge {
   font-size: 0.75em;
   padding: 2px 8px;
-  background-color: #f1f3f5;
+  backgrand-color: #f1f3f5;
   color: #495057;
   border-radius: 4px;
   border: 1px solid #e9ecef;
   transition: all 0.2s ease;
 }
 .inner-tag-badge.active {
-  background-color: #e8f5e9;
+  backgrand-color: #e8f5e9;
   color: #2e7d32;
   border-color: #a5d6a7;
   font-weight: bold;
@@ -784,14 +784,14 @@ body.lang-en .i18n-en-list { display: list-item !important; }
   font-size: 0.85em;
   padding: 2px 8px;
   margin-right: 4px;
-  background-color: #fff;
+  backgrand-color: #fff;
   border: 1px solid #0366d6;
   color: #0366d6 !important;
   border-radius: 4px;
   text-decoration: none !important;
 }
 .paper-link-btn:hover {
-  background-color: #0366d6;
+  backgrand-color: #0366d6;
   color: #fff !important;
 }
 .author-self {
@@ -803,14 +803,14 @@ body.lang-en .i18n-en-list { display: list-item !important; }
 }
 .paper-box {
   border: 2px solid transparent !important;
-  background: linear-gradient(#ffffff, #ffffff) padding-box,
+  backgrand: linear-gradient(#ffffff, #ffffff) padding-box,
               linear-gradient(135deg, rgba(1,47,99,0.08), rgba(1,47,99,0.08)) border-box !important;
 }
 .paper-box::before {
   display: none !important;
 }
 .paper-box:hover {
-  background: linear-gradient(#ffffff, #ffffff) padding-box,
+  backgrand: linear-gradient(#ffffff, #ffffff) padding-box,
               linear-gradient(135deg, #FE667B 0%, #ff8599 45%, #a29bfe 100%) border-box !important;
   border-color: transparent !important;
 }
@@ -1070,6 +1070,10 @@ Hi, I am Zixu Li (李子旭).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <!-- <div class="news-card">
+    <div class="news-card">
+      <div class="news-date">2026.09.20</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>2nd Place</strong>🥈 in the SceneFun3D Benchmark Challenge at the Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop @ ECCV 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 ECCV 2026 Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop 的 SceneFun3D Benchmark Challenge 中获得<strong>亚军</strong>🥈！祝贺所有成员！</span></div>
+    </div>
       <div class="news-date">2026.09.05</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the SceneFun3D Benchmark Challenge at the Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop @ ECCV 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 ECCV 2026 Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop 的 SceneFun3D Benchmark Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
     </div> -->
@@ -1749,6 +1753,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
   <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
   <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
+  <li>2nd place 🥈, ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li>
   <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Link</a></li>
   <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Link</a></li>
   <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
@@ -1758,6 +1763,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
   <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
   <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
+  <li>亚军 🥈，ECCV Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">链接</a></li>
   <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
   <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
   <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
@@ -1809,7 +1815,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   <p class="students-intro i18n-en">
     I am very fortunate to work with many outstanding students. The list below details the
-    students I have supervised, including their backgrounds, publications, and awards.
+    students I have supervised, including their backgrands, publications, and awards.
   </p>
 
 <p class="students-intro i18n-en">
@@ -1852,10 +1858,11 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag first-author">Ground Challenge 1st @ CVPR’26 ×3</span>
-          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag first-author">Grand Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag first-author">Grand Challenge 2nd @ ECCV’26</span>
+          <span class="student-tag award">Grand Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
           <span class="student-tag award">BYD Scholarship</span>
@@ -1926,7 +1933,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag award">Grand Challenge 3rd @ CVPR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1960,10 +1967,11 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
-          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag first-author">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag first-author">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Grand Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag first-author">Grand Challenge 2nd @ ECCV’26</span>
+          <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag first-author">Grand Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag first-author">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
@@ -1983,7 +1991,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -2005,6 +2013,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
+          <span class="student-tag award">Grand Challenge 2nd @ ECCV’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -2019,6 +2028,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
+          <span class="student-tag award">Grand Challenge 2nd @ ECCV’26</span>
           <span class="student-tag award">Top 5% GPA over three years</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
@@ -2059,10 +2069,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ CVPR’26 ×3</span>
-          <span class="student-tag award">Ground Challenge 2nd @ CVPR’26 ×2</span>
-          <span class="student-tag first-author">Ground Challenge 3rd @ CVPR’26</span>
-          <span class="student-tag first-author">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Grand Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
+          <span class="student-tag first-author">Grand Challenge 3rd @ CVPR’26</span>
+          <span class="student-tag first-author">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
@@ -2082,7 +2092,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">Ground Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
