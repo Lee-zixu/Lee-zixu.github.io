@@ -1754,7 +1754,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
 </ul>
 <ul class="i18n-zh">
-  <li>冠军 🏅，ECCV OpenSUN3D Workshop，SceneFun3D Benchmark Challenge，2026。 <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">链接</a></li>
   <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li> 
   <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
   <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
