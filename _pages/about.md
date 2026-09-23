@@ -1853,7 +1853,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag first-author">Grand Challenge 1st @ CVPR’26 ×3</span>
+          <span class="student-tag first-author">Grand Challenge 1st @ CVPR’26 ×3 (one of which is as first author)</span>
           <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
           <span class="student-tag first-author">Grand Challenge 2nd @ ECCV’26</span>
           <span class="student-tag award">Grand Challenge 3rd @ CVPR’26</span>
