@@ -2025,7 +2025,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Mingyu Zhang (Nov 2024 - Present)</h3>
+        <h3 class="student-name">
+        <a class="student-homepage" href="https://zh-mingyu.github.io/" target="_blank" rel="noopener">Mingyu Zhang</a>
+        (Nov 2024 - Present)
+        </h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
