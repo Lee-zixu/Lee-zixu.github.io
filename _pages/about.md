@@ -1791,14 +1791,11 @@ document.addEventListener('DOMContentLoaded', function() {
   <span class="i18n-en-inline">🤝 Students Supervised/Co‑Supervised</span>
   <span class="i18n-zh-inline">🤝 指导/共同指导学生</span>
 </h1>
-
 <section class="students-section">
-
   <h1>
     <span class="i18n-en-inline">Current Students</span>
     <span class="i18n-zh-inline">目前指导学生</span>
   </h1>
-
   <p class="students-intro recruitment-note i18n-en">
     <!-- I am always looking for self‑motivated students interested in research.
     If you are interested in collaborating, feel free to email me at
@@ -1807,18 +1804,15 @@ document.addEventListener('DOMContentLoaded', function() {
     我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
-
   <p class="students-intro i18n-en">
     I am very fortunate to work with many outstanding students. The list below details the
     students I have supervised, including their backgrounds, publications, and awards.
   </p>
-
-<p class="students-intro i18n-en">
-  <span class="student-tag first-author"></span>
-  <em>indicates the student is the first author. </em>
-  <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
-</p>
-
+  <p class="students-intro i18n-en">
+    <span class="student-tag first-author"></span>
+    <em>indicates the student is the first author.</em>
+    <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
+  </p>
   <p class="students-intro recruitment-note i18n-zh">
     我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
@@ -1827,17 +1821,20 @@ document.addEventListener('DOMContentLoaded', function() {
   <p class="students-intro i18n-zh">
     我很荣幸能够与许多优秀的同学一起工作。下面列出我指导过的学生及其背景、论文和获奖情况。
   </p>
-
   <p class="students-intro i18n-zh">
     <span class="student-tag first-author"></span>
     <em>表示作为第一作者的成果。</em>
     <em>† 表示该学生最初以其他身份加入我的团队，随后继续在此攻读学位。所列成果涵盖了他们自加入我的团队以来完成的所有工作。关于他们在团队内先前角色的详细信息，请参见“毕业生”栏目。</em>
   </p>
+
   <div class="student-group">
     <h2 class="student-group-title">Ph.D. Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiwei Chen (Sep 2024 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://zivchen-ty.github.io/" target="_blank" rel="noopener">Zhiwei Chen</a>
+          (Sep 2024 - Present)
+        </h3>
         <p class="student-meta">
           PhD @ SDU · Co-supervision with Prof. Liqiang Nie
         </p>
@@ -1871,7 +1868,10 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2 class="student-group-title">Master Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Qianyun Yang (Sep 2024 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://qianyunyang.github.io" target="_blank" rel="noopener">Qianyun Yang</a>
+          (Sep 2024 - Present)
+        </h3>
         <p class="student-meta">
           Master @ SDU · Co-supervision with Prof. Yupeng Hu
         </p>
@@ -1902,7 +1902,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Yulun Zhang (Sep 2025 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://rainy-london.github.io/" target="_blank" rel="noopener">Yulun Zhang</a>
+          (Sep 2025 - Present)
+        </h3>
         <p class="student-meta">
           Master @ UCAS · Co-supervision with Prof. Ruxin Wang
         </p>
@@ -1948,7 +1951,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Zhiheng Fu † (Sep 2026 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://zhihfu.github.io" target="_blank" rel="noopener">Zhiheng Fu</a>
+          † (Sep 2026 - Present)
+        </h3>
         <p class="student-meta">
           Master @ SDU · Co-supervision with Prof. Yupeng Hu
         </p>
@@ -1974,7 +1980,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Qinlei Huang † (Sep 2026 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://windlikeo.github.io/HQL.github.io/" target="_blank" rel="noopener">Qinlei Huang</a>
+          † (Sep 2026 - Present)
+        </h3>
         <p class="student-meta">
           Master @ SDU · Co-supervision with Prof. Yupeng Hu
         </p>
@@ -1993,11 +2002,14 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
-<div class="student-group">
+  <div class="student-group">
     <h2 class="student-group-title">Undergraduate Students</h2>
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Jiale Huang (Jul 2024 - Present)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://arcadiadream.github.io/HJL.github.io/" target="_blank" rel="noopener">Jiale Huang</a>
+          (Jul 2024 - Present)
+        </h3>
         <p class="student-meta">Undergraduate @ SDU</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
@@ -2030,19 +2042,23 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
     </div>
   </div>
-  </section>
+
+</section>
+
 <section class="students-section">
 
   <h1>
     <span class="i18n-en-inline">Alumni</span>
     <span class="i18n-zh-inline">毕业生</span>
   </h1>
-<p class="students-intro i18n-en">
-  <span class="student-tag first-author"></span>
-  <em>indicates the student is the first author. </em>
-  <em>For students who transitioned to a new academic role while remaining in the group, please see the Current Students section above for their subsequent publications.</em>
-</p>
-<p class="students-intro i18n-zh">
+
+  <p class="students-intro i18n-en">
+    <span class="student-tag first-author"></span>
+    <em>indicates the student is the first author.</em>
+    <em>For students who transitioned to a new academic role while remaining in the group, please see the Current Students section above for their subsequent publications.</em>
+  </p>
+
+  <p class="students-intro i18n-zh">
     <span class="student-tag first-author"></span>
     <em>表示作为第一作者的成果。</em>
     <em>对于继续留在本团队的同时转入新角色的学生，请参阅上文“目前指导学生”部分，了解他们此后的发表情况。</em>
@@ -2051,7 +2067,10 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="student-group">
     <div class="student-grid">
       <article class="student-card">
-        <h3 class="student-name">Zhiheng Fu (Jul 2023 - Jun 2026)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://zhihfu.github.io" target="_blank" rel="noopener">Zhiheng Fu</a>
+          (Jul 2023 - Jun 2026)
+        </h3>
         <p class="student-meta">
           Undergraduate @ SDU · Next stop: Master @ SDU
         </p>
@@ -2075,7 +2094,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       </article>
       <article class="student-card">
-        <h3 class="student-name">Qinlei Huang (Jul 2023 - Jun 2026)</h3>
+        <h3 class="student-name">
+          <a class="student-homepage" href="https://windlikeo.github.io/HQL.github.io/" target="_blank" rel="noopener">Qinlei Huang</a>
+          (Jul 2023 - Jun 2026)
+        </h3>
         <p class="student-meta">
           Undergraduate @ SDU · Next stop: Master @ SDU
         </p>
@@ -2094,9 +2116,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
-
 </section>
-
 
 
 
