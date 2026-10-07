@@ -1801,7 +1801,7 @@ document.addEventListener('DOMContentLoaded', function() {
     If you are interested in collaborating, feel free to email me at
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
     with your CV attached. -->
-    我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
+    我一直在寻找有志于科研且具有自驱力的学生。如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
   <p class="students-intro i18n-en">
@@ -1814,7 +1814,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
   </p>
   <p class="students-intro recruitment-note i18n-zh">
-    我一直在寻找对科研感兴趣且具有自驱力的学生。无论您来自哪所学校、身处何地，如果您有兴趣开展合作，欢迎发送简历至
+    我一直在寻找有志于科研且具有自驱力的学生。如果您有兴趣开展合作，欢迎发送简历至
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
 
