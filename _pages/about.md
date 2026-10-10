@@ -2010,7 +2010,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <a class="student-homepage" href="https://arcadiadream.github.io/HJL.github.io/" target="_blank" rel="noopener">Jiale Huang</a>
           (Jul 2024 - Present)
         </h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
+        <p class="student-meta">Undergraduate @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">ICLR’27 (under review)</span>
@@ -2029,7 +2029,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <a class="student-homepage" href="https://zh-mingyu.github.io/" target="_blank" rel="noopener">Mingyu Zhang</a>
         (Nov 2024 - Present)
         </h3>
-        <p class="student-meta">Undergraduate @ SDU</p>
+        <p class="student-meta">Undergraduate @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
           <span class="student-tag first-author">ICLR’27 (under review)</span>
