@@ -1754,7 +1754,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
 </ul>
 <ul class="i18n-zh">
-  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li> 
+  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">链接</a></li> 
   <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
   <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
   <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
@@ -1801,7 +1801,7 @@ document.addEventListener('DOMContentLoaded', function() {
     If you are interested in collaborating, feel free to email me at
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
     with your CV attached. -->
-    我一直在寻找有志于科研且具有自驱力的学生。如果您希望开展合作，欢迎发送简历至
+    我一直在寻找有志于科研且具有自驱力的学生。如果您希望开展合作，欢迎联系
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
   <p class="students-intro i18n-en">
@@ -1814,7 +1814,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
   </p>
   <p class="students-intro recruitment-note i18n-zh">
-    我一直在寻找有志于科研且具有自驱力的学生。如果您希望开展合作，欢迎发送简历至
+    我一直在寻找有志于科研且具有自驱力的学生。如果您希望开展合作，欢迎联系
     <a class="recruitment-email" href="mailto:lizixu.cs@gmail.com">lizixu.cs@gmail.com</a>
   </p>
 
@@ -1960,6 +1960,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
+          <span class="student-tag first-author">ACL ARR’26-10 (under review)</span>
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
           <span class="student-tag first-author">CVPR’26</span>
@@ -2020,6 +2021,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
+          <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">Grand Challenge 2nd @ ECCV’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
