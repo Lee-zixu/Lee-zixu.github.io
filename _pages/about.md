@@ -1952,6 +1952,26 @@ document.addEventListener('DOMContentLoaded', function() {
       </article>
       <article class="student-card">
         <h3 class="student-name">
+          <a class="student-homepage" href="https://windlikeo.github.io/HQL.github.io/" target="_blank" rel="noopener">Qinlei Huang</a>
+          † (Sep 2026 - Present)
+        </h3>
+        <p class="student-meta">
+          Master @ SDU · Co-supervision with Prof. Yupeng Hu
+        </p>
+        <span class="student-label">📝 Publications</span>
+        <div class="student-tags">
+          <span class="student-tag first-author">AAAI’27 (under review)</span>
+          <span class="student-tag">AAAI’26 ×2</span>
+          <span class="student-tag">ToMM’26</span>
+        </div>
+        <span class="student-label">🎖 Awards</span>
+        <div class="student-tags">
+          <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
+          <span class="student-tag award">CICAS Grand Prize</span>
+        </div>
+      </article>
+      <article class="student-card">
+        <h3 class="student-name">
           <a class="student-homepage" href="https://zhihfu.github.io" target="_blank" rel="noopener">Zhiheng Fu</a>
           † (Sep 2026 - Present)
         </h3>
@@ -1977,26 +1997,6 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
           <span class="student-tag award">National Scholarship</span>
           <span class="student-tag award">First-Class Academic Scholarship</span>
-          <span class="student-tag award">CICAS Grand Prize</span>
-        </div>
-      </article>
-      <article class="student-card">
-        <h3 class="student-name">
-          <a class="student-homepage" href="https://windlikeo.github.io/HQL.github.io/" target="_blank" rel="noopener">Qinlei Huang</a>
-          † (Sep 2026 - Present)
-        </h3>
-        <p class="student-meta">
-          Master @ SDU · Co-supervision with Prof. Yupeng Hu
-        </p>
-        <span class="student-label">📝 Publications</span>
-        <div class="student-tags">
-          <span class="student-tag first-author">AAAI’27 (under review)</span>
-          <span class="student-tag">AAAI’26 ×2</span>
-          <span class="student-tag">ToMM’26</span>
-        </div>
-        <span class="student-label">🎖 Awards</span>
-        <div class="student-tags">
-          <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
