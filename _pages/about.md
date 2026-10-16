@@ -1248,6 +1248,10 @@ Hi, I am Zixu Li (李子旭).
 
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 More Publications</span><span class="i18n-zh-inline">📝 更多成果</span></h1>
+      <div style="font-size: 0.88em; color: #586069; margin: -0.4rem 0 1rem 0; line-height: 1.6;">
+        <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
+        <span class="i18n-zh-inline">⚓️ 表示project leader；📧 表示通讯作者。</span>
+      </div>
 
 <div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -1322,7 +1326,10 @@ Hi, I am Zixu Li (李子旭).
 
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Challenge Technical Report</span><span class="i18n-zh-inline">📝 挑战赛技术报告</span></h1>
-
+      <div style="font-size: 0.88em; color: #586069; margin: -0.4rem 0 1rem 0; line-height: 1.6;">
+        <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
+        <span class="i18n-zh-inline">⚓️ 表示project leader；📧 表示通讯作者。</span>
+      </div>
 
 <div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPRW 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
