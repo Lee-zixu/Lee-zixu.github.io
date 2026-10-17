@@ -1729,6 +1729,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1 id="honors-and-awards"><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
+  <li><em>2026.10</em> National Scholarship.</li>
   <li><em>2026.06</em> Shandong University "Academic Star" Graduate Student Award for Outstanding Achievements (Practical Application Category, 18 people in the whole university).</li>
   <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
   <li><em>2024.09</em> Huawei Outstanding Technical Collaboration Award <strong>(Top 10 globally per year)</strong>.</li>
@@ -1738,6 +1739,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
+  <li><em>2026.10</em> 国家奖学金</li>
   <li><em>2026.06</em> 山东大学研究生学术之星·优秀成果奖<strong>（实践应用类，全校18人）</strong></li>
   <li><em>2025.10</em> CICAS 智能电力场景挑战赛<strong>特等奖</strong></li>
   <li><em>2024.09</em> 华为优秀技术合作成果奖<strong>（全球每年 Top 10）</strong></li>
