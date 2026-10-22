@@ -1074,6 +1074,10 @@ Hi, I am Zixu Li (李子旭).
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 I am honored to be selected for the 2026 China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划)! Many thanks to my mentors and students for their help and support!</span><span class="i18n-zh-inline">🎉🎉 我有幸入选了2026年度中国科协青年科技人才培育工程博士生专项计划！感谢老师和同学们的帮助和支持！</span></div>
     </div>
     <div class="news-card">
+      <div class="news-date">2026.10.20</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 6 members of our team are honored to receive the National Scholarship (国家奖学金, covering PhD, master, and undergraduate levels). Congratulations to all the students!</span><span class="i18n-zh-inline">🎉🎉 团队6位同学获评国家奖学金（涵盖博士、硕士、本科阶段），恭喜各位同学！</span></div>
+    </div>
+    <div class="news-card">
       <div class="news-date">2026.09.20</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>2nd Place</strong>🥈 in the SceneFun3D Benchmark Challenge at the Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop @ ECCV 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 ECCV 2026 Open-World 3D Scene Understanding and Representations (OpenSUN3D) Workshop 的 SceneFun3D Benchmark Challenge 中获得<strong>亚军</strong>🥈！祝贺所有成员！</span></div>
     </div>
@@ -1871,8 +1875,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag award">Grand Challenge 3rd @ CVPR’26</span>
           <span class="student-tag award">Grand Challenge 1st @ SIGIR’26</span>
           <span class="student-tag award">Huawei Outstanding Technical Collaboration</span>
-          <span class="student-tag award">First-Class Academic Scholarship</span>
-          <span class="student-tag award">BYD Scholarship</span>
+          <span class="student-tag first-author">First-Class Academic Scholarship ×2</span>
+          <span class="student-tag first-author">BYD Scholarship</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -1898,7 +1902,9 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-meta">—</span>
+          <span class="student-tag first-author">Presidential Scholarship Finalist Presentation</span>
+          <span class="student-tag first-author">National Scholarship</span>
+          <span class="student-tag first-author">First-Class Academic Scholarship</span>
         </div>
       </article>
       <article class="student-card">
@@ -2009,9 +2015,9 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
           <span class="student-tag first-author">Grand Challenge 3rd @ CVPR’26</span>
           <span class="student-tag first-author">Grand Challenge 1st @ SIGIR’26</span>
-          <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
-          <span class="student-tag award">National Scholarship</span>
-          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag first-author">Presidential Scholarship Finalist Presentation</span>
+          <span class="student-tag first-author">National Scholarship</span>
+          <span class="student-tag first-author">First-Class Academic Scholarship ×2</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -2036,7 +2042,8 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag award">National Scholarship</span>
+          <span class="student-tag first-author">National Scholarship</span>
+          <span class="student-tag first-author">First-Class Academic Scholarship</span>
           <span class="student-tag award">Grand Challenge 2nd @ ECCV’26</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
@@ -2055,8 +2062,9 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
+          <span class="student-tag first-author">First-Class Academic Scholarship</span>
+          <span class="student-tag first-author">Top 5% GPA over three years</span>
           <span class="student-tag award">Grand Challenge 2nd @ ECCV’26</span>
-          <span class="student-tag award">Top 5% GPA over three years</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
@@ -2107,9 +2115,9 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="student-tag award">Grand Challenge 2nd @ CVPR’26 ×2</span>
           <span class="student-tag first-author">Grand Challenge 3rd @ CVPR’26</span>
           <span class="student-tag first-author">Grand Challenge 1st @ SIGIR’26</span>
-          <span class="student-tag award">Presidential Scholarship Finalist Presentation</span>
-          <span class="student-tag award">National Scholarship</span>
-          <span class="student-tag award">First-Class Academic Scholarship</span>
+          <span class="student-tag first-author">Presidential Scholarship Finalist Presentation</span>
+          <span class="student-tag first-author">National Scholarship</span>
+          <span class="student-tag first-author">First-Class Academic Scholarship</span>
           <span class="student-tag award">CICAS Grand Prize</span>
         </div>
       </article>
