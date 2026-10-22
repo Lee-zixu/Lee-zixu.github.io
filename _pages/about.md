@@ -891,7 +891,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>世界模型、智能体、强化学习和信息检索</strong>。</p>
-      <p>在科研探索中，我紧密围绕“<strong>多模态理解、检索与生成</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、IEEE TIP、IEEE TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次带领团队获得CVPR、ECCV、SIGIR等顶会挑战赛的冠、亚、季军，如CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award 和 SIGIR 2026 eCommerce Data Challenge 1st Place Award等。此外，我长期担任 <strong>CVPR、ECCV、ICLR、NeurIPS、AAAI、ACM MM、SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TMM、IEEE TIFS</strong> 等期刊的审稿人。此外，我曾入选中国科协青年科技人才培育工程博士生专项计划</p>
+      <p>在科研探索中，我紧密围绕“<strong>多模态理解、检索与生成</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、IEEE TIP、IEEE TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次带领团队获得CVPR、ECCV、SIGIR等顶会挑战赛的冠、亚、季军，如CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award 和 SIGIR 2026 eCommerce Data Challenge 1st Place Award等。此外，我长期担任 <strong>CVPR、ECCV、ICLR、NeurIPS、AAAI、ACM MM、SIGIR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TMM、IEEE TIFS</strong> 等期刊的审稿人。此外，我曾入选<strong>中国科协青年科技人才培育工程博士生专项计划</strong>。</p>
       <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，负责QSGNGT算法的设计与优化，该算法于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖 (全球10项/年, 从6000余个项目中遴选产生)</strong>”与“<strong>华为优秀学生奖 (全球30人/年)</strong>”。</p>
     </div>
     <!-- <div class="research-map">
@@ -1071,7 +1071,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="news-grid">
     <div class="news-card">
       <div class="news-date">2026.10.21</div>
-      <div class="news-text"><span class="i18n-en-inline">🎉🎉 I am honored to be selected for the 2026 China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program! Many thanks to my mentors and students for their help and support!</span><span class="i18n-zh-inline">🎉🎉 我有幸入选了2026年中国科协青年科技人才培育工程博士生专项计划！感谢老师和同学们的帮助和支持！</span></div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 I am honored to be selected for the 2026 China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划)! Many thanks to my mentors and students for their help and support!</span><span class="i18n-zh-inline">🎉🎉 我有幸入选了2026年度中国科协青年科技人才培育工程博士生专项计划！感谢老师和同学们的帮助和支持！</span></div>
     </div>
     <div class="news-card">
       <div class="news-date">2026.09.20</div>
@@ -1733,7 +1733,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1 id="honors-and-awards"><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
-  <li><em>2026.10</em> China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program.</li>
+  <li><em>2026.10</em> China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划).</li>
   <li><em>2026.10</em> National Scholarship.</li>
   <li><em>2026.06</em> Shandong University "Academic Star" Graduate Student Award for Outstanding Achievements (Practical Application Category, 18 people in the whole university).</li>
   <li><em>2025.10</em> <strong>Grand Prize (特等奖)</strong> in the CICAS Smart Power Scenario Competition.</li>
