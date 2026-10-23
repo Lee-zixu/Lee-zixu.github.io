@@ -1829,7 +1829,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </p>
   <p class="students-intro i18n-en">
     <span class="student-tag first-author"></span>
-    <em>indicates the student is the first author.</em>
+    <em>indicates the student is the first author or sole recipient.</em>
     <em>† indicates the student joined my group in a different capacity and subsequently continued their studies here to pursue a degree. The listed achievements encompass all work completed since they first joined my group. Details regarding their previous roles within the group can be found in the Alumni section.</em>
   </p>
   <p class="students-intro recruitment-note i18n-zh">
@@ -1842,7 +1842,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </p>
   <p class="students-intro i18n-zh">
     <span class="student-tag first-author"></span>
-    <em>表示作为第一作者的成果。</em>
+    <em>表示作为第一作者/独立获奖者的成果。</em>
     <em>† 表示该学生最初以其他身份加入我的团队，随后继续在此攻读学位。所列成果涵盖了他们自加入我的团队以来完成的所有工作。关于他们在团队内先前角色的详细信息，请参见“毕业生”栏目。</em>
   </p>
 
