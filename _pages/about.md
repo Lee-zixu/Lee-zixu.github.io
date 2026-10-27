@@ -173,11 +173,19 @@ redirect_from:
   .students-section { padding: 1rem; }
 }
 /* Research roadmap and industry project styles */
-.research-intro {
+/* .research-intro {
   font-size: 1.02em;
   line-height: 1.72;
   color: #24292e;
   margin-bottom: 1rem;
+} */
+  .research-intro {
+  font-size: 1.02em;
+  line-height: 1.72;
+  color: #24292e;
+  margin-bottom: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .research-intro strong { color: #012F63; }
 .language-switcher {
