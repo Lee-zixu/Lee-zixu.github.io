@@ -1763,24 +1763,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h1 id="competition"><span class="i18n-en-inline">🏆 Competition</span><span class="i18n-zh-inline">🏆 竞赛获奖</span></h1>
 <ul class="i18n-en">
-  <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Link</a></li>
+  <li>1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">Leaderboard</a></li>
   <li>1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.</li>
-  <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Link</a></li>
-  <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Link</a></li>
-  <li>2nd place 🥈, ECCV OpenSUN3D Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Link</a></li>
-  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Link</a></li>
-  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Link</a></li>
-  <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Link</a></li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. <a href="https://www.codabench.org/competitions/13645/#/results-tab">Leaderboard</a></li>
+  <li>1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. <a href="https://www.codabench.org/competitions/12008/#/results-tab">Leaderboard</a></li>
+  <li>2nd place 🥈, ECCV OpenSUN3D Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">Leaderboard</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. <a href="https://www.codabench.org/competitions/11279/#/results-tab">Leaderboard</a></li>
+  <li>2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. <a href="https://www.codabench.org/competitions/13868/#/results-tab">Leaderboard</a></li>
+  <li>3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. <a href="https://www.codabench.org/competitions/13830/#/results-tab">Leaderboard</a></li>
 </ul>
 <ul class="i18n-zh">
-  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">链接</a></li> 
+  <li>冠军 🏅，SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026. <a href="https://www.codabench.org/competitions/15297/#/results-tab">排行榜</a></li> 
   <li>冠军 🏅，CVPR VidLLMs Workshop，Reasoned-Aware Composed Video Retrieval Challenge，2026.</li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">链接</a></li>
-  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">链接</a></li>
-  <li>亚军 🥈，ECCV OpenSUN3D Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">链接</a></li>
-  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">链接</a></li>
-  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">链接</a></li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，HD-EPIC Challenge，2026.<a href="https://www.codabench.org/competitions/13645/#/results-tab">排行榜</a></li>
+  <li>冠军 🏅，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track，2026.<a href="https://www.codabench.org/competitions/12008/#/results-tab">排行榜</a></li>
+  <li>亚军 🥈，ECCV OpenSUN3D Workshop, SceneFun3D Benchmark Challenge, 2026. <a href="https://eval.ai/web/challenges/challenge-page/2466/leaderboard/6119">排行榜</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Source-Limited Track，2026.<a href="https://www.codabench.org/competitions/11279/#/results-tab">排行榜</a></li>
+  <li>亚军 🥈，CVPR EgoVis Workshop，EgoCross Challenge-Open-Source Track，2026.<a href="https://www.codabench.org/competitions/13868/#/results-tab">排行榜</a></li>
+  <li>季军 🥉，CVPR EgoVis Workshop，EPIC-KITCHENS Challenge-Action Detection Track，2026.<a href="https://www.codabench.org/competitions/13830/#/results-tab">排行榜</a></li>
 </ul>
 
 <h1 id="education"><span class="i18n-en-inline">📖 Education</span><span class="i18n-zh-inline">📖 教育经历</span></h1>
