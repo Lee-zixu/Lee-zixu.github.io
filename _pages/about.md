@@ -1796,11 +1796,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1 id="services"><span class="i18n-en-inline">📃 Services</span><span class="i18n-zh-inline">📃 学术服务</span></h1>
 <ul class="i18n-en">
   <li>Conference PC Member: CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, WWW, ACL ARR, IJCAI, ICME, ICMR, ICASSP</li>
-  <li>Journal Reviewer: IEEE TIP, IEEE TMM, IEEE TIFS, ACM ToMM, PR, Journal of Software (软件学报)</li>
+  <li>Journal Reviewer: IEEE TIP, IEEE TMM, IEEE TIFS, ACM ToMM, PR, KBS, Journal of Software (软件学报)</li>
 </ul>
 <ul class="i18n-zh">
   <li>会议审稿人：CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, WWW, ACL ARR, IJCAI, ICME, ICMR, ICASSP</li>
-  <li>期刊审稿人：IEEE TIP, IEEE TMM, IEEE TIFS, ACM ToMM, PR, Journal of Software (软件学报)</li>
+  <li>期刊审稿人：IEEE TIP, IEEE TMM, IEEE TIFS, ACM ToMM, PR, KBS, Journal of Software (软件学报)</li>
 </ul>
 
 
