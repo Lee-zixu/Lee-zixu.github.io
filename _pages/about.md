@@ -1428,7 +1428,7 @@ Hi, I am Zixu Li (李子旭).
 
 **TopoField: Technical Report for ECCV 2026 SceneFun3D Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37218)
 
-[Zhiwei Chen](https://zivchen-ty.github.io/)*, [Zhiheng Fu](https://zhihfu.github.io)*, [***Zixu Li***](https://lee-zixu.github.io)†, [Mingyu Zhang](https://zh-mingyu.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+[Zhiwei Chen](https://zivchen-ty.github.io/)\*, [Zhiheng Fu](https://zhihfu.github.io)\*, [***Zixu Li***](https://lee-zixu.github.io)†, [Mingyu Zhang](https://zh-mingyu.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
 </div>
