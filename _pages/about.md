@@ -1376,9 +1376,20 @@ Hi, I am Zixu Li (李子旭).
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Challenge Technical Report</span><span class="i18n-zh-inline">📝 挑战赛技术报告</span></h1>
       <div style="font-size: 0.88em; color: #586069; margin: -0.4rem 0 1rem 0; line-height: 1.6;">
-        <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author.</span>
-        <span class="i18n-zh-inline">⚓️ 表示project leader；📧 表示通讯作者。</span>
-      </div>
+  <span class="i18n-en-inline">⚓️ denotes project leader; 📧 denotes corresponding author; * denotes equal contribution.</span>
+  <span class="i18n-zh-inline">⚓️ 表示 project leader；📧 表示通讯作者；* 表示共同第一作者。</span>
+</div>
+
+<div id='paper-taskbridge' class='paper-box floating-card' data-tags="SIGIR 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Information Retrieval"><div class='paper-box-image'><div><div class="badge">SIGIR 2026 Challenge 1st🏅</div><img src='images/PLACEHOLDER-TaskBridge.png' alt="TaskBridge placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37231)
+
+[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Shaokun Wang, Han Liu, Fan Liu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
 
 <div id='paper-r3' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 1st🏅, Challenge, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">CVPRW 2026 Challenge 1st🏅</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
@@ -1412,6 +1423,15 @@ Hi, I am Zixu Li (李子旭).
 </div>
 </div>
 
+<div id='paper-topofield' class='paper-box floating-card' data-tags="ECCVW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">ECCVW 2026 Challenge 2nd🥈</div><img src='images/PLACEHOLDER-TopoField.png' alt="TopoField placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TopoField: Technical Report for ECCV 2026 SceneFun3D Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37218)
+
+[Zhiwei Chen](https://zivchen-ty.github.io/)*, [Zhiheng Fu](https://zhihfu.github.io)*, [***Zixu Li***](https://lee-zixu.github.io)†, [Mingyu Zhang](https://zh-mingyu.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+
+</div>
+</div>
 
 <div id='paper-omniego' class='paper-box floating-card' data-tags="CVPRW 2026, First Author, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPRW 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
@@ -1539,23 +1559,63 @@ document.addEventListener('DOMContentLoaded', function() {
     el.dataset.originalOrder = String(index);
   });
 
-  const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
-  const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'ACM MM 2026', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026', 'ACM ToMM 2026', 'CVPRW 2026', 'CCF B', 'Challenge 1st🏅', 'Challenge 2nd🥈', 'Challenge 3rd🥉', 'Huawei', 'ANN', 'Vector Database']);
-  const venueFullNames = {
-   'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
-    'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
-    'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
-    'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
-    'ACM MM 2026': 'ACM International Conference on Multimedia (ACM MM 2026)',
-    'AAAI 2025': 'The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)',
-    'Arxiv 2025': 'arXiv preprint (2025)',
-    'TKDE 2026': 'IEEE Transactions on Knowledge and Data Engineering (TKDE 2026)',
-    'TIP 2026': 'IEEE Transactions on Image Processing (TIP 2026)',
-    'ACM ToMM 2026': 'ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026)',
-    'CVPRW 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW 2026)'
-  };
-  let tagCounts = {};
-  let activeTags = new Set();
+  const linkLikeTags = new Set([
+  'Paper',
+  'PDF',
+  'Project',
+  'Project Page',
+  'Code',
+  'Blog',
+  'Website',
+  'Technical Report'
+]);
+
+const venueFilterExcludeTags = new Set([
+  'ACL 2026',
+  'CVPR 2026',
+  'AAAI 2026',
+  'ACM MM 2025',
+  'ACM MM 2026',
+  'AAAI 2025',
+  'Arxiv 2025',
+  'Arxiv 2026',
+  'ICASSP 2025',
+  'ICASSP 2026',
+  'TKDE 2026',
+  'TIP 2026',
+  'ACM ToMM 2026',
+  'CVPRW 2026',
+  'ECCVW 2026',
+  'SIGIRW 2026',
+  'CCF A',
+  'CCF B',
+  'Challenge 1st🏅',
+  'Challenge 2nd🥈',
+  'Challenge 3rd🥉',
+  'Huawei',
+  'ANN',
+  'Vector Database'
+]);
+
+const venueFullNames = {
+  'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
+  'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
+  'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
+  'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
+  'ACM MM 2026': 'ACM International Conference on Multimedia (ACM MM 2026)',
+  'AAAI 2025': 'The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)',
+  'Arxiv 2025': 'arXiv preprint (2025)',
+  'Arxiv 2026': 'arXiv preprint (2026)',
+  'TKDE 2026': 'IEEE Transactions on Knowledge and Data Engineering (TKDE 2026)',
+  'TIP 2026': 'IEEE Transactions on Image Processing (TIP 2026)',
+  'ACM ToMM 2026': 'ACM Transactions on Multimedia Computing, Communications, and Applications (ACM ToMM 2026)',
+  'CVPRW 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW 2026)',
+  'ECCVW 2026': 'European Conference on Computer Vision Workshop (ECCVW 2026)',
+  'SIGIRW 2026': 'International ACM SIGIR Conference on Research and Development in Information Retrieval Workshop (SIGIRW 2026)'
+};
+
+let tagCounts = Object.create(null);
+let activeTags = new Set();
 
   paperBoxes.forEach(box => {
     const tagsAttribute = box.getAttribute('data-tags');
