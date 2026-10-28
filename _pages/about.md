@@ -1189,7 +1189,7 @@ Hi, I am Zixu Li (李子旭).
 [Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), Fangxu Liu, [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
-</div>
+</div> 
 
 <div id='paper-finecir' class='paper-box floating-card' data-tags="Arxiv 2025, Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arxiv 2025</div><img src='images/FineCIR.png' alt="FineCIR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
