@@ -1161,37 +1161,37 @@ Hi, I am Zixu Li (李子旭).
 
 <h1 id="preprints" style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Preprints</span><span class="i18n-zh-inline">📝 预印本</span></h1>
 
-<div id='paper-trawmem' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Agent Memory"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-TrawMem.png' alt="TrawMem placeholder" width="100%"></div></div>
+<div id='paper-trawmem' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Agent Memory"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/TrawMem.png' alt="TrawMem" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces** [[Paper]](https://arxiv.org/abs/2610.36918) [[Code]](https://github.com/zh-mingyu/TrawMem)
 
-[Mingyu Zhang](https://zh-mingyu.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+[Mingyu Zhang](https://zh-mingyu.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
 </div>
 
-<div id='paper-setgrpo' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Reinforcement Learning"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-SetGRPO.png' alt="SetGRPO placeholder" width="100%"></div></div>
+<div id='paper-setgrpo' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Reinforcement Learning"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/SetGRPO.png' alt="SetGRPO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SetGRPO: Calibrating Grader-Induced Policy Optimization** [[Paper]](https://arxiv.org/abs/2610.36807) [[Code]](https://github.com/ArcadiaDream/SetGRPO)
 
-[Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+[Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
 </div>
 
-<div id='paper-gradco' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-GradCO.png' alt="GradCO placeholder" width="100%"></div></div>
+<div id='paper-gradco' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/GradCO.png' alt="GradCO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search** [[Paper]](https://arxiv.org/abs/2610.37267) [[Code]](https://github.com/ZhihFu/GradCO_TPAS)
 
-[Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), Fangxu Liu, Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+[Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), Fangxu Liu, [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
 </div>
 
-<div id='paper-finecir' class='paper-box floating-card' data-tags="Arxiv 2025, Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arxiv 2025</div><img src='images/PLACEHOLDER-FineCIR.png' alt="FineCIR placeholder" width="100%"></div></div>
+<div id='paper-finecir' class='paper-box floating-card' data-tags="Arxiv 2025, Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arxiv 2025</div><img src='images/FineCIR.png' alt="FineCIR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR)
@@ -1380,7 +1380,7 @@ Hi, I am Zixu Li (李子旭).
   <span class="i18n-zh-inline">⚓️ 表示 project leader；📧 表示通讯作者；* 表示共同第一作者。</span>
 </div>
 
-<div id='paper-taskbridge' class='paper-box floating-card' data-tags="SIGIR 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Information Retrieval"><div class='paper-box-image'><div><div class="badge">SIGIR 2026 Challenge 1st🏅</div><img src='images/PLACEHOLDER-TaskBridge.png' alt="TaskBridge placeholder" width="100%"></div></div>
+<div id='paper-taskbridge' class='paper-box floating-card' data-tags="SIGIR 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Information Retrieval"><div class='paper-box-image'><div><div class="badge">SIGIR 2026 Challenge 1st🏅</div><img src='images/TaskBridge.png' alt="TaskBridge" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37231)
@@ -1423,7 +1423,7 @@ Hi, I am Zixu Li (李子旭).
 </div>
 </div>
 
-<div id='paper-topofield' class='paper-box floating-card' data-tags="ECCVW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">ECCVW 2026 Challenge 2nd🥈</div><img src='images/PLACEHOLDER-TopoField.png' alt="TopoField placeholder" width="100%"></div></div>
+<div id='paper-topofield' class='paper-box floating-card' data-tags="ECCVW 2026, Challenge 2nd🥈, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">ECCVW 2026 Challenge 2nd🥈</div><img src='images/TopoField.png' alt="TopoField" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TopoField: Technical Report for ECCV 2026 SceneFun3D Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37218)
