@@ -1384,7 +1384,7 @@ Hi, I am Zixu Li (李子旭).
 
 **TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37231)
 
-[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Shaokun Wang, Han Liu, Fan Liu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Shaokun Wang](https://scholar.google.com/citations?user=1muAGtYAAAAJ&hl=en), [Han Liu](https://hanliu95.github.io/), [Fan Liu](https://liufancs.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
