@@ -1159,6 +1159,49 @@ Hi, I am Zixu Li (李子旭).
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
+<h1 id="preprints" style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Preprints</span><span class="i18n-zh-inline">📝 预印本</span></h1>
+
+<div id='paper-finecir' class='paper-box floating-card' data-tags="Arxiv 2025, Preprint, First Author, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/PLACEHOLDER-FineCIR.png' alt="FineCIR placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/) [[Code]](https://github.com/SDU-L/FineCIR)
+
+[***Zixu Li***](https://lee-zixu.github.io), [Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+<div id='paper-trawmem' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Agent Memory"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-TrawMem.png' alt="TrawMem placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces** [[Paper]](https://arxiv.org/abs/2610.36918) [[Code]](https://github.com/zh-mingyu/TrawMem)
+
+[Mingyu Zhang](https://zh-mingyu.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+
+</div>
+</div>
+
+<div id='paper-setgrpo' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Reinforcement Learning"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-SetGRPO.png' alt="SetGRPO placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SetGRPO: Calibrating Grader-Induced Policy Optimization** [[Paper]](https://arxiv.org/abs/2610.36807) [[Code]](https://github.com/ArcadiaDream/SetGRPO)
+
+[Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+
+</div>
+</div>
+
+<div id='paper-gradco' class='paper-box floating-card' data-tags="Arxiv 2026, Preprint, Project Leader, Core Contributor, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/PLACEHOLDER-GradCO.png' alt="GradCO placeholder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search** [[Paper]](https://arxiv.org/abs/2610.37267) [[Code]](https://github.com/ZhihFu/GradCO_TPAS)
+
+[Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), Fangxu Liu, Jinhe Bi, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+
+</div>
+</div>
+
+
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;"><span class="i18n-en-inline">📝 Selected Publications</span><span class="i18n-zh-inline">📝 代表性工作</span></h1>
 
 <div id='paper-combiner' class='paper-box floating-card' data-tags="TIP 2026, First Author, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">TIP 2026</div><img src='images/COMBINER-TIP26.png' alt="sym" width="100%"></div></div>
