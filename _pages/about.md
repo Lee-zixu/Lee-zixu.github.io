@@ -1186,7 +1186,7 @@ Hi, I am Zixu Li (李子旭).
 
 **GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search** [[Paper]](https://arxiv.org/abs/2610.37267) [[Code]](https://github.com/ZhihFu/GradCO_TPAS)
 
-[Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), Fangxu Liu, [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
+[Zhiheng Fu](https://zhihfu.github.io), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Jiale Huang](https://windlikeo.github.io/HQL.github.io/), [Fangxu Liu](https://github.com/Cunyulmm), [Jinhe Bi](https://jinhe-bi.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉
 
 </div>
 </div> 
@@ -1236,7 +1236,7 @@ Hi, I am Zixu Li (李子旭).
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 <span style="color: #0366d6; font-weight: bold; display: block; margin-top: 5px; font-size: 0.95em;">First-authored by undergraduate student</span>
 
-[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Qianyun Yang](https://qianyunyang.github.io), Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†
+[Zhiheng Fu](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Qianyun Yang](https://qianyunyang.github.io), [Shiqi Zhang](https://github.com/liefengguangyi), [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†
 
 
  
@@ -1250,7 +1250,7 @@ Hi, I am Zixu Li (李子旭).
   
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [[Paper]](http://arxiv.org/abs/2604.17898) [[Project]](https://lee-zixu.github.io/ReTrack.github.io/) [[Code]](https://github.com/Lee-zixu/ReTrack) 
 
-[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Guozhi Qiu](https://github.com/luckylittlezhi), [Zhiheng Fu](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
 
 
  
@@ -1263,7 +1263,7 @@ Hi, I am Zixu Li (李子旭).
   
 **HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.18037) [[Project]](https://lee-zixu.github.io/HABIT.github.io/) [[Code]](https://github.com/Lee-zixu/HABIT)
 
-[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
+[***Zixu Li***](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Shiqi Zhang](https://github.com/liefengguangyi), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
 
  
@@ -1306,7 +1306,7 @@ Hi, I am Zixu Li (李子旭).
 
 **LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search**  [[Paper]](http://arxiv.org/abs/2608.09152) [[Project]](https://rainy-london.github.io/LightAIR/) [[Code]](https://github.com/rainy-london/LightAIR)
 
-[Yulun Zhang](https://rainy-london.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
+[Yulun Zhang](https://rainy-london.github.io/), [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io), [Wenbo Wang](https://openreview.net/profile?id=~Wenbo_Wang12), [Zihang Qiu](https://github.com/Prowler-9256), [Zhilin Wang](https://openreview.net/profile?id=~Zhilin_Wang6), [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 
 </div>
 </div> 
@@ -1417,7 +1417,7 @@ Hi, I am Zixu Li (李子旭).
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24500)
 
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io),  Guozhi Qiu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiheng Fu](https://zhihfu.github.io),  [Guozhi Qiu](https://github.com/luckylittlezhi), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -1437,7 +1437,7 @@ Hi, I am Zixu Li (李子旭).
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24481)
 
-[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[***Zixu Li***](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Zhiheng Fu](https://zhihfu.github.io),  [Wenbo Wang](https://openreview.net/profile?id=~Wenbo_Wang12), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>  
 </div>
@@ -1448,7 +1448,7 @@ Hi, I am Zixu Li (李子旭).
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24496)
 
-[Zhiheng Fu](https://zhihfu.github.io),  [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zhiheng Fu](https://zhihfu.github.io),  [***Zixu Li***](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [Fangxu Liu](https://github.com/Cunyulmm), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
