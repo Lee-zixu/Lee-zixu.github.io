@@ -1652,9 +1652,11 @@ let activeTags = new Set();
     }
 
   tagsList
-  .filter(tag => filterableTags.has(tag))
-  .forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
-  
+      .filter(tag => filterableTags.has(tag))
+      .forEach(tag => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+  });
 
   textContainerLinkButtons();
   enrichPaperCards();
