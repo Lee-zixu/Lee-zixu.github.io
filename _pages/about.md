@@ -1379,7 +1379,7 @@ Hi, I am Zixu Li (李子旭).
   <span class="i18n-zh-inline">⚓️ 表示 project leader；📧 表示通讯作者；* 表示共同第一作者。</span>
 </div>
 
-<div id='paper-taskbridge' class='paper-box floating-card' data-tags="SIGIR 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Information Retrieval"><div class='paper-box-image'><div><div class="badge">SIGIR 2026 Challenge 1st🏅</div><img src='images/TaskBridge.png' alt="TaskBridge" width="100%"></div></div>
+<div id='paper-taskbridge' class='paper-box floating-card' data-tags="SIGIRW 2026, Project Leader, Core Contributor, Challenge 1st🏅, Challenge, Information Retrieval"><div class='paper-box-image'><div><div class="badge">SIGIR 2026 Challenge 1st🏅</div><img src='images/TaskBridge.png' alt="TaskBridge" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge** [[Technical Report]](https://arxiv.org/abs/2610.37231)
@@ -1569,6 +1569,14 @@ document.addEventListener('DOMContentLoaded', function() {
   'Technical Report'
 ]);
 
+const filterableTags = new Set([
+  'First Author',
+  'Project Leader',
+  'Core Contributor',
+  'Preprint',
+  'Challenge'
+]);
+  
 const venueFilterExcludeTags = new Set([
   'ACL 2026',
   'CVPR 2026',
@@ -1643,24 +1651,21 @@ let activeTags = new Set();
       }
     }
 
-    tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
-  });
+  tagsList
+  .filter(tag => filterableTags.has(tag))
+  .forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+  
 
   textContainerLinkButtons();
   enrichPaperCards();
 
-  const tagOrder = [
-      'First Author',
-      'Project Leader',
-      'Core Contributor',
-      'CCF A',
-      'Preprint',
-      'Challenge',
-      'Egocentric Vision Reasoning',
-      'Multimodal Understanding',
-      'Robustness',
-      'Efficiency'
-    ];
+const tagOrder = [
+  'First Author',
+  'Project Leader',
+  'Core Contributor',
+  'Preprint',
+  'Challenge'
+];
     
     const sortedTags = Object.keys(tagCounts).sort((a, b) => {
       const ia = tagOrder.indexOf(a);
