@@ -172,6 +172,8 @@ redirect_from:
   .student-grid { grid-template-columns: 1fr; }
   .students-section { padding: 1rem; }
 }
+.opensource-card img.logo-trawmem { height: 84px; }
+.opensource-card img.logo-gradco { height: 91px; }
 /* Research roadmap and industry project styles */
 /* .research-intro {
   font-size: 1.02em;
@@ -964,6 +966,34 @@ Hi, I am Zixu Li (李子旭).
   <p class="opensource-subtitle i18n-en">I believe open-source research makes multimodal learning more reproducible and collaborative. Below are representative project pages and repositories from my recent works.</p>
   <p class="opensource-subtitle i18n-zh">以下是我们近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
   <div class="opensource-grid" id="opensource-grid">
+    <div class="opensource-card">
+      <img src="../images/trawmem-logo.png" alt="TrawMem" class="logo-trawmem">
+      <div class="opensource-card-title">TrawMem</div>
+      <div class="opensource-card-meta">
+        <span class="i18n-en-inline">arXiv 2026 · Agent Memory</span>
+        <span class="i18n-zh-inline">arXiv 2026 · 智能体记忆</span>
+      </div>
+      <div class="opensource-card-links">
+        <a href="https://arxiv.org/abs/2610.36918" target="_blank" title="Open TrawMem paper">
+          <span class="i18n-en-inline">Paper</span>
+          <span class="i18n-zh-inline">论文</span>
+        </a>
+      </div>
+    </div>
+    <div class="opensource-card">
+      <img src="../images/gradco-logo.png" alt="GradCO" class="logo-gradco">
+      <div class="opensource-card-title">GradCO</div>
+      <div class="opensource-card-meta">
+        <span class="i18n-en-inline">arXiv 2026 · Text-Based Person Anomaly Search</span>
+        <span class="i18n-zh-inline">arXiv 2026 · 文本行人异常检索</span>
+      </div>
+      <div class="opensource-card-links">
+        <a href="https://arxiv.org/abs/2610.37267" target="_blank" title="Open GradCO paper">
+          <span class="i18n-en-inline">Paper</span>
+          <span class="i18n-zh-inline">论文</span>
+        </a>
+      </div>
+    </div>
     <div class="opensource-card">
       <img src="../images/lightair-logo.png" alt="LightAIR">
       <div class="opensource-card-title">LightAIR</div>
