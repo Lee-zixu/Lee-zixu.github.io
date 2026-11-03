@@ -967,33 +967,41 @@ Hi, I am Zixu Li (李子旭).
   <p class="opensource-subtitle i18n-zh">以下是我们近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
-      <img src="../images/trawmem-logo.png" alt="TrawMem" class="logo-trawmem">
-      <div class="opensource-card-title">TrawMem</div>
-      <div class="opensource-card-meta">
-        <span class="i18n-en-inline">arXiv 2026 · Agent Memory</span>
-        <span class="i18n-zh-inline">arXiv 2026 · 智能体记忆</span>
-      </div>
-      <div class="opensource-card-links">
-        <a href="https://arxiv.org/abs/2610.36918" target="_blank" title="Open TrawMem paper">
-          <span class="i18n-en-inline">Paper</span>
-          <span class="i18n-zh-inline">论文</span>
-        </a>
-      </div>
+    <img src="../images/trawmem-logo.png" alt="TrawMem" class="logo-trawmem">
+    <div class="opensource-card-title">TrawMem</div>
+    <div class="opensource-card-meta">
+      <span class="i18n-en-inline">arXiv 2026 · Agent Memory</span>
+      <span class="i18n-zh-inline">arXiv 2026 · 智能体记忆</span>
     </div>
-    <div class="opensource-card">
-      <img src="../images/gradco-logo.png" alt="GradCO" class="logo-gradco">
-      <div class="opensource-card-title">GradCO</div>
-      <div class="opensource-card-meta">
-        <span class="i18n-en-inline">arXiv 2026 · Text-Based Person Anomaly Search</span>
-        <span class="i18n-zh-inline">arXiv 2026 · 文本行人异常检索</span>
-      </div>
-      <div class="opensource-card-links">
-        <a href="https://arxiv.org/abs/2610.37267" target="_blank" title="Open GradCO paper">
-          <span class="i18n-en-inline">Paper</span>
-          <span class="i18n-zh-inline">论文</span>
-        </a>
-      </div>
+    <div class="opensource-card-links">
+      <a href="https://arxiv.org/abs/2610.36918" target="_blank" title="Open TrawMem paper">
+        <span class="i18n-en-inline">Paper</span>
+        <span class="i18n-zh-inline">论文</span>
+      </a>
+      <a href="https://github.com/zh-mingyu/TrawMem" target="_blank" title="Open TrawMem code repository">
+        <span class="i18n-en-inline">Code</span>
+        <span class="i18n-zh-inline">代码</span>
+      </a>
     </div>
+  </div>
+  <div class="opensource-card">
+    <img src="../images/gradco-logo.png" alt="GradCO" class="logo-gradco">
+    <div class="opensource-card-title">GradCO</div>
+    <div class="opensource-card-meta">
+      <span class="i18n-en-inline">arXiv 2026 · Text-Based Person Anomaly Search</span>
+      <span class="i18n-zh-inline">arXiv 2026 · 文本行人异常检索</span>
+    </div>
+    <div class="opensource-card-links">
+      <a href="https://arxiv.org/abs/2610.37267" target="_blank" title="Open GradCO paper">
+        <span class="i18n-en-inline">Paper</span>
+        <span class="i18n-zh-inline">论文</span>
+      </a>
+      <a href="https://github.com/ZhihFu/GradCO_TPAS" target="_blank" title="Open GradCO code repository">
+        <span class="i18n-en-inline">Code</span>
+        <span class="i18n-zh-inline">代码</span>
+      </a>
+    </div>
+  </div>
     <div class="opensource-card">
       <img src="../images/lightair-logo.png" alt="LightAIR">
       <div class="opensource-card-title">LightAIR</div>
