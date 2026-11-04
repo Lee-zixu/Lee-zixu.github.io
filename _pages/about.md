@@ -984,6 +984,24 @@ Hi, I am Zixu Li (李子旭).
       </a>
     </div>
   </div>
+    <div class="opensource-card">
+  <img src="../images/setgrpo-logo.png" alt="SetGRPO" class="logo-setgrpo">
+  <div class="opensource-card-title">SetGRPO</div>
+  <div class="opensource-card-meta">
+    <span class="i18n-en-inline">arXiv 2026 · Grader-Robust RL</span>
+    <span class="i18n-zh-inline">arXiv 2026 · 评分器鲁棒强化学习</span>
+  </div>
+  <div class="opensource-card-links">
+    <a href="https://arxiv.org/abs/2610.36807" target="_blank" title="Open SetGRPO paper">
+      <span class="i18n-en-inline">Paper</span>
+      <span class="i18n-zh-inline">论文</span>
+    </a>
+    <a href="https://github.com/ArcadiaDream/SetGRPO" target="_blank" title="Open SetGRPO code repository">
+      <span class="i18n-en-inline">Code</span>
+      <span class="i18n-zh-inline">代码</span>
+    </a>
+  </div>
+</div>
   <div class="opensource-card">
     <img src="../images/gradco-logo.png" alt="GradCO" class="logo-gradco">
     <div class="opensource-card-title">GradCO</div>
