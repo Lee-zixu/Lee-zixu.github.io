@@ -852,7 +852,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
     <div class="research-intro">
       <p>Welcome to my homepage! I am currently a Ph.D. student in Artificial Intelligence at <a href="https://www.sdu.edu.cn">Shandong University</a>, and I am honored to be advised by Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>. Prior to this, I received my Bachelor's degree in Data Science and Big Data Technology from <a href="https://www.sdu.edu.cn">Shandong University</a> in 2023. My research interests mainly focus on <strong>World Model, Agent, Reinforcement Learning, and Information Retrieval</strong>.</p>
-      <p>In my research, I systematically explore the main theme of <strong>Multimodal understanding, retrieval, and generation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, IEEE TIP, and IEEE TKDE</strong>. I have also led team to won champion, runner-up, and third-place awards multiple times in Grand Challenges at top-tier conferences such as CVPR, ECCV, and SIGIR. Notable achievements include CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award, and SIGIR 2026 eCommerce Data Challenge 1st Place Award. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, WWW, and ACL ARR</strong>, and as a reviewer for journals including <strong>IEEE TIP, IEEE TMM, and IEEE TIFS</strong>. In addition, I was once selected for <strong>China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划)</strong>.</p>
+      <p>In my research, I systematically explore the main theme of <strong>Multimodal understanding, retrieval, and generation</strong>. As first author or Project Leader, I have published more than ten papers in CCF-A international conferences and journals, including <strong>CVPR, ACL, AAAI, ACM MM, IEEE TIP, and IEEE TKDE</strong>. I have also led team to won champion, runner-up, and third-place awards multiple times in Grand Challenges at top-tier conferences such as CVPR, ECCV, and SIGIR. Notable achievements include CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award, and SIGIR 2026 eCommerce Data Challenge 1st Place Award. In addition, I have long served as a PC Member for <strong>CVPR, ECCV, ICLR, NeurIPS, AAAI, ACM MM, SIGIR, WWW, and ACL ARR</strong>, and as a reviewer for journals including <strong>IEEE TIP, IEEE TMM, and IEEE TIFS</strong>. In addition, I was once selected for <strong>China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划)</strong> and received the <strong>Shandong University President’s Scholarship (山东大学学生最高奖)</strong>.</p>
         <!-- I have also won champion, runner-up, and third-place awards multiple times in top-tier conference challenges such as CVPR. -->
       <p>For industrial deployment, I served as the student leader of a Huawei collaboration project on general-purpose vector retrieval, where I led the design and optimization of the QSGNGT algorithm. Since 2023, this work has continuously <strong>ranked first worldwide</strong> on the official ANN-Benchmarks leaderboard, outperforming competing algorithms from Google, Microsoft, Meta, Yahoo, JD.com, Alibaba, and other companies. The algorithm has also been successfully deployed as the retrieval core of Huawei Cloud GaussDB's hundred-billion-scale vector database. For these technical breakthroughs, I received the <strong>Huawei Outstanding Technical Collaboration Award (Top 10 globally per year, selected from over 6,000 projects)</strong> and the <strong>Huawei Outstanding Student Award (Top 30 globally per year)</strong>.</p>
     </div>
@@ -901,7 +901,7 @@ Hi, I am Zixu Li (李子旭).
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro">
       <p>欢迎来到我的主页！我目前是山东大学人工智能专业的博士生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a> and Prof. <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>。在此之前，我于2023年在山东大学获得数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>世界模型、智能体、强化学习和信息检索</strong>。</p>
-      <p>在科研探索中，我紧密围绕“<strong>多模态理解、检索与生成</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、IEEE TIP、IEEE TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次带领团队获得CVPR、ECCV、SIGIR等顶会挑战赛的冠、亚、季军，如CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award 和 SIGIR 2026 eCommerce Data Challenge 1st Place Award等。此外，我长期担任 <strong>CVPR、ECCV、ICLR、NeurIPS、AAAI、ACM MM、SIGIR、WWW、ACL ARR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TMM、IEEE TIFS</strong> 等期刊的审稿人。此外，我曾入选<strong>中国科协青年科技人才培育工程博士生专项计划</strong>。</p>
+      <p>在科研探索中，我紧密围绕“<strong>多模态理解、检索与生成</strong>”这一主线展开系统性研究，以第一作者/Project Leader身份在 <strong>CVPR、ACL、AAAI、ACM MM、IEEE TIP、IEEE TKDE</strong> 等CCF A类国际会议与期刊上发表论文10余篇，并多次带领团队获得CVPR、ECCV、SIGIR等顶会挑战赛的冠、亚、季军，如CVPR 2026 VidLLMs Reasoned-Aware CoVR Challenge 1st Place Award, CVPR 2026 EgoVis HD-EPIC Challenge 1st Place Award, CVPR 2026 EgoVis EPIC-KITCHENS Multi-Instance Retrieval Challenge 1st Place Award 和 SIGIR 2026 eCommerce Data Challenge 1st Place Award等。此外，我长期担任 <strong>CVPR、ECCV、ICLR、NeurIPS、AAAI、ACM MM、SIGIR、WWW、ACL ARR</strong> 等会议的PC Member和 <strong>IEEE TIP、IEEE TMM、IEEE TIFS</strong> 等期刊的审稿人。此外，我曾入选<strong>中国科协青年科技人才培育工程博士生专项计划</strong>并获评<strong>山东大学校长奖学金 (山东大学学生最高奖)</strong>。</p>
       <p>在产业落地方面，我曾作为学生负责人参与华为通用向量检索合作项目，负责QSGNGT算法的设计与优化，该算法于2023年至今蝉联ANN-Benchmarks官方测评<strong>世界第一</strong>，算法性能超越谷歌、微软、Meta、雅虎、京东、阿里巴巴等企业的竞品算法。同时，该算法已作为检索核心成功应用于华为云GaussDB千亿级向量数据库。凭借上述技术突破，我荣获“<strong>华为优秀技术合作成果奖 (全球10项/年, 从6000余个项目中遴选产生)</strong>”与“<strong>华为优秀学生奖 (全球30人/年)</strong>”。</p>
     </div>
     <!-- <div class="research-map">
@@ -959,6 +959,7 @@ Hi, I am Zixu Li (李子旭).
     <p><strong>🏫 实验室组织：</strong>我隶属于智能媒体研究中心 (iLearn)，实验室的论文代码与相关项目也已悉数开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提供宝贵意见。</p>
   </div>
 </div>
+
 
 <div class="opensource-section" id="open-source-projects">
   <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
@@ -1124,15 +1125,15 @@ Hi, I am Zixu Li (李子旭).
 
 
 
-<!-- I warmly welcome academic discussions and potential collaborations. Please feel free to contact me if you are interested in my research or possible cooperation.
-
-欢迎就我的研究方向展开学术交流与合作，如果您有相关研究兴趣或合作意向，欢迎随时联系我。-->
-
  
 <div class="news-section" id="news">
   <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
+    <div class="news-card">
+      <div class="news-date">2026.11.19</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 I received the <strong>Shandong University President's Scholarship (山东大学学生最高奖)</strong>! Many thanks to my mentors and students for their help and support!</span><span class="i18n-zh-inline">🎉🎉 我有幸获评<strong>山东大学校长奖学金（山东大学学生最高奖）</strong>！感谢老师和同学们的帮助和支持！</span></div>
+    </div>
     <div class="news-card">
       <div class="news-date">2026.10.21</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 I am honored to be selected for the 2026 China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划)! Many thanks to my mentors and students for their help and support!</span><span class="i18n-zh-inline">🎉🎉 我有幸入选了2026年度中国科协青年科技人才培育工程博士生专项计划！感谢老师和同学们的帮助和支持！</span></div>
@@ -1900,6 +1901,7 @@ const tagOrder = [
 
 <h1 id="honors-and-awards"><span class="i18n-en-inline">🎖 Honors and Awards</span><span class="i18n-zh-inline">🎖 荣誉奖励</span></h1>
 <ul class="i18n-en">
+  <li><em>2026.11</em> Shandong University President's Scholarship<strong>（山东大学学生最高奖）</strong></li>
   <li><em>2026.10</em> China Association for Science and Technology Young Scientific and Technological Talents Cultivation Project Doctoral Program (中国科协青年科技人才培育工程博士生专项计划).</li>
   <li><em>2026.10</em> National Scholarship.</li>
   <li><em>2026.06</em> Shandong University "Academic Star" Graduate Student Award for Outstanding Achievements (Practical Application Category, 18 people in the whole university).</li>
@@ -1911,6 +1913,7 @@ const tagOrder = [
   <li><em>2023.06</em> Outstanding Graduates of Shandong University.</li>
 </ul>
 <ul class="i18n-zh">
+  <li><em>2026.11</em> 山东大学校长奖学金<strong>（山东大学学生最高奖）</strong></li>
   <li><em>2026.10</em> 中国科协青年科技人才培育工程博士生专项计划</li>
   <li><em>2026.10</em> 国家奖学金</li>
   <li><em>2026.06</em> 山东大学研究生学术之星·优秀成果奖<strong>（实践应用类，全校18人）</strong></li>
@@ -2087,7 +2090,7 @@ const tagOrder = [
         </div>
         <span class="student-label">🎖 Awards</span>
         <div class="student-tags">
-          <span class="student-tag first-author">Presidential Scholarship Finalist Presentation</span>
+          <span class="student-tag first-author">President's Scholarship</span>
           <span class="student-tag first-author">National Scholarship</span>
           <span class="student-tag first-author">First-Class Academic Scholarship</span>
         </div>
@@ -2117,6 +2120,7 @@ const tagOrder = [
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
+          <span class="student-tag first-author">CVPR’27 (under review)</span>
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag first-author">TIP’26 (under review)</span>
           <span class="student-tag first-author">ACM MM’26</span>
@@ -2133,6 +2137,7 @@ const tagOrder = [
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
+          <span class="student-tag">CVPR’27 (under review)</span>
           <span class="student-tag first-author">AAAI’27 (under review)</span>
         </div>
         <span class="student-label">🎖 Awards</span>
@@ -2186,7 +2191,7 @@ const tagOrder = [
         </p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
-          <span class="student-tag first-author">ACL ARR’26-10 (under review)</span>
+          <span class="student-tag first-author">CVPR’27 ×2 (under review)</span>
           <span class="student-tag">TPAMI’26 (under review)</span>
           <span class="student-tag">TIP’26 (under review)</span>
           <span class="student-tag first-author">CVPR’26</span>
@@ -2220,6 +2225,7 @@ const tagOrder = [
         <p class="student-meta">Undergraduate @ SDU · Co-supervision with Prof. Yupeng Hu</p>
         <span class="student-label">📝 Publications</span>
         <div class="student-tags">
+          <span class="student-tag">CVPR’27 (under review)</span>
           <span class="student-tag first-author">ICLR’27 (under review)</span>
           <span class="student-tag">AAAI’27 (under review)</span>
           <span class="student-tag first-author">ICMR’26 ×2</span>
